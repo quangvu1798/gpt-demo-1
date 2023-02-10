@@ -4,6 +4,7 @@ import pandas as pd
 import openai
 import pickle
 from transformers import GPT2TokenizerFast
+import os
 
 tokenizer = GPT2TokenizerFast.from_pretrained('gpt2')
 
@@ -13,7 +14,7 @@ def count_tokens(text: str) -> int:
 df = pd.read_csv('data.csv', sep = '$', names = ['title', 'heading', 'content'])
 df['tokens'] = [count_tokens(c) for c in df['content'].values]
 
-openai.api_key = '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'
+openai.api_key = os.environ('OPENAI_KEY')
 COMPLETIONS_MODEL = 'text-davinci-003'
 EMBEDDING_MODEL = 'text-embedding-ada-002'
 
