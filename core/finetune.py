@@ -1,6 +1,7 @@
 import streamlit as st
 import openai
 import re
+import os
 
 finetune_model = {
     'temperature': 0.5,
@@ -20,7 +21,7 @@ def main():
     if st.button('Lấy câu trả lời'):
         with st.spinner('Đang sinh câu trả lời...'):
             response = ''
-            openai.api_key = "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"
+            openai.api_key = os.environ.get('OPENAI_KEY2')
             for resp in openai.Completion.create(prompt = prompt, **finetune_model):
                 response += resp.choices[0].text
                 response = response.replace(r'\n', '\n\n')
@@ -35,7 +36,3 @@ def main():
                 except:
                     pass
         st.success('Đã tạo xong câu trả lời!')
-
-    
-if _name_ == '_main_':
-    main()
