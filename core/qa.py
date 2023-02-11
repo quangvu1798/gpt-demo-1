@@ -2,6 +2,7 @@ import streamlit as st
 from .process import construct_prompt, COMPLETIONS_API_PARAMS
 import openai
 import re
+import os
 
 def main():
     default_value = 'Cách khai báo loại tiền mới trên web?'
@@ -10,6 +11,7 @@ def main():
     answer = st.empty()
     answer.markdown('')
     
+    openai.api_key = os.environ.get('OPENAI_KEY')
     prompt = construct_prompt(question)[0]
     if st.button('Lấy câu trả lời'):
         with st.spinner('Đang sinh câu trả lời...'):
