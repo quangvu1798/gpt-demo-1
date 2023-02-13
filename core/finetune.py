@@ -29,9 +29,11 @@ def main():
     
     prompt = question
     if st.button('Lấy câu trả lời'):
+        tokens = 0
         with st.spinner('Đang sinh câu trả lời...'):
             response = ''
             for resp in openai.Completion.create(prompt = prompt, **finetune_model):
+                tokens += 1
                 response += resp.choices[0].text
                 response = response.replace(r'\n', '\n\n')
                 links = re.findall('http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', response)
@@ -44,4 +46,4 @@ def main():
                     answer.markdown(response)
                 except:
                     pass
-        st.success('Đã tạo xong câu trả lời!')
+        st.success(f'Đã tạo xong câu trả lời gồm {tokens} tokens tiêu tốn {0.12 * tokens}$')
