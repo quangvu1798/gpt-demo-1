@@ -5,7 +5,6 @@ def main():
         '''
 <h1 align="center">
     Chào mừng tới trang web thử nghiệm mô hình GPT 👋
-    
 </h1>
         ''',
         unsafe_allow_html = True,
