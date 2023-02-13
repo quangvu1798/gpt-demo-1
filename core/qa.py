@@ -6,6 +6,15 @@ import os
 
 def main():
     openai.api_key = os.environ.get('OPENAI_KEY')
+    st.markdown(
+        '''
+<h1 align="center">
+    ✨ Question-Answering with Embedding
+</h1>
+        ''',
+        unsafe_allow_html = True,
+    )
+    
     default_value = 'Cách khai báo loại tiền mới trên web?'
     question = st.text_input('Câu hỏi:', default_value)
     st.write('Trả lời:')

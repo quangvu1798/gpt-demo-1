@@ -11,6 +11,16 @@ finetune_model = {
 }
 
 def main():
+    openai.api_key = os.environ.get('OPENAI_KEY2')
+    st.markdown(
+        '''
+<h1 align="center">
+    🔥 Fine-tuned model
+</h1>
+        ''',
+        unsafe_allow_html = True,
+    )
+    
     default_value = 'Cách khai báo loại tiền mới trên web?'
     question = st.text_input('Câu hỏi:', default_value)
     st.write('Trả lời:')
@@ -21,7 +31,6 @@ def main():
     if st.button('Lấy câu trả lời'):
         with st.spinner('Đang sinh câu trả lời...'):
             response = ''
-            openai.api_key = os.environ.get('OPENAI_KEY2')
             for resp in openai.Completion.create(prompt = prompt, **finetune_model):
                 response += resp.choices[0].text
                 response = response.replace(r'\n', '\n\n')
