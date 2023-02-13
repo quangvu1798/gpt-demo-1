@@ -1,5 +1,5 @@
 import streamlit as st
-from .process import construct_prompt, COMPLETIONS_API_PARAMS
+from .process import construct_prompt, COMPLETIONS_API_PARAMS, count_tokens
 import openai
 import re
 import os
@@ -23,7 +23,7 @@ def main():
     
     prompt = construct_prompt(question)[0]
     if st.button('Lấy câu trả lời'):
-        tokens = 0
+        tokens = count_tokens(prompt)
         with st.spinner('Đang sinh câu trả lời...'):
             response = ''
             for resp in openai.Completion.create(prompt = prompt, **COMPLETIONS_API_PARAMS):
