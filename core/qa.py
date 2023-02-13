@@ -5,13 +5,13 @@ import re
 import os
 
 def main():
+    openai.api_key = os.environ.get('OPENAI_KEY')
     default_value = 'Cách khai báo loại tiền mới trên web?'
     question = st.text_input('Câu hỏi:', default_value)
     st.write('Trả lời:')
     answer = st.empty()
     answer.markdown('')
     
-    openai.api_key = os.environ.get('OPENAI_KEY')
     prompt = construct_prompt(question)[0]
     if st.button('Lấy câu trả lời'):
         with st.spinner('Đang sinh câu trả lời...'):
