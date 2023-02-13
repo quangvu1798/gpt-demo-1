@@ -34,10 +34,13 @@ def main():
                 if len(links) > 0:
                     for link in links:
                         link = link.replace('[', '').replace(']', '')
-                        if link[-4:] in ['.jpg', '.png', '.jpeg', '.gif']:
+                        if link[-4:] in ['.jpg', '.png', 'jpeg', '.gif']:
                             response = response.replace('[' + link + ']', f'![image]({link})')
+                        if link.startswith('https://vimeo.com'):
+                            id = link[link.rindex('/') + 1:]
+                            response = response.replace('[' + link + ']', f'<iframe src="https://player.vimeo.com/video/{id}?autoplay=1&loop=1&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>')
                 try:
-                    answer.markdown(response)
+                    answer.markdown(response, unsafe_allow_html = True)
                 except:
                     pass
         st.success(f'Đã tạo xong câu trả lời gồm {tokens} tokens tiêu tốn {0.02 * tokens / 1000}$')
