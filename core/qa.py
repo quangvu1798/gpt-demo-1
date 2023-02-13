@@ -40,7 +40,7 @@ def main():
                     answer.markdown(response)
                 except:
                     pass
-        st.success(f'Đã tạo xong câu trả lời gồm {tokens} tokens tiêu tốn {0.02 * tokens}$')
+        st.success(f'Đã tạo xong câu trả lời gồm {tokens} tokens tiêu tốn {0.02 * tokens / 1000}$')
 
     
 if __name__ == '__main__':

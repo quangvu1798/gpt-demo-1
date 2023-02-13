@@ -46,4 +46,4 @@ def main():
                     answer.markdown(response)
                 except:
                     pass
-        st.success(f'Đã tạo xong câu trả lời gồm {tokens} tokens tiêu tốn {0.12 * tokens}$')
+        st.success(f'Đã tạo xong câu trả lời gồm {tokens} tokens tiêu tốn {0.12 * tokens / 1000}$')
