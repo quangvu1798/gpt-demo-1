@@ -4,7 +4,6 @@ import pandas as pd
 import openai
 import pickle
 from transformers import GPT2TokenizerFast
-import os
 
 tokenizer = GPT2TokenizerFast.from_pretrained('gpt2')
 
@@ -17,7 +16,7 @@ df['tokens'] = [count_tokens(c) for c in df['content'].values]
 COMPLETIONS_MODEL = 'text-davinci-003'
 EMBEDDING_MODEL = 'text-embedding-ada-002'
 
-MAX_SECTION_LEN = 3048
+MAX_SECTION_LEN = 4000
 SEPARATOR = '\n"""\n'
 separator_len = count_tokens(SEPARATOR)
 
