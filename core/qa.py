@@ -62,9 +62,9 @@ def main():
     
     prompt = construct_prompt(question)[0]
     context.markdown(prompt)
+    cont = st.checkbox('Trả lời tiếp')
     if st.button('Lấy câu trả lời'):
-        
-        if st.checkbox('Trả lời tiếp'):
+        if cont:
             prompt = construct_prompt(question)[0] + st.session_state.p
             tokens = count_tokens(prompt)
             response = st.session_state.p
