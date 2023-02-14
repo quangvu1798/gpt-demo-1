@@ -65,7 +65,6 @@ def construct_prompt(question: str, context_embeddings: dict = document_embeddin
         if chosen_sections_len > MAX_SECTION_LEN or len(chosen_sections) >= 1:
             break
         
-        print('here', document_section.content.values[0])
         chosen_sections.append(SEPARATOR + document_section.content.values[0] + SEPARATOR)
         chosen_sections_indexes.append(str(section_index))
     
