@@ -7,7 +7,7 @@ finetune_model = {
     'temperature': 0.0,
     'top_p': 0.0,
     'max_tokens': 1000,
-    'model': 'davinci:ft-personal-2023-02-10-04-28-17',
+    'model': 'davinci:ft-personal-2023-02-13-12-02-57',
     'stream': True
 }
 rep_model = finetune_model.copy()
