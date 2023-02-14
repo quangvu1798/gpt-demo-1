@@ -4,8 +4,29 @@ import openai
 import re
 import os
 
+REPLACE_API_PARAMS = COMPLETIONS_API_PARAMS.copy()
+
+def key_input():
+    rkey = st.sidebar.text_input('OpenAI Key')
+    if st.sidebar.checkbox('Key thay thế'):
+        openai.api_key = rkey
+
+def param_input():
+    REPLACE_API_PARAMS['temperature'] = st.sidebar.slider(
+        'temperature', min_value = 0.0, max_value = 2.0, value = COMPLETIONS_API_PARAMS['temperature'], step = 0.01
+    )
+    REPLACE_API_PARAMS['top_p'] = st.sidebar.slider(
+        'top_p', min_value = 0.0, max_value = 1.0, value = COMPLETIONS_API_PARAMS['top_p'], step = 0.01
+    )
+
 def main():
-    openai.api_key = os.environ.get('OPENAI_KEY')
+    key = os.environ.get('OPENAI_KEY')
+    if key is not None:
+        openai.api_key = key
+    else:
+        st.error('Không có **Key**, vui lòng nhập **Key** thay thế!')
+    key_input()
+    param_input()
     st.markdown(
         '''
 <h1 align="center">
@@ -28,9 +49,10 @@ def main():
     context.markdown(prompt)
     if st.button('Lấy câu trả lời'):
         tokens = count_tokens(prompt)
+        REPLACE_API_PARAMS['max_tokens'] = 4096 - tokens
         with st.spinner('Đang sinh câu trả lời...'):
             response = ''
-            for resp in openai.Completion.create(prompt = prompt, **COMPLETIONS_API_PARAMS):
+            for resp in openai.Completion.create(prompt = prompt, **REPLACE_API_PARAMS):
                 tokens += 1
                 response += resp.choices[0].text
                 response = response.replace(r'\n', '\n\n')

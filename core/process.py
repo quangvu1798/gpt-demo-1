@@ -23,6 +23,7 @@ separator_len = count_tokens(SEPARATOR)
 
 COMPLETIONS_API_PARAMS = {
     'temperature': 0.0,
+    'top_p': 0.0,
     'max_tokens': 1000,
     'model': COMPLETIONS_MODEL,
     'stream': True
@@ -69,9 +70,9 @@ def construct_prompt(question: str, context_embeddings: dict = document_embeddin
         chosen_sections.append(SEPARATOR + document_section.content.values[0] + SEPARATOR)
         chosen_sections_indexes.append(str(section_index))
     
-    header = '''Trả lời trung thực dựa vào ngữ cảnh đã cung cấp (bắt buộc phải trả lời những link trong ngoặc vuông []), và nếu câu trả lời không có trong văn bản dưới đây, Hãy trả lời theo tri thức của bạn\n\nNgữ cảnh:\n'''
+    header = '''Trả lời trung thực dựa vào ngữ cảnh đã cung cấp (bắt buộc phải trả lời những đường dẫn trong ngoặc vuông []), và nếu câu trả lời không có trong văn bản dưới đây, Hãy trả lời theo tri thức của bạn\n\nNgữ cảnh:\n'''
     
-    return (header + ''.join(chosen_sections) + '\n Câu hỏi: ' + question + '\n Trả lời:', chosen_sections_indexes, chosen_sections)
+    return (header + ''.join(chosen_sections) + '\n Câu hỏi: ' + question + ' (lấy cả link ngoặc vuông [] và dấu "\\n")' + '\n Trả lời:', chosen_sections_indexes, chosen_sections)
 
 def answer_query_with_context(
     query: str,
