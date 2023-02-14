@@ -65,12 +65,12 @@ def construct_prompt(question: str, context_embeddings: dict = document_embeddin
         if chosen_sections_len > MAX_SECTION_LEN or len(chosen_sections) >= 1:
             break
         
-        chosen_sections.append(SEPARATOR + document_section.content.values[0] + SEPARATOR)
+        chosen_sections.append(SEPARATOR + document_section.content.values[0] + SEPARATOR) #  và giao tiếp lại nếu các câu hỏi thuộc các chủ đề hỏi đáp thường ngày
         chosen_sections_indexes.append(str(section_index))
     
-    header = '''Trả lời trung thực dựa vào ngữ cảnh đã cung cấp (bắt buộc phải trả lời những đường dẫn trong ngoặc vuông []), và nếu câu trả lời không có trong văn bản dưới đây, Hãy trả lời theo tri thức của bạn\n\nNgữ cảnh:\n'''
+    header = '''Hướng dẫn: Trả lời từng bước dựa vào ngữ cảnh bên dưới (lấy cả những đường dẫn bên trong ngoặc vuông này [] và ký tự "\\n")\nChú ý: Nếu câu trả lời không ở trong ngữ cảnh, chỉ trả lời theo tri thức.\n\nContext:\n'''
     
-    return (header + ''.join(chosen_sections) + '\n Câu hỏi: ' + question + ' (lấy cả link ngoặc vuông [] và dấu "\\n")' + '\n Trả lời:', chosen_sections_indexes, chosen_sections)
+    return (header + ''.join(chosen_sections) + '\n\n Question: ' + question + '\n Answer:', chosen_sections_indexes, chosen_sections)
 
 def answer_query_with_context(
     query: str,
