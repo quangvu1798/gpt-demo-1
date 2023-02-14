@@ -5,7 +5,7 @@ import os
 
 finetune_model = {
     'temperature': 0.0,
-    'top_p': 0,
+    'top_p': 0.0,
     'max_tokens': 1000,
     'model': 'davinci:ft-personal-2023-02-10-04-28-17',
     'stream': True
