@@ -38,7 +38,7 @@ def main():
     answer = st.empty()
     answer.markdown('')
     
-    prompt = question
+    prompt = f'Câu hỏi: {question}\nTrả lời: '
     if st.button('Lấy câu trả lời'):
         tokens = 0
         with st.spinner('Đang sinh câu trả lời...'):
