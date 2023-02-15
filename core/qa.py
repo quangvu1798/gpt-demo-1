@@ -22,16 +22,20 @@ def param_input():
 def parse_response(response):
     response = response.replace(r'\n', '\n\n')
     links = re.findall('http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', response)
+    used = []
     if len(links) > 0:
         for link in links:
-            link = link.replace('[', '').replace(']', '')
-            if link[-4:] in ['.jpg', '.png', 'jpeg', '.gif']:
-                response = response.replace('[' + link + ']', f'![image]({link})')
-            if link.startswith('https://vimeo.com'):
-                id = link[link.rindex('/') + 1:]
-                response = response.replace('[' + link + ']', f'<iframe src="https://player.vimeo.com/video/{id}?autoplay=1&loop=1&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>')
-            if link.startswith('https://www.youtube.com/embed/'):
-                response = response.replace('[' + link + ']', f'<iframe src="<iframe width="560" height="315" src="{link}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>')
+            if link[-4:] in ['.jpg', '.png', 'jpeg', '.gif'] and link not in used:
+                used.append(link)
+                response = response.replace(link, f'![image]({link})')
+            elif link.startswith('https://player.vimeo.com/video/') and link not in used and len(link.rsplit('/', 1)[-1]) == 9:
+                link = link.strip('.')
+                used.append(link)
+                response = response.replace(link, f'<iframe src="{link}?autoplay=1&loop=1&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>')
+            elif link.startswith('https://www.youtube.com/embed/') and link not in used and link.endswith((r'\n', '.')):
+                link = link.strip('.')
+                used.append(link)
+                response = response.replace(link, f'<iframe src="<iframe width="560" height="315" src="{link}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>')
     return response
 
 def main():
@@ -51,27 +55,35 @@ def main():
         unsafe_allow_html = True,
     )
     
-    default_value = 'Cách khai báo loại tiền mới trên web?'
+    default_value = 'Cách khai báo quản lý hóa đơn theo đơn vị xuất'
     question = st.text_input('Câu hỏi:', default_value)
     with st.expander('Context', False):
+        stindex = st.empty()
         context = st.empty()
+        stindex.subheader('')
         context.markdown('')
     st.write('Trả lời:')
     answer = st.empty()
     answer.markdown('')
     
-    prompt = construct_prompt(question)[0]
+    info = construct_prompt(question)
+    prompt, index, _ = info
+    stindex.subheader(index[0])
+    
     context.markdown(prompt)
     cont = st.checkbox('Trả lời tiếp')
     if st.button('Lấy câu trả lời'):
         if cont:
-            prompt = construct_prompt(question)[0] + st.session_state.p
+            info = construct_prompt(question)
+            prompt, index, _ = info
+            prompt = info[0] + st.session_state.p
             tokens = count_tokens(prompt)
             response = st.session_state.p
         else:
             response = ''
             tokens = count_tokens(prompt)
         REPLACE_API_PARAMS['max_tokens'] = 4096 - tokens
+        stindex.subheader(index[0])
         with st.spinner('Đang sinh câu trả lời...'):
             for resp in openai.Completion.create(prompt = prompt, **REPLACE_API_PARAMS):
                 tokens += 1
