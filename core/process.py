@@ -65,7 +65,7 @@ def construct_prompt(question: str, context_embeddings: dict = document_embeddin
         if chosen_sections_len > MAX_SECTION_LEN or len(chosen_sections) >= 1:
             break
         
-        chosen_sections.append(SEPARATOR + document_section.content.values[0] + SEPARATOR) #  và giao tiếp lại nếu các câu hỏi thuộc các chủ đề hỏi đáp thường ngày
+        chosen_sections.append(SEPARATOR + section_index[0] + '\n' + section_index[1] + '\n===\n' + document_section.content.values[0] + SEPARATOR)
         chosen_sections_indexes.append(str(section_index))
     
     header = '''Hướng dẫn: Trả lời từng bước dựa vào ngữ cảnh bên dưới (lấy cả những link http bên trong ngoặc vuông này [] và ký tự "\\n")\nChú ý: Nếu câu trả lời không ở trong ngữ cảnh, chỉ trả lời theo tri thức.\n\nContext:\n'''
