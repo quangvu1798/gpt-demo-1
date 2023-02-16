@@ -19,10 +19,9 @@ def param_input():
         'top_p', min_value = 0.0, max_value = 1.0, value = COMPLETIONS_API_PARAMS['top_p'], step = 0.01
     )
 
-def parse_response(response):
+def parse_response(response, used):
     response = response.replace(r'\n', '\n\n')
     links = re.findall('http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', response)
-    used = []
     if len(links) > 0:
         for link in links:
             if link[-4:] in ['.jpg', '.png', 'jpeg', '.gif'] and link not in used:
@@ -32,16 +31,17 @@ def parse_response(response):
                 link = link.strip('.')
                 used.append(link)
                 response = response.replace(link, f'<iframe src="{link}?autoplay=1&loop=1&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>')
-            elif link.startswith('https://www.youtube.com/embed/') and link not in used and link.endswith((r'\n', '.')):
+            elif link.startswith('https://www.youtube.com/embed/') and link not in used and len(link.rsplit('/', 1)[-1]) == 11:
                 link = link.strip('.')
                 used.append(link)
-                response = response.replace(link, f'<iframe src="<iframe width="560" height="315" src="{link}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>')
+                response = response.replace(link, f'<iframe src="{link}" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>')
     return response
 
 def main():
     key = os.environ.get('OPENAI_KEY')
     if key is not None:
         openai.api_key = key
+        st.success('**Key** hiện có thể sử dụng, không cần nhập **Key** thay thế!')
     else:
         st.error('Không có **Key**, vui lòng nhập **Key** thay thế!')
     key_input()
@@ -84,11 +84,12 @@ def main():
             tokens = count_tokens(prompt)
         REPLACE_API_PARAMS['max_tokens'] = 4096 - tokens
         stindex.subheader(index[0])
+        used = []
         with st.spinner('Đang sinh câu trả lời...'):
             for resp in openai.Completion.create(prompt = prompt, **REPLACE_API_PARAMS):
                 tokens += 1
                 response += resp.choices[0].text
-                response = parse_response(response)
+                response = parse_response(response, used)
                 st.session_state.p = response
                 try:
                     answer.markdown(response, unsafe_allow_html = True)
