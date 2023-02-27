@@ -55,7 +55,7 @@ def construct_prompt(question: str, context_embeddings: dict = document_embeddin
     chosen_sections = []
     chosen_sections_len = 0
     chosen_sections_indexes = []
-     
+    
     for _, section_index in most_relevant_document_sections:
         idx = df.index[(df['products'] == section_index[0]) & (df['indexes'] == section_index[1])][0]
         # Add contexts until we run out of space.        
@@ -65,7 +65,7 @@ def construct_prompt(question: str, context_embeddings: dict = document_embeddin
         if chosen_sections_len > MAX_SECTION_LEN or len(chosen_sections) >= 1:
             break
         
-        chosen_sections.append(SEPARATOR + section_index[0] + '\n' + section_index[1] + '\n===\n' + document_section.contents.values[0] + SEPARATOR)
+        chosen_sections.append(SEPARATOR + document_section.contents.values[0] + SEPARATOR)
         chosen_sections_indexes.append(str(section_index))
     
     header = '''Hướng dẫn: Trả lời từng bước dựa vào ngữ cảnh bên dưới (lấy cả những link http và ký tự "\\n")\nChú ý: Nếu câu trả lời không ở trong ngữ cảnh, chỉ trả lời theo tri thức.\n\nContext:\n'''
