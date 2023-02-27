@@ -10,8 +10,8 @@ tokenizer = GPT2TokenizerFast.from_pretrained('gpt2')
 def count_tokens(text: str) -> int:
     return len(tokenizer.encode(text))
 
-df = pd.read_csv('data.csv', sep = '$', names = ['title', 'heading', 'content'])
-df['tokens'] = [count_tokens(c) for c in df['content'].values]
+df = pd.read_csv('data.csv', sep = '$')
+df['tokens'] = [count_tokens(c) for c in df['contents'].values]
 
 COMPLETIONS_MODEL = 'text-davinci-003'
 EMBEDDING_MODEL = 'text-embedding-ada-002'
