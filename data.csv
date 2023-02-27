@@ -1,81 +1,935 @@
-MISA meInvoice Summary$Tổng quan meInvoice và chức năng$MISA meInvoice vẫn luôn là phần mềm hóa đơn điện tử tốt nhất được cả chính phủ và các doanh nghiệp tư nhân lựa chọn. Phần mềm hóa đơn điện tử đầu tiên và duy nhất tại Việt Nam ứng dụng công nghệ Blockchain đảm bảo an toàn, bảo mật và chống làm giả hóa đơn hàng đầu thế giới.\nĐiều khiến meInvoice trở thành phần mềm hóa đơn điện tử tốt nhất chính là hệ sinh thái các phần mềm từ kế toán đến doanh nghiệp: phần mềm kế toán MISA, phần mềm kế toán dịch vụ, kê khai – nộp tờ khai thuế, chữ ký số, xử lý hóa đơn đầu vào,… đầy đủ các ứng dụng mà kết toán cần. Tất cả hệ sinh thái này giúp doanh nghiệp và kế toán tích hợp và kết nối tốt nhất.\nVới phần mềm xử lý hóa đơn MISA meinvoice toàn bộ hóa đơn đầu vào đầu ra sẽ được tự động lấy về chương trinh sau đó tự động đồng bộ và hạch toán vào phần mềm kế toán, giúp tiết kiệm thời gian nhập liệu thủ công và giảm thiểu sai sót, đồng thời giúp kế toán quản lý tập trung hóa đơn đầu vào đầu ra trên cùng một hệ thống. Kế toán chỉ cần thiết lập email nhận hóa đơn, sau đó cung cấp email để người bán gửi trực tiếp hóa đơn qua email này, chương trình sẽ tự kiểm tra từng email nhận được và tải về tất cả các hóa đơn theo nội dung email. Với hóa đơn đầu vào nghị định 51, chương trình sẽ tự động kiểm tra và trả về kết quả tính hợp lệ của thông tin viết trên hóa đơn, tính hợp lệ của chữ ký số. Đặc biệt kiểm tra trạng thái thông báo phát hành hóa đơn, trạng thái doanh nghiệp dựa trên dữ liệu của tổng cục thuế, đảm bảo tính hợp pháp, hợp lệ của hóa đơn. Đối với hóa đơn thuộc vào nghị định 123, chỉ cần kết nối chương trình với hệ thống tra cứu của Tổng cục thuế, chương trình sẽ tự động lấy tất cả các hóa đơn về và kiểm tra các thông tin như: hóa đơn dã tồn tại trên trang của tổng cục thuế hay chưa, hóa đơn đã được cấp mã hay chưa, kiểm tra và tính toán số liệu trên hóa đơn.Đối với hóa đơn đầu ra, sau khi hóa đơn được chuyển vào phần mềm, tại danh sách hóa đơn đầu ra có thể dễ dàng nắm được tổng số lượng hóa đơn, tổng giá trị hóa đơn, tổng thuế GTGT đầu ra. Cụ thể là đối với hóa đơn đầu ra nghị định 123, chỉ cần kết nối phần mềm với Cổng tra cứu hóa đơn của Tổng cục thuế, chương trình sẽ tự động lấy toàn bộ hóa đơn đầu ra về vào lúc 0h hàng ngày. Đối với hóa đơn đầu ra nghị định 51, kế toán sẽ thực hiện tải hóa đơn vào phần mềm. Ngoài ra có thể tải các hóa đơn đầu vào, đầu ra đang quản lý trước đó vào chương trình để quản lý tập trung trên một hệ thống duy nhất, giúp kế toán dễ dàng tìm kiếm hóa đơn. Nếu doanh nghiệp đang sử dụng phần mềm kế toán SME.net thì toàn bộ hóa đơn đầu vào, đầu ra trên chương trình sẽ được tự động đồng bộ và hạch toán trên phần mềm, giúp kế toán tiết kiệm thời gian nhập liệu thủ công mỗi khi phát sinh hóa đơn. Đơn vị có nhiều chi nhánh hoạt động hoặc kế toán dịch vụ làm kế toán cho nhiều dn có thể dễ dàng quản lý hóa đơn theo nhiều khu vực, đối tượng.\nXem thêm tại đây: https://www.youtube.com/embed/B3AN9mBqDbM.
+products$indexes$contents
+MISA eShop$Bảng giá - Trang đặt hàng online$"Bảng giá - Trang đặt hàng online sản phẩm MISA eShop
+Giải pháp tạo website bán hàng eShop Web có chi phí 1.500.000vnđ/năm và được tích hợp cùng các gói giải pháp của Nền tảng quản lý bán hàng đa kênh MISA eShop. Sở hữu website bán hàng chuyên nghiệp với đầy đủ tính năng: kết nối với các hình thức thanh toán, các đơn vị giao vận, quản lý đơn hàng, tồn kho, sản phẩm, doanh thu, lợi nhuận trên cùng một nền tảng là cơ hội nâng tầm thương hiệu lên top. MISA eShop thường xuyên update những chương trình khuyến mãi về các gói giải pháp, bạn có thể theo dõi tại trang Tin tức MISA eShop trong mục Blog.
+"
+MISA eShop$Bảng giá - LOMAS$"Bảng giá - LOMAS sản phẩm MISA eShop
+Nghiệp vụ chăm sóc khách hàng LOMAS:
+- Giá 399.000 VNĐ/Chi nhánh/Tháng
+- Không giới hạn người dùng
+- Quản lý thông tin khách hàng tập trung trên tất cả các kênh: Tại cửa hàng, Facebook/Zalo,...
+- Quản lý thẻ thành viên điện tử: tích điểm, đổi điểm, tặng mã ưu đãi cho khách,... tiết kiệm chi phí in ấn thẻ cứng gửi SMS
+- Tự động hóa quy trình chăm sóc và bán hàng với kho kịch bản đa dạng, cá nhân hóa theo từng khách hàng
+- Báo cáo: hành vi và hiệu quả chăm sóc khách hàng
+"
+MISA eShop$Dùng thử$"Dùng thử sản phẩm MISA eShop
+MISA cung cấp trải nghiệm phần mềm quản lý bán hàng MISA eShop miễn phí trong 15 ngày sử dụng
+"
+MISA eShop$Bảng giá$"Bảng giá sản phẩm MISA eShop
+BÁO GIÁ NỀN TẢNG QUẢN LÝ BÁN HÀNG ĐA KÊNH
+Các gói:
+- STARTER: 199.000 VNĐ/chi nhánh/tháng (Cửa hàng nhỏ)
+    + 2 Tài khoản: Bao gồm chủ hoặc quản lý và nhân viên thu ngân
+    + Bán hàng: Tính tiền, in hóa đơn, đổi hàng, trả hàng, tra cứu tồn kho để tư vấn bán hàng
+    + Quản lý: Hàng hóa, kho, nhân viên, quỹ tiền, mua hàng, khuyến mại, công nợ, khách nợ, khách hàng
+    + Báo cáo: Báo cáo doanh thu, chi phí, lãi lỗ, tồn kho, mua hàng, quỹ
+- STANDARD: 299.000 VNĐ/chi nhánh/tháng (Cửa hàng vừa và lớn)
+    + Không giới hạn tài khoản: Bao gồm chủ/quản lý, thu ngân, tư vấn, kế toán, kho...
+    + Bán hàng: Tính tiền, in hóa đơn, đổi hàng, trả hàng, tra cứu tồn kho để tư vấn bán hàng
+    + Quản lý: Hàng hóa, kho, nhân viên, quỹ tiền, mua hàng, khuyến mại, công nợ, khách nợ, khách hàng
+    + Báo cáo: Báo cáo doanh thu, chi phí, lãi lỗ, tồn kho, mua hàng, quỹ
+    + Thêm +299.000 VNĐ/chi nhánh/tháng
+- PROFESSIONAL: 499.000 VNĐ/chi nhánh/tháng (Cửa hàng vừa và lớn)
+    + Không giới hạn tài khoản: Bao gồm chủ/quản lý, thu ngân, tư vấn, kế toán, kho, bán hàng online...
+    + Tất cả các nghiệp vụ bán hàng, quản lý, báo cáo tại cửa hàng của gói Standard
+    + Bán hàng online: Trên Trang đặt hàng và lựa chọn một trong hai kênh Mạng xã hội HOẶC Sàn thương mại điện tử
+    + Tự động đồng bộ sản phẩm và kết nối trực tiếp, quản lý hàng tồn kho giữa các kênh bán hàng Báo cáo theo kênh
+    + Không giới hạn dung lượng website, không tốn phí tên miền
+    + Không giới hạn Fanpage, đăng hàng hóa bán hàng
+    + Quản lý tin nhắn/bình luận, quản lý livesteam và tự động chăm sóc khách hàng bằng Chatbot
+    + Kết nối không giới hạn gian hàng và xử lý đơn hàng từ tất cả các sàn thương mại: LAZADA, Shopee, Sendo...
+    + Kết nối đơn vị vận chuyển: Giaohangnhanh, GHTK, VNPost, ViettelPost, Ahamove, J&TExpress...
+- ENTERPRISE: 599.000 VNĐ/chi nhánh/tháng (Cửa hàng vừa và lớn)
+    + Không giới hạn tài khoản: Bao gồm chủ/quản lý, thu ngân, tư vấn, kế toán, kho, bán hàng online...
+    + Tất cả các nghiệp vụ bán hàng, quản lý, báo cáo tại cửa hàng của gói Standard
+    + Bán hàng online: Trên Trang đặt hàng và cả hai kênh Mạng xã hội VÀ Sàn thương mại điện tử
+    + Tự động đồng bộ sản phẩm và kết nối trực tiếp, quản lý hàng tồn kho giữa các kênh bán hàng Báo cáo theo kênh
+    + Không giới hạn dung lượng website, không tốn phí tên miền
+    + Không giới hạn Fanpage, đăng hàng hóa bán hàng
+    + Quản lý tin nhắn/bình luận, quản lý livesteam và tự động chăm sóc khách hàng bằng Chatbot
+    + Kết nối không giới hạn gian hàng và xử lý đơn hàng từ tất cả các sàn thương mại: LAZADA, Shopee, Sendo...
+    + Kết nối đơn vị vận chuyển: Giaohangnhanh, GHTK, VNPost, ViettelPost, Ahamove, J&TExpress...
+"
+MISA eShop$Tổng quan$"Tổng quan sản phẩm MISA eShop
+Nền tảng Quản lý bán hàng đa kênh MISA eShop
+Giải pháp quản lý - bán hàng chuyên nghiệp
+Dành cho cửa hàng, chuỗi cửa hàng và doanh nghiệp nhiều lĩnh vực:
+- Thời trang phụ kiện: Quản lý hàng hóa đa dạng mẫu mã, màu sắc, size số..
+- Mỹ phẩm: Cảnh báo hàng hóa sắp đến hạn, tồn kho tối thiểu, tối đa
+- Tạp hóa, siêu thị MINI: Kết nối máy quét mã vạch, máy in hóa đơn...
+- Mẹ & Bé: Tạo các chương trình khuyến mãi thúc đẩy bán hàng tiện lợi
+- Hoa và quà tặng: Linh hoạt nhiều đơn vị tính khác nhau, thay đổi giá bán theo đối tượng khách hàng
+- Đồ chơi: Tra cứu sản phẩm theo thẻ tag hay tra cứu thông tin hàng hóa
+- Nối thất & gia dụng: Tự động cập nhật và lưu trữ công nợ khách hàng,NCC
+- Sách & văn phòng phẩm: Không giới hạn số lượng sản phẩm, quản lý mã ISBN có sẵn
+- Điện tử & điện máy: Quản lý số lượng và giá trị hàng tồn kho theo imei/serial
+- Vật liệu xây dựng: Đáp ứng nhiều đơn vị tính (thùng, kg, bao, cuộn, mét…) và quy đổi tính tiền linh hoạt
+- Thực phẩm: Quản lý số lô, hạn sử dụng... cảnh báo mặt hàng sắp hết hạn
+- Ngành hàng khác: Hơn 40 báo cáo theo dõi doanh thu, lợi nhuận mọi lúc mọi nơi
 
-MISA meInvoice Web - Đăng ký sử dụng$Lập tờ khai đăng ký sử dụng hóa đơn điện tử không có mã của CQT$Sau khi Thiết lập thông tin đơn vị và Thiết lập ký số, thực hiện như sau:\n\nBước 1: Tại màn hình bắt đầu sử dụng, tích chọn Hóa đơn không có mã của CQT, nhấn Hoàn thiện tờ khai.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/r48_web_hoan_thien_to_khai_06-768x501.jpg\n\n\nBước 2: Chương trình đã tạo sẵn 1 tờ khai trên danh sách, nhấn biểu tượng Xem để xem chi tiết và hoàn thiện tờ khai.\n\nKhai báo thông tin liên hệ với CQT:\nVới tờ khai Đăng ký mới: Sau khi tờ khai được chấp nhận, cơ quan thuế sẽ gửi thông tin tài khoản truy cập hệ thống HĐĐT của Tổng cục Thuế và các thông báo quan trọng liên quan đến hóa đơn điện tử tới email/số điện thoại/địa chỉ này.\nVới tờ khai Thay đổi thông tin: Sau khi tờ khai được chấp nhận, cơ quan thuế sẽ gửi các thông báo quan trọng liên quan đến hóa đơn điện tử tới email/số điện thoại/địa chỉ này.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/r48_web_hoan_thien_to_khai_07-768x495.jpg\n\n1. Hình thức hóa đơn: Không có mã của cơ quan thuế (Phần mềm tự động lấy lên theo thiết lập hình thức hóa đơn tại Hồ sơ điện tử). Trường hợp đơn vị sử dụng song song 2 hình thức hóa đơn thì tích chọn cả 2 hình thức.\n2. Hình thức gửi dữ liệu hóa đơn điện tử: Để trống toàn bộ ( nếu đơn vị không thuộc trường hợp không phải trả tiền dịch vụ theo khoản 1, điều 14, nghị định 123/2020/NĐ-CP.)\n3. Phương thức chuyển hóa đơn điện tử: Chọn 1 trong 2 phương thức:\nChuyển đầy đủ nội dung từng hóa đơn: Chương trình sẽ tự động chuyển dữ liệu hóa đơn đến cơ quan thuế ngay sau khi hóa đơn được phát hành và gửi cho khách hàng.\nChuyển theo bảng tổng hợp dữ liệu hóa đơn: Kế toán lập bảng tổng hợp dữ liệu hóa đơn gửi cơ quan thuế định kỳ theo kỳ kê khai thuế GTGT tại đơn vị.\nXem hướng dẫn chi tiết cách chọn phương thức chuyển dữ liệu hóa đơn đến cơ quan thuế.\n4. Loại hóa đơn sử dụng: Tích chọn vào 1 hoặc nhiều loại hóa đơn theo thực tế sử dụng của từng đơn vị. Bao gồm:\n- Hóa đơn bán hàng\n- Hóa đơn GTGT\n- Hóa đơn GTGT khởi tạo từ máy tính tiền\n- Hóa đơn bán hàng khởi tạo từ máy tính tiền\n- Các loại hóa đơn khác: Vé điện tử\n- Chứng từ khác: Các loại phiếu xuất kho kiêm vận chuyển nội bộ, phiếu xuất kho hàng gửi bán đại lý.\n5. Danh sách chứng thư số sử dụng: Nhấn Chọn để lấy lên chứng thư số đơn vị sử dụng.\nNhấn Ký điện tử.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/r48_web_hoan_thien_to_khai_08.jpg\nNhấn Gửi để gửi tờ khai đến cơ quan thuế.\n\n\nBước 3: Theo dõi kết quả đăng ký.\n\nCơ quan thuế sẽ phản hồi về việc chấp nhận/không chấp nhận đăng ký sử dụng hóa đơn đơn điện tử trong 01 ngày kể từ ngày nộp tờ khai.\nTheo dõi kết quả đăng ký tại mục Đăng ký/Thay đổi thông tin.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/r48_web_hoan_thien_to_khai_09-768x96.jpg\n
-MISA meInvoice Web - Đăng ký sử dụng$Đăng ký sử dụng hóa đơn với cơ quan thuế (HĐĐT có mã CQT)$Sau khi Thiết lập thông tin đơn vị và Thiết lập ký số, cần lập tờ khai đăng ký sử dụng hóa đơn điện tử với cơ quan thuế và khởi tạo mẫu hóa đơn quản lý tại đơn vị (không phải nộp cơ quan thuế).\n\nBước 1: Tích chọn hình thức hóa đơn là Hóa đơn có mã của CQT trước khi thực hiện đăng ký sử dụng và Nhấn Hoàn thiện tờ khai.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/10/r48_web_hoan_thien_to_khai_01-768x501.jpg\n\n\nBước 2: Chương trình đã tạo sẵn 1 tờ khai trên danh sách, nhấn biểu tượng Xem để xem chi tiết và hoàn thiện tờ khai.\nKhai báo thông tin liên hệ với CQT\na. Với tờ khai Đăng ký mới: Sau khi tờ khai được chấp nhận, cơ quan thuế sẽ gửi thông tin tài khoản truy cập hệ thống HĐĐT của Tổng cục Thuế và các thông báo quan trọng liên quan đến hóa đơn điện tử tới email/số điện thoại/địa chỉ này.\nb. Với tờ khai Thay đổi thông tin: Sau khi tờ khai được chấp nhận, cơ quan thuế sẽ gửi các thông báo quan trọng liên quan đến hóa đơn điện tử tới email/số điện thoại/địa chỉ này.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/10/r48_web_hoan_thien_to_khai_02-768x496.jpg\n\n1. Hình thức hóa đơn: Có mã của cơ quan thuế (Phần mềm tự động lấy lên theo thiết lập hình thức hóa đơn tại Hồ sơ điện tử). Trường hợp đơn vị sử dụng song song 2 hình thức hóa đơn thì tích chọn cả 2 hình thức.\n2. Hình thức gửi dữ liệu hóa đơn điện tử: Để trống toàn bộ (nếu đơn vị không thuộc trường hợp không phải trả tiền dịch vụ theo khoản 1, điều 14, nghị định 123/2020/NĐ-CP)\n3. Phương thức chuyển hóa đơn điện tử: Chọn Chuyển đầy đủ nội dung từng hóa đơn.\n4. Loại hóa đơn sử dụng: Tích chọn vào 1 hoặc nhiều loại hóa đơn theo thực tế sử dụng của từng đơn vị. Bao gồm:\n- Hóa đơn bán hàng\n- Hóa đơn GTGT\n- Hóa đơn GTGT khởi tạo từ máy tính tiền\n- Hóa đơn bán hàng khởi tạo từ máy tính tiền\n- Các loại hóa đơn khác: Vé điện tử\n- Chứng từ khác: Các loại phiếu xuất kho kiêm vận chuyển nội bộ, phiếu xuất kho hàng gửi bán đại lý.\n5. Danh sách chứng thư số sử dụng: Nhấn Chọn để lấy lên chứng thư số đơn vị sử dụng.\nNhấn Ký điện tử.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/10/r48_web_hoan_thien_to_khai_03.jpg\nNhấn Lưu và Gửi cơ quan thuế.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/10/r48_web_hoan_thien_to_khai_04-768x948.jpg\n\n\nBước 3: Cơ quan thuế chấp nhận tờ khai đăng ký và gửi phản hồi. Phần mềm sẽ thông báo và tự động cập nhật trạng thái CQT chấp nhận trên danh sách tờ khai cho người dùng được biết.\n
-MISA meInvoice Web - Khởi tạo mẫu hóa đơn$Khởi tạo mẫu hóa đơn có mã$Video hướng dẫn\n[www.youtube.com/embed/0qnLSimimCA]\nBước 1: Chọn mẫu hóa đơn\nVào mục Đăng ký phát hành, chọn Mẫu hóa đơn cần khởi tạo.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/10/ktm_hoa-don_khong_ma_01.gif\n\n\nBước 2: Khai báo các thông tin cần thiết để khởi tạo mẫu hóa đơn.\n1. Chọn Hình thức hóa đơn là HĐ có mã của CQT.\n\n2. Chương trình tự động điền thông tin mẫu số và 4 ký tự đầu của mẫu hóa đơn:\n- Số 1: Phản ánh loại hóa đơn điện tử giá trị gia tăng.\n- C thể hiện hóa đơn điện tử có mã.\n- Hai ký tự tiếp theo là hai (02) chữ số Ả rập thể hiện năm lập hóa đơn điện tử được xác định theo 2 chữ số cuối của năm dương lịch.\n- Một ký tự tiếp theo là một (01) chữ cái được quy định là T, D, L, M, N, B, G, H thể hiện loại hóa đơn điện tử được sử dụng, cụ thể:  Chữ T: Áp dụng đối với hóa đơn điện tử do các doanh nghiệp, tổ chức, hộ, cá nhân kinh doanh đăng ký sử dụng với cơ quan thuế.\n- Hai ký tự cuối là chữ viết do người bán tự xác định căn cứ theo nhu cầu quản lý. Trường hợp người bán sử dụng nhiều mẫu hóa đơn điện tử trong cùng một loại hóa đơn thì sử dụng hai ký tự cuối nêu trên để phân biệt các mẫu hóa đơn khác nhau trong cùng một loại hóa đơn. Trường hợp không có nhu cầu quản lý thì để là YY.\n\n3. Phương thức chuyển dữ liệu hóa đơn: Đối với hóa đơn có mã, chương trình mặc định phương thức Chuyển đầy đủ nội dung từng hóa đơn.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/10/r47_web_ktm_hoa_don_co_ma.jpg\n\n4. Có thể thiết kế logo, hình nền hiển thị trên mẫu hóa đơn (nếu không có nhu cầu nhấn Bỏ qua)\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/10/ktm_hoa_don_ko_ma_02.gif\n\n5. Có thể xem mẫu hóa đơn dạng chuyển đối, mẫu hóa đơn phát sinh chiết khấu, dạng, mẫu hóa đơn phát sinh ngoại tệ.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/10/ktm_co_ma_04.gif\n\n6. Có thể thiết lập lại cách hiển thị các thông tin trên hóa đơn\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/10/ktm_co_ma_05.gif\n\n\nBước 3: Nhấn Lưu để hoàn thành việc khởi tạo mẫu hóa đơn điện tử.\n
-MISA meInvoice Web - Khởi tạo mẫu hóa đơn$Khởi tạo mẫu hóa đơn không có mã của cơ quan thuế$Bước 1: Vào mục Đăng ký phát hành, chọn mẫu hóa đơn cần khởi tạo.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/11/KTM_HD_KHong_Ma_01-1.gif\n\n\nBước 2: Khai báo các thông tin cần thiết để khởi tạo mẫu hóa đơn.\n1. Chọn Hình thức hóa đơn là HĐ không có mã của CQT.\n\n2. Chương trình tự động điền thông tin mẫu số và 4 ký tự đầu của mẫu hóa đơn:\n- Số 1: Phản ánh loại hóa đơn điện tử giá trị gia tăng.\n- K thể hiện hóa đơn điện tử không có mã.\n- Hai ký tự tiếp theo là hai (02) chữ số Ả rập thể hiện năm lập hóa đơn điện tử được xác định theo 2 chữ số cuối của năm dương lịch.\n- Một ký tự tiếp theo là một (01) chữ cái được quy định là T, D, L, M, N, B, G, H thể hiện loại hóa đơn điện tử được sử dụng, cụ thể:  Chữ T: Áp dụng đối với hóa đơn điện tử do các doanh nghiệp, tổ chức, hộ, cá nhân kinh doanh đăng ký sử dụng với cơ quan thuế.\n- Hai ký tự cuối là chữ viết do người bán tự xác định căn cứ theo nhu cầu quản lý. Trường hợp người bán sử dụng nhiều mẫu hóa đơn điện tử trong cùng một loại hóa đơn thì sử dụng hai ký tự cuối nêu trên để phân biệt các mẫu hóa đơn khác nhau trong cùng một loại hóa đơn. Trường hợp không có nhu cầu quản lý thì để là YY.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/11/r47_web_ktm_hoa_don_ko_co_ma_01.jpg\n\n\nBước 3: Chọn phương thức chuyển dữ liệu hóa đơn điện tử đến CQT.\n1. Nếu chọn phương thức chuyển đầy đủ nội dung từng hóa đơn đến cơ quan thuế thì ngay sau khi hóa đơn được gửi cho khách hàng, chương trình sẽ tự động chuyển dữ liệu hóa đơn điện tử đến cơ quan thuế.\n\n2. Nếu chọn phương thức chuyển dữ liệu hóa đơn theo bảng tổng hợp dữ liệu hóa đơn điện tử thì định kỳ theo kỳ kê khai thuế GTGT đơn vị đang áp dụng (theo tháng/quý) kế toán lập bảng tổng hợp dữ liệu hóa đơn gửi cơ quan thuế.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/11/r47_web_ktm_hoa_don_ko_co_ma_02.jpg\n\n3. Có thể thiết kế logo, hình nền hiển thị trên mẫu hóa đơn (nếu không có nhu cầu nhấn Bỏ qua)\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/11/KTM_Hd_ko_ma_05.gif\n\n4. Có thể xem mẫu hóa đơn dạng chuyển đối, mẫu hóa đơn phát sinh chiết khấu, dạng, mẫu hóa đơn phát sinh ngoại tệ.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/11/ktm_hd_ko_ma_06.gif\n\n5. Có thể thiết lập lại cách hiển thị các thông tin trên hóa đơn.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/11/ktm_hd_ko_ma_07.gif\n\n\nBước 4: Nhấn Lưu để hoàn thành việc khởi tạo mẫu hóa đơn điện tử.\n
-MISA meInvoice Web - Khởi tạo mẫu hóa đơn$Chuyển mẫu hóa đơn theo nghị định 51/2010/NĐ-CP sang mẫu hóa đơn có mã theo nghị định 123/2020/NĐ-CP$Bước 1: Tại danh sách mẫu hóa đơn, nhấn chọn Chuyển từ mẫu cũ theo NĐ51.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/12/chuyen_doi_sang-mau_hoa_don_co_ma_01-1.png\n\n\nBước 2: Chương trình hiển thị danh sách mẫu hóa đơn theo nghị định 51/2010/NĐ-CP, tại mẫu hóa đơn cần chuyển đổi sang nghị định 123/2020/NĐ-CP, nhấn Chuyển đổi.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/12/chuyen_doi_sang-mau_hoa_don_co_ma_02-1-768x384.png\nLưu ý:\n- Có thể xem lại mẫu hóa đơn trước khi chuyển đổi bằng cách nhấn Xem.\n- Với mẫu hóa đơn khởi tạo từ phần mầm mềm MIMOSA và mẫu hóa đơn khởi tạo trước ngày 06/10/2020 thì không thể chuyển đổi lên mẫu hóa đơn theo nghị định 123/2020/NĐ-CP (chương trình sẽ hiển thị trạng thái Không thể chuyển đổi)\n- Hiện tại, danh sách mẫu hóa đơn theo nghị định 51/2010/NĐ-CP vẫn lấy lên cả những mẫu đã được chuyển đổi.\n\n\nBước 3: Chuyển đổi mẫu hóa đơn theo nghị định 123/2020/NĐ-CP.\n1. Chọn hình thức hóa đơn đơn vị sử dụng.\n\n2. Khai báo thông tin mẫu hóa đơn mới. Xem hướng dẫn đặt mẫu số, ký hiệu hóa đơn theo nghị định 123/2020/NĐ-CP tại [https://helpv4.meinvoice.vn/kb/mau-so-ky-hieu-hoa-don-dien-tu-theo-quy-dinh-tai-nghi-dinh-123-2020-nd-cp-khac-gi-so-voi-quy-dinh-cu/].\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/12/R47_web_chuyen-doi_mau_hd_01-768x451.jpg\n\n3. Phương thức chuyển nội dung hóa đơn đến CQT:\n- Nếu chọn HĐ có mã của CQT: Chương trình mặc định tích chọn phương thức chuyển đầy đủ nội dung từng hóa đơn.\n- Nếu chọn HĐ không có mã của CQT: Xem hướng dẫn cách chọn phương thức chuyển dữ liệu hóa đơn đến cơ quan thuế tại [https://helpv3.meinvoice.vn/kb/chon-phuong-thuc-chuyen-du-lieu-hoa-don-dien-tu-den-cqt/].\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/12/R47_web_chuyen-doi_mau_hd_02-768x451.jpg\n\n4. Có thể xem trước mẫu hóa đơn chuyển đổi bằng cách nhấn Xem trước thay đổi.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/12/R47_web_chuyen-doi_mau_hd_03-768x412.jpg\n\n\nBước 4: Nhấn Đồng ý, chương trình thông báo chuyển đổi mẫu thành công.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/12/chuyen_doi_sang-mau_hoa_don_co_ma_05-1.png\n\n\nBước 5: Nhấn Đóng, trên danh sách mẫu hóa đơn hiển thị mẫu hóa đơn chuyển đổi.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/12/chuyen_doi_sang-mau_hoa_don_co_ma_06-1-768x146.png\n
-MISA meInvoice Web - Phân quyền sử dụng hóa đơn$Phân quyền sử dụng hóa đơn$Bước 1: Truy cập và đăng nhập vào Webside: [http://meInvoice.vn].\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/web_dangnhap_01.png\n\n\nBước 2: Vào mục Hệ thống\\ chọn Quản lý người dùng\\ nhấn Thêm mới người dùng.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/phan_quyen_nguoi_dung_01-1.png\n\n\nBước 3: Khai báo thông tin người dùng\n1. Phân Quyền truy cập cho người dùng:\na. Quyền Quản trị: Được thực hiện tất cả chức năng trên phần mềm.\nb. Quyền Người dùng: Không có quyền phân quyền (không nhìn thấy mục Người sử dụng) và không có quyền Xác nhận thỏa thuận sử dụng dịch vụ.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/phan_quyen_nguoi_dung_02.png\n\n2. Phân quyền chức năng cho người dùng.\n- Chọn tab Phân quyền chức năng.\n- Chọn chức năng trên màn hình danh sách chức năng.\n- Tích chọn các hoạt động cho phép người dùng sử dụng tương ứng với chức năng đó.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/phan_quyen_nguoi_dung_03.png\n\n3. Phân quyền mẫu hóa đơn cho người dùng (Đối với vai trò Người dùng)\n- Chọn tab Phân quyền mẫu hóa đơn.\n- Tích chọn mẫu hóa đơn cho phép người dùng sử dụng.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/phan_quyen_nguoi_dung_05.png\nLưu ý: Người dùng được phân quyền làm việc với mẫu hóa đơn tạo năm 2021 (ví dụ mẫu 2C21TYT) thì sang năm mới (năm 2022), chương trình tự động chuyển sang mẫu 2C22TYT và người dùng vẫn có quyền làm việc với mẫu hóa đơn đó.\n\n4. Phân quyền theo đơn vị: Dành cho đơn vị quản lý hóa đơn theo khu vực xuất.\n\n\nBước 4: Nhấn Lưu hoặc Lưu và Thêm.\n\n\nBước 5: Sau khi được phân quyền, người dùng sẽ nhận được 1 email thông báo cấp quyền sử dụng meInvoice.\n\n\nBước 6: Người dùng đăng nhập meInvoice Web để kích hoạt tài khoản.\nNhấn Đăng nhập ngay.\n[https://helpv4.meinvoice.vn/wp-content/uploads/2019/12/r18_desktop_dang_nhap_sau_khi_duoc_phan-quyen1-768x388.png\n
-MISA meInvoice Web - Thiết lập Email gửi hóa đơn$Thiết lập Email gửi hóa đơn$Bước 1: Vào mục Hệ thống\\ chọn Emai gửi hóa đơn.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2020/01/thiet_lap_email_gui_hd_01.jpg\n\n\nBước 2: Chọn Nhà cung cấp dịch vụ Email.\n1. Dịch vụ email \nMISA\nChương trình sẽ dùng dịch vụ email của \nMISA để gửi hóa đơn cho người mua, khách hàng không cần thiết lập máy chủ gửi email.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2020/01/mail_reply.png\n\n2. Một trong những nhà cung cấp: Gmail\n2.1. Đăng nhập tài khoản Google. Tại phần Chọn ứng dụng chọn Khác (Tên tùy chỉnh).\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/thiet_lap_cai_dat_gmail_0014.png\n2.2. Nhập tên ứng dụng muốn tạo mật khẩu (đặt tên bất kỳ Ví dụ: meinvoice, HDDT…), nhấn Tạo\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/thiet_lap_cai_dat_gmail_0015.png\n2.3. Lúc này, gmail đã tạo mật khẩu để thiết lập email gửi hóa đơn điện tử trên \nMISA MEINVOICE, \nMISA SME.NET, anh/chị lưu lại thông tin mật khẩu này. Nhấn Xong.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/thiet_lap_cai_dat_gmail_0016.png\n2.4. Thiết lập thông tin máy chủ gửi mail trên meInvoice.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2020/01/r20_Web_ch%E1%BB%8Dn_ban_lam_viec03.png\n- Tên người gửi/Email gửi: các thông tin này sẽ được sử dụng để người nhận email biết được thông tin người gửi (trên email sẽ hiển thị thông tin “From: Tên người gửi/Email gửi” khai báo tại đây. Ví dụ: From: Công ty TNHH XYZ.)\n- Tên đăng nhập và Mật khẩu: Là tài khoản đăng nhập vào gmail của người gửi.\n- Nhấn Kiểm tra thiết lập để xem thông tin về cấu hình email có đúng hay không => Nếu chưa đúng thì thực hiện thiết lập lại.\n- Nhấn Lưu. Khi gửi hóa đơn cho khách hàng, chương trình sẽ thực hiện gửi từ email đã thiết lập, với tiêu đề email chứa tên công ty được khai báo ở trên.\n\n3. Nếu chọn một trong các nhà cung cấp: Hotmail; Outlook Mail; Yahoo Mail\n- Chọn nhà cung cấp.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2020/01/thiet_lap_email_gui_hd_02.jpg\n- Tên người gửi/Email gửi: các thông tin này sẽ được sử dụng để người nhận email biết được thông tin người gửi (trên email sẽ hiển thị thông tin “From: Tên người gửi/Email gửi” khai báo tại đây. Ví dụ: From: Công ty TNHH XYZ.)\n- Tên đăng nhập và Mật khẩu: Là tài khoản đăng nhập vào email của người gửi (Ví dụ: Tài khoản Yahoo…)\n
-MISA meInvoice Web - Khai báo danh mục$Khai báo danh mục khách hàng$Bước 1: Vào Danh mục, chọn Khách hàng.\nBước 2: Nhấn Thêm mới.\nBước 3: Khai báo thông tin khách hàng:\nhttps://helpv3.meinvoice.vn/wp-content/uploads/2019/12/nhap_khau_khach_hang_02.png\n1. Lựa chọn khách hàng cần khai báo là Tổ chức hoặc Cá nhân.\n2. Nhập Mã số thuế của khách hàng sau đó nhấn Lấy thông tin, chương trình tự động lấy lên Tên khách hàng và Địa chỉ theo dữ liệu của cơ quan thuế (hoặc có thể tự khai báo các thông tin này nếu muốn).\n3. Với tổ chức không có Mã số thuế thì bỏ trống thông tin này.\nLưu ý: Khi thực hiện chức năng Lấy thông tin từ Mã số thuế của khách hàng thì chương trình tự động kiểm tra tình trạng hoạt động của khách hàng đó.\n4. Khai báo các thông tin chi tiết khác về khách hàng => Bắt buộc phải khai báo các thông tin có ký hiệu (*).\nhttps://helpv3.meinvoice.vn/wp-content/uploads/2019/12/danh_muc_khach_hang.png\n\nBước 4: Nhấn Lưu.\nLưu ý: Với các khách hàng không còn giao dịch nữa, nhấn Sửa và tích chọn Ngừng theo dõi => Khi lập hóa đơn điện tử, các khách hàng đã ngừng theo dõi sẽ không hiển thị tại mục Khách hàng nữa.\nhttps://helpv3.meinvoice.vn/wp-content/uploads/2019/12/danh_muc_khach_hang02.png\n\n
-MISA meInvoice Web - Khai báo danh mục$Khai báo danh mục hàng hóa, dịch vụ$Bước 1: Vào Danh mục, chọn Hàng hóa, dịch vụ.\nBước 2: Nhấn Thêm mới.\nBước 3: Khai báo thông tin hàng hóa, dịch vụ.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/R30_web_them_HH_01.png\nLưu ý:\n1. Bắt buộc phải khai báo các thông tin có ký hiệu (*).\n2. Mục Nhóm HHDV, nếu khai báo:\n- Trên Báo cáo thống kê số lượng hóa đơn đã phát hành sẽ thống kê được giá trị hóa đơn đã phát hành theo từng nhóm hàng hóa , dịch vụ phục vụ nhu cầu quản lý của đơn vị.\n- Để khai báo thông tin hàng hóa, dịch vụ theo nhóm cần thiết lập danh mục Nhóm hàng hóa, dịch vụ.\n- Thuế GTGT (%): Nhập mức thuế suất tương ứng của hàng hóa, dịch vụ trong đó:\n+ Mức KCT: dành cho hàng hóa, dịch vụ không chịu thuế.\n+ Mức KKKNT: Thuế suất trống và tiền thuế bằng 0.\n+ Mức KHAC: Thuế suất trống và tiền thuế >0 (thường sử dụng trong lĩnh vực Hàng Hải)\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/R30_web_them_HH_02.png\n\n\nBước 4: Nhấn Lưu.\nLưu ý: Với các Hàng hóa, dịch vụ không còn kinh doanh nữa tích chọn Ngừng theo dõi\n
-MISA meInvoice Web - Khai báo danh mục$Khai báo danh mục loại tiền$Bước 1: Vào Danh mục, chọn Loại tiền.\nBước 2: Chọn loại tiền muốn sửa đổi thông tin, nhấn biểu tượng\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2020/04/r22_icon.png\n(hoặc nhấn Thêm mới để bổ sung loại tiền mới).\nBước 3: Khai báo thông tin chi tiết về loại tiền:\n1. Bắt buộc phải khai báo các thông tin có ký hiệu (*).\n2. Nhập Tỷ giá quy đổi: Khi xuất hóa đơn bằng ngoại tệ chương trình sẽ ngầm định theo tỷ giá này, giúp tiết kiệm thời gian nhập liệu.\n3. Thiết lập Cách đọc số tiền bằng chữ để hiển thị trên các hóa đơn in ra:\n- Tỷ lệ chuyển đổi: Là tỷ lệ chuyển đổi giữa loại tiền và số tiền sau thập phân (Ví dụ: 1 đô la mỹ = 100 xen)\n- Sau khi thiết lập xong cách đọc số tiền bằng chữ: nhập số tiền rồi nhấn Đọc để xem trước cách hiển thị số tiền trên hóa đơn in ra.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2020/04/r22_Web_loai_tien02.png\n\n\nBước 4: Nhấn Lưu.\nLưu ý: Với các loại tiền không có nhu cầu theo dõi nữa, sử dụng chức năng Sửa, sau đó tích chọn Ngừng theo dõi => Khi lập hóa đơn điện tử bằng ngoại tệ, các Loại tiền đã ngừng theo dõi sẽ không hiển thị tại mục Loại tiền nữa.\n
-MISA meInvoice Web - Khai báo danh mục$Quản lý hóa đơn theo đơn vị xuất$Bước 1: Khai báo danh mục đơn vị\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/05/R35_Web_quan_ly_hoa_don_theo_don_vi_01.png\nLưu ý:\n1. Chương trình tự động sinh đơn vị cấp 1 theo thông tin khai báo khi đặt mua hóa đơn điện tử, có thể sửa lại (nếu cần) nhưng không được phép xóa.\n2. Chương trình đáp ứng khai báo đến đơn vị cấp 3.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/05/R35_Web_quan_ly_hoa_don_theo_don_vi_02.png\n3. Sau khi khai báo danh mục Đơn vị xuất hóa đơn, trên giao diện lập hóa đơn hiển thị mục Đơn vị lập hóa đơn và danh sách đơn vị đã khai báo.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/05/R35_Web_quan_ly_hoa_don_theo_don_vi_10.png\n4. Có thể thiết lập Ngừng sử dụng đối với đơn vị không còn nhu cầu quản lý khi đó danh sách đơn vị trên giao diện lập hóa đơn sẽ không hiển thị đơn vị Ngừng sử dụng.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/05/R35_Web_quan_ly_hoa_don_theo_don_vi_09.png\n\n\nBước 2: Phân quyền người dùng theo đơn vị\n1. Phân quyền người dùng theo đơn vị ngay trên thông báo sau khi khai báo đơn vị.\n- Nhấn Có trên thông báo.\n- Tích chọn người dùng muốn phân quyền làm việc trên đơn vị, nhấn Đồng ý.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/05/r35_PHAN_QUYEN_NG_DUNG010.png\n2. Hoặc vào Hệ thống\\Quản lý người dùng để thực hiện: Các bước phân quyền người dùng theo đơn vị xuất hóa đơn tương tự như phân quyền người dùng thông thường.\n- Tại mục Đơn vị: Chọn đơn vị mà người dùng trực thuộc.\n- Tại tab Phân quyền theo đơn vị: Người dùng trực thuộc đơn vị nào thì được phép làm việc trên đơn vị đó, ngoài ra có thể phân quyền cho người dùng làm việc trên các đơn vị khác.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/05/R35_Web_quan_ly_hoa_don_theo_don_vi_04.png\n\n\nBước 3: Lập và phát hành hóa đơn theo đơn vị.\n1. Tại mục Đơn vị lập hóa đơn, xuất hóa đơn tại đơn vị nào thì chọn đơn vị đó.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/05/R35_Web_quan_ly_hoa_don_theo_don_vi_06.png\n2. Lưu ý\n- Nếu người dùng chỉ được phân quyền làm việc trên 1 đơn vị thì trên giao diện lập hóa đơn sẽ không hiển thị thông tin Đơn vị lập hóa đơn, hóa đơn được lập sẽ thuộc đơn vị mà người dùng được phân quyền.\n- Nhập khẩu hóa đơn theo đơn vị.\n\n\nBước 4: Quản lý hóa đơn theo đơn vị\n1. Tra cứu, tìm kiếm hóa đơn theo đơn vị trên danh sách hóa đơn\n- Trên danh sách hóa đơn hiển thị cột Đơn vị.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/05/R35_Web_quan_ly_hoa_don_theo_don_vi_07.png\n- Có thể lọc xem danh sách hóa đơn của từng đơn vị.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/05/R35_Web_quan_ly_hoa_don_theo_don_vi_08.png\n\n2. Xem các báo cáo về tình hình sử dụng hóa đơn theo đơn vị\nhttps://player.vimeo.com/video/560694780\nLưu ý:\n- Cột Đơn vị và tham số lọc theo đơn vị chỉ tự động hiển thị trên danh sách hóa đơn, báo cáo nếu người dùng có quyền làm việc trên nhều đơn vị.\n- Nếu người dùng chỉ có quyền làm việc trên 1 đơn vị thì danh sách hóa đơn, báo cáo lấy lên dữ liệu của đơn vị mà người dùng có quyền, nếu muốn hiển thị cột Đơn vị trên danh sách/báo cáo thì người dùng phải tự thiết lập.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/05/R35_Web_quan_ly_hoa_don_theo_don_vi_11.png\n
-MISA meInvoice Web - Nghiệp vụ hóa đơn$Lập hóa đơn (có mã)$Tại tab Hóa đơn bán hàng, nhấn Thêm mới\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/10/lap-hd-1-768x392.png\n2. Điền đầy đủ các thông tin trên hóa đơn\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/10/lap-hoa-don-4.gif\n
-MISA meInvoice Web - Nghiệp vụ hóa đơn$Phát hành hóa đơn (có mã)$Kế toán có thể phát hành hóa đơn điện tử theo 1 trong 2 cách:\nI. Phát hành từng hóa đơn điện tử:\nCó thể thực hiện phát hành từng hóa đơn điện tử theo 1 trong 2 cách:\nCách 1: Phát hành hóa đơn điện tử trên danh sách Hóa đơn\n1. Vào danh sách hóa đơn, thiết lập điều kiện tìm kiếm hóa đơn cần phát hành.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/10/loc-hoa-don-768x392.png\n2. Tích chọn hóa đơn cần phát hành, nhấn Phát hành.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/10/loc-hoa-don_2-1-768x304.png\n3. Tích chọn Gửi hóa đơn cho khách hàng: Nếu muốn chương trình tự động gửi thông tin về hóa đơn điện tử cho khách hàng ngay sau khi nhận được mã của cơ quan thuế.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/10/phat-hanh-hd.png\n4. Nhấn Phát hành, lựa chọn chứng thư số, chương trình đồng thời cấp số hóa đơn và phát hành hóa đơn điện tử. Chọn chứng thư số của đơn vị\\ nhấn OK.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/R34_Web_phat_hanh_hoa_don_05-1-300x233.png\n5. Sau khi phát hành thành công, hóa đơn được gửi lên cơ quan thuế chờ cấp mã.\n- Trường hợp hóa đơn hợp lệ, cơ quan thuế thực hiện cấp mã và gửi về thông điệp kết quả cấp mã của cơ quan thuế, hệ thống đồng thời cập nhật Mã của cơ quan thuế trạng thái hóa đơn thành Đã cấp mã\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/10/H1-768x365.png\n- Trường hợp hóa đơn không hợp lệ, cơ quan thuế thực hiện cấp mã và gửi về thông điệp kết quả kiểm tra dữ liệu hóa đơn điện tử – hóa đơn không đủ điều kiện cấp mã, hệ thống cập nhật trạng thái hóa đơn thành Từ chối cấp mã.\n\nCách 2: Phát hành hóa đơn điện tử ngay trên các hóa đơn đã lập.\n1. Sau khi lập hóa đơn điện tử, Nhấn Lưu và Phát hành.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/10/phat-hanh-cach-2-768x670.png\n2. Thực hiện các bước tiếp theo tương tự như cách 1.\n\n\nII. Phát hành hàng loạt hóa đơn điện tử.\n1. Tích chọn các hóa đơn muốn phát hành trên danh sách hóa đơn, nhấn Phát hành.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/10/phat-hanh-hang-loat-768x349.png\n\n2. Tích chọn Gửi HĐ nếu muốn chương trình tự động gửi hóa đơn điện tử cho khách hàng ngay sau khi thực hiện chức năng phát hành hóa đơn điện tử.\n- Tên người nhận và Email người nhận: Lấy theo thông tin Người mua hàng và Email trên hóa đơn, tuy nhiên vẫn có thể thay đổi lại các thông tin này (nếu cần).\n- Thông tin Mẫu số, Ký hiệu, Ngày hóa đơn được lấy theo thông tin trên hóa đơn. Số hóa đơn sẽ được cấp liên tục tương ứng với từng mẫu hóa đơn theo Thông báo phát hành hóa đơn đã có hiệu lực.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/10/nhan-gugi-768x408.png\n\n3. Nhấn Phát hành.\n\n4. Lựa chọn chứng thư số, chương trình sẽ thực hiện phát hành hóa đơn điện tử.\n
-MISA meInvoice Web - Nghiệp vụ hóa đơn$Gửi hóa đơn điện tử cho khách hàng (có mã)$Cách 1: Gửi lần lượt từng hóa đơn\n1. Trên danh sách hóa đơn, tại dòng hóa đơn cần gửi. Nhấn chọn Gửi hóa đơn cho KH.\n2. Nhập thông tin người nhận và nhấn Gửi\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/11/Xuat-tung-hd.gif\n\n\nCách 2: Gửi đồng loạt nhiều hóa đơn\n1. Tích chọn nhiều hóa đơn muốn gửi.\n2. Có thể thay đổi thông tin (tên, địa chỉ mail) của người nhận.\n3. Nhấn Gửi.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/11/gui-hd-hang-loat.gif\n
-MISA meInvoice Web - Nghiệp vụ hóa đơn$Tra cứu lịch sử truyền nhận dữ liệu HĐĐT với cơ quan thuế (có mã)$1. Xem tại mục Lịch sử truyền nhận.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/11/tra-cuu-lich-su-truyen-nhan.gif\n\n2. Chi tiết thông điệp truyền nhận.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/11/thong-diep.png\n\n3. Có thể xem chi tiết tờ khai/thông báo sai sót bằng cách nhấn vào Số tờ khai/Số TB của NNT.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/11/xem_lich_su_truyen_nhan.gif\n\n4. Xem chi tiết nhật ký truyền nhận dữ liệu của tờ khai/hóa đơn/thông báo sai sót bằng cách nhấn đúp chuột vào dòng dữ liệu.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/11/xem_lich_su_truyen_nhan_02.gif\n
-MISA meInvoice Web - Nghiệp vụ hóa đơn$Chuyển hóa đơn điện tử thành hóa đơn giấy (có mã)$I. Chuyển từng hóa đơn điện tử thành hóa đơn giấy\n1. Tại hóa đơn cần chuyển thành hóa đơn giấy trên danh sách hóa đơn, chọn Chuyển thành hóa đơn giấy.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/12/chuyen_hoa_don-co_ma_thanh_hoa_don_giay_01-1.gif\n2. Khai báo thông tin Người chuyển đổi, ngày chuyển đổi, nhấn Chuyển đổi.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/12/chuyenr_hoa_don_co_ma_thanh_Hoa_don_giay_02-1.png\n3. Trên hóa đơn hiển thị dấu hiệu nhận biết hóa đơn điện tử chuyển đổi thành hóa đơn giấy.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/12/chuyen_hoa_don_co_ma_thanh_Hoa_don_giay_03.png\n\nII. Chuyển hàng loạt hóa đơn điện tử thành hóa đơn giấy\n1. Tại danh sách hóa đơn, tích chọn hàng loạt hóa đơn cần chuyển thành hóa đơn giấy.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/12/chuyen_hoa_don_co_ma_thanh_hoa_don_giay_02.gif\n2. Khai báo thông tin Người chuyển đổi, ngày chuyển đổi, nhấn Chuyển đổi.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/12/chuyenr_hoa_don_co_ma_thanh_Hoa_don_giay_03.png\n3. Chương trình chuyển cùng lúc hàng loạt hóa đơn thành hóa đơn giấy.\n
-MISA meInvoice Web - Nghiệp vụ hóa đơn$Xử lý hóa đơn có mã CQT sai sót$Trường hợp 1: Người bán tự phát hiện sai sót, hóa đơn chưa gửi cho khách hàng.\nBước 1: Hủy hóa đơn có mã sai sót\n[https://helpv4.meinvoice.vn/kb/huy-hoa-don-co-ma/#buoc-1-thuc-hien-huy-hoa-don-tren-phan-mem]\n\nBước 2: Lập và phát hành hóa đơn mới cho khách hàng\nhttps://helpv4.meinvoice.vn/kb/lap-hoa-don-co-ma/\nhttps://helpv4.meinvoice.vn/kb/phat-hanh-hoa-don-co-ma/\n\nBước 3: Lập thông báo HĐ sai sót gửi cơ quan thuế\n[https://helpv4.meinvoice.vn/kb/huy-hoa-don-co-ma/#buoc-2-thuc-hien-lap-thong-bao-sai-sot]\n\n\nTrường hợp 2: Người bán phát hiện hóa đơn sai sót sau khi gửi cho khách hàng, sai về Tên; Địa chỉ người mua, các thông tin khác không sai sót.\nBước 1: Gửi thông báo cho người mua về hóa đơn sai sót và không cần lập lại HĐ.\n[https://helpv4.meinvoice.vn/kb/dieu-chinh-thong-tin-hoa-don-co-ma/#buoc-1-gui-thong-bao-cho-nguoi-mua-ve-hoa-don-sai-sot]\n\nBước 2: Lập thông báo HĐ sai sót gửi cơ quan thuế\n[https://helpv4.meinvoice.vn/kb/thong-bao-hoa-don-sai-sot-ten-di%cc%a3a-chi%cc%89-khong-sai-thong-tin-khac-voi-cqt/#buoc-2-lap-thong-bao-hoa-don-dien-tu-sai-sot-gui-co-quan-thue]\n\n\nTrường hợp 3: Người bán tự phát hiện hóa đơn sai sót sau khi gửi cho khách hàng, sai về Mã số thuế; sai Số tiền ghi trên hóa đơn; sai Tiền thuế; Thuế suất; hoặc Hàng hóa ghi trên hóa đơn không đúng quy cách, chất lượng.\nNgười bán và người mua tự thỏa thuận với nhau để chọn 1 trong 2 cách giải quyết.\nCách 1: Lập hóa đơn điều chỉnh cho hóa đơn sai sót\nhttps://helpv4.meinvoice.vn/kb/lap-va-phat-hanh-hoa-don-dieu-chinh-hoa-don-co-ma/\n\nCách 2: Hủy hóa đơn sai sót và lập hóa đơn thay thế\nhttps://helpv4.meinvoice.vn/kb/xoa-hoa-don-va-lap-hoa-don-thay-the-hoa-don-co-ma/\n\n\nTrường hợp 4: Cơ quan thuế phát hiện sai sót và thông báo đến người bán.\nCơ quan thuế sẽ gửi thông báo rà soát trực tiếp qua email của người nộp thuế\nBước 1: Giải trình với cơ quan thuế về hóa đơn sai sót\n[https://helpv4.meinvoice.vn/kb/dieu-chinh-thong-tin-hoa-don-co-ma/#buoc-2-lap-thong-bao-hoa-don-dien-tu-sai-sot-gui-co-quan-thue]\n\nBước 2: Lập hóa đơn điều chỉnh hóa đơn sai sót hoặc Hủy hóa đơn sai sót và lập hóa đơn thay thế theo thỏa thuận với người mua.\nhttps://helpv4.meinvoice.vn/kb/lap-va-phat-hanh-hoa-don-dieu-chinh-hoa-don-co-ma/\nhttps://helpv4.meinvoice.vn/kb/xoa-hoa-don-va-lap-hoa-don-thay-the-hoa-don-co-ma/\n\n\n
+Bạn đang kinh doanh trên kênh bán hàng nào eShop đều có giải pháp dành cho bạn
+- Cửa hàng
+- Facebook
+- Zalo
+- Shopee
+- Lazada
+- Sendo
+- Instagram
+- Website
+- Kênh bán hàng khác
+"
+MISA eShop$Tổng quan - Các giải pháp cung cấp$"Tổng quan - Các giải pháp cung cấp sản phẩm MISA eShop
+Các giải pháp quản lý bán hàng của MISA eShop:
+- eShop POS
+    + Giải pháp quản lý bán hàng
+    + Quét mã vạch, tính tiền nhanh chóng, in hóa đơn tự động. Đầy đủ các nghiệp vụ: trả hàng, thu nợ, thay đổi bảng giá, nhập bù hóa đơn
+
+- eShop OCM
+    + Giải pháp quản lý bán hàng online
+    + Tự động chốt đơn - in bill livestream Facebook. Kết nối không giới hạn gian hàng và xử lý đơn hàng từ tất cả các sàn thương mại: Shopee, Lazada, Sendo…
+
+- eShop Lomas
+    + Giải pháp quản lý & chăm sóc khách hàng
+    + Thu hút khách hàng qua vòng quay may mắn, mini games trên Facebook, Zalo. Gửi thông báo ưu đãi qua Messenger hoặc Zalo chăm sóc khách hàng thân thiết
+
+- eShop Web
+    + Giải pháp thiết kế trang đặt hàng
+    + Sở hữu trang đặt hàng online 24/7 chỉ sau 5 phút khởi tạo. Tự động gợi ý sản phẩm bán chạy, khuyến mãi để gia tăng giá trị đơn hàng.
+"
+MISA eSign$Bảng giá - ký số từ xa - Tổ chức$"Bảng giá - ký số từ xa - Tổ chức sản phẩm MISA eSign
+Đáp ứng các nghiệp vụ ký số: 
+- Ký hợp đồng điện tử AMIS weSign
+- Ký số trên văn bản dạng PDF, Word, file ảnh...
+- Ký số ngay trên điện thoại di động, tablet
+
+Các gói:
+- 1 năm: 550.000 (VND/Gói)
+- 2 năm: 950.000 (VND/Gói) - tiết kiệm 14%
+- 3 năm: 1.250.000 (VND/Gói) - tiết kiệm 25%
+- 4 năm: 1.550.000 (VND/Gói) - tiết kiệm 30%
+- 5 năm: 1.850.000 (VND/Gói) - tiết kiệm 33%
+
+"
+MISA eSign$Bảng giá - USB Token - Cá nhân, cá nhân thuộc tổ chức, hộ cá nhân kinh doanh$"Bảng giá - USB Token - Cá nhân, cá nhân thuộc tổ chức, hộ cá nhân kinh doanh sản phẩm MISA eSign
+Đáp ứng các nghiệp vụ ký số: Thuế điện tử, Hải quan điện tử, Hóa đơn điện tử, BHXH điện tử và nhiều giao dịch điện tử khác
+
+Các gói:
+- 1 năm: 1.049.000 (VND/Gói)
+- 2 năm: 1.449.000 (VND/Gói) - Chỉ 449,500 VNĐ/Năm
+- 3 năm: 1.749.000 (VND/Gói) - Chỉ 399,667 VNĐ/Năm
+- 4 năm: 2.049.000 (VND/Gói) - Chỉ 374,750 VNĐ/Năm
+- 5 năm: 2.349.000 (VND/Gói) - Chỉ 359,800 VNĐ/Năm
+
+Lưu ý:
+- Gói giá mua mới dịch vụ chữ ký số trên đã bao gồm USB Token
+- Gói giá dịch vụ chữ ký số trên đã bao gồm thuế giá trị gia tăng
+- Báo giá có hiệu lực từ ngày 01/03/2021 và có thể thay đổi ở bất kỳ thời điểm nào mà không cần báo trước.
+- Để biết thêm thông tin chi tiết, Quý khách vui lòng liên hệ với các Văn phòng MISA trên toàn quốc.
+"
+MISA eSign$Bảng giá - USB Token - Tổ chức$"Bảng giá - USB Token - Tổ chức sản phẩm MISA eSign
+Đáp ứng các nghiệp vụ ký số: Thuế điện tử, Hải quan điện tử, Hóa đơn điện tử, BHXH điện tử và nhiều giao dịch điện tử khác
+
+Các gói:
+- 1 năm: 1.829.000 (VND/Gói)
+- 2 năm: 2.729.000 (VND/Gói) - Chỉ 1,089,500 VNĐ/Năm
+- 3 năm: 3.529.000 (VND/Gói) - Chỉ 993,000 VNĐ/Năm
+- 4 năm: 4.329.000 (VND/Gói) - Chỉ 944,750 VNĐ/Năm
+- 5 năm: 5.029.000 (VND/Gói) - Chỉ 895,800 VNĐ/Năm
+
+Lưu ý:
+- Gói giá mua mới dịch vụ chữ ký số trên đã bao gồm USB Token
+- Gói giá dịch vụ chữ ký số trên đã bao gồm thuế giá trị gia tăng
+- Báo giá có hiệu lực từ ngày 01/03/2021 và có thể thay đổi ở bất kỳ thời điểm nào mà không cần báo trước.
+- Để biết thêm thông tin chi tiết, Quý khách vui lòng liên hệ với các Văn phòng MISA trên toàn quốc.
+"
+MISA eSign$Bảng giá$"Bảng giá sản phẩm MISA eSign
+Gồm 2 phiên bản:
+- Phiên bản USB Token
+- Phiên bản ký số từ xa
+
+Phù hợp hỗ trợ triển khai cho mọi đối tượng:
+- Tổ chức: Chữ ký số có giá trị pháp lý như con dấu của tổ chức khi giao dịch điện tử: Xuất hóa đơn; Ký hợp đồng; Xác nhận sao kê, thanh toán; Kê khai BHXH, thuế điện tử…
+- Cá nhân thuộc tổ chức: Chữ ký số có giá trị pháp lý như chữ ký tay của cá nhân trong tổ chức, ký các giao dịch điện tử trong nội bộ hoặc bên ngoài được Tổ chức ủy quyền: Ký hợp đồng; Thanh toán…
+- Hộ, cá nhân kinh doanh: Chữ ký số có giá trị pháp lý như chữ ký tay của chủ hộ kinh doanh khi giao dịch điện tử: Xuất hóa đơn; Ký hợp đồng; Kê khai thuế điện tử…
+- Cá nhân: Chữ ký số có giá trị pháp lý như chữ ký tay của cá nhân đó khi giao dịch điện tử: Ký hợp đồng; Thanh toán điện tử; Kê khai thuế TNCN…
+
+Lưu ý: Để biết thông tin chi tiết vui lòng xem từng phiên bản, đối tượng hỗ trợ
+"
+MISA eSign$Tổng quan$"Tổng quan sản phẩm MISA eSign
+- CHỮ KÝ SỐ USB TOKEN
+– CHỮ KÝ SỐ TỪ XA KHÔNG CẦN USB TOKEN
+Ký mọi lúc, mọi nơi
+An toàn vượt trội, bảo mật tuyệt đối
+
+MISA là đơn vị tiên phong cung cấp chữ ký số từ xa đạt tiêu chuẩn eIDAS của Châu Âu và được Bộ TT&TT cấp phép
+Phù hợp triển khai cho mọi đối tượng:
+- Tổ chức: Chữ ký số có giá trị pháp lý như con dấu của tổ chức khi giao dịch điện tử: Xuất hóa đơn; Ký hợp đồng; Xác nhận sao kê, thanh toán; Kê khai BHXH, thuế điện tử…
+- Cá nhân thuộc tổ chức: Chữ ký số có giá trị pháp lý như chữ ký tay của cá nhân trong tổ chức, ký các giao dịch điện tử trong nội bộ hoặc bên ngoài được Tổ chức ủy quyền: Ký hợp đồng; Thanh toán…
+- Hộ, cá nhân kinh doanh: Chữ ký số có giá trị pháp lý như chữ ký tay của chủ hộ kinh doanh khi giao dịch điện tử: Xuất hóa đơn; Ký hợp đồng; Kê khai thuế điện tử…
+- Cá nhân: Chữ ký số có giá trị pháp lý như chữ ký tay của cá nhân đó khi giao dịch điện tử: Ký hợp đồng; Thanh toán điện tử; Kê khai thuế TNCN…
+
+Đáp ứng đầy đủ nghiệp vụ ký kết:
+- Văn bản
+- Hợp đồng
+- Giao dịch điện tử
+- Phát hành hóa đơn điện tử
+- Kê khai/quyết toán thuế, bảo hiểm
+- Ký văn bản, hợp đồng điện tử
+- Giao dịch ngân hàng
+- Chứng khoán điện tử
+- Xác thực dịch vụ công điện tử
+
+Nhiều tiện ích vượt trội ký số thuận tiện,nhanh chóng:
+- Ký số siêu tốc với hàng ngàn lượt ký/giây
+- Ký số mọi lúc, mọi nơi ngay trên điện thoại di động, tablet, máy tính mà không cần USB Token
+- Ký kết linh hoạt mọi văn bản, chứng từ, hợp đồng dạng word, excel, pdf…
+
+Bảo mật thông tin, an toàn tuyệt đối
+- Được bộ TT&TT cấp phép, đạt tiêu chuẩn Châu Âu eIDAS
+- Đáp ứng đầy đủ quy định pháp luật theo nghị định 130/2018/NĐ-CP và thông tư 16/2019/TT-BTTTT của Bộ TT&TT
+
+5 lý do khách hàng nên chọn MISA eSign:
+- Đã được Bộ Thông tin & Truyền thông cấp phép; An toàn, bảo mật vượt trội theo chuẩn
+Quốc tế.
+- Đầy đủ nghiệp vụ giao dịch điện tử: Xuất hóa đơn điện tử, kê khai/nộp thuế điện tử,
+BHXH, ký hợp đồng điện tử…
+- Tích hợp sẵn trong phần mềm hóa đơn điện tử, Thuế điện tử, BHXH, kế toán, bán hàng,
+nhân sự… tối ưu năng suất, tiết kiệm chi phí.
+- Ký số thuận tiện, nhanh chóng ngay trên điện thoại không cần USB Token
+- Thủ tục đăng ký đơn giản; Phần mềm dễ dàng sử dụng; hỗ trợ nhanh chóng
+
+"
+MISA eSign$Bảng giá - Các đối tượng hỗ trợ$"Bảng giá - Các đối tượng hỗ trợ sản phẩm MISA eSign
+Phù hợp hỗ trợ triển khai cho mọi đối tượng:
+- Tổ chức: Chữ ký số có giá trị pháp lý như con dấu của tổ chức khi giao dịch điện tử: Xuất hóa đơn; Ký hợp đồng; Xác nhận sao kê, thanh toán; Kê khai BHXH, thuế điện tử…
+- Cá nhân thuộc tổ chức: Chữ ký số có giá trị pháp lý như chữ ký tay của cá nhân trong tổ chức, ký các giao dịch điện tử trong nội bộ hoặc bên ngoài được Tổ chức ủy quyền: Ký hợp đồng; Thanh toán…
+- Hộ, cá nhân kinh doanh: Chữ ký số có giá trị pháp lý như chữ ký tay của chủ hộ kinh doanh khi giao dịch điện tử: Xuất hóa đơn; Ký hợp đồng; Kê khai thuế điện tử…
+- Cá nhân: Chữ ký số có giá trị pháp lý như chữ ký tay của cá nhân đó khi giao dịch điện tử: Ký hợp đồng; Thanh toán điện tử; Kê khai thuế TNCN…
+
+Lưu ý: để biết thông tin chi tiết vui lòng xem từng đối tượng hỗ trợ
+"
+MISA eSign$Bảng giá - ký số từ xa - Cá nhân, cá nhân thuộc tổ chức, hộ cá nhân kinh doanh$"Bảng giá - ký số từ xa - Cá nhân, cá nhân thuộc tổ chức, hộ cá nhân kinh doanh sản phẩm MISA eSign
+Đáp ứng các nghiệp vụ ký số: 
+- Ký và phát hành Hóa đơn điện tử MISA meInvoice
+- Ký và nộp tờ khai AMIS BHXH
+- Ký hợp đồng điện tử AMIS weSign
+- Ký số trên văn bản dạng PDF, Word, file ảnh...
+- Ký số ngay trên điện thoại di động, tablet
+
+Các gói:
+- 1 năm: 1.350.000 (VND/Gói)
+- 2 năm: 2.250.000 (VND/Gói) - tiết kiệm 19%
+- 3 năm: 3.050.000 (VND/Gói) - tiết kiệm 25%
+- 4 năm: 3.850.000 (VND/Gói) - tiết kiệm 29%
+- 5 năm: 4.550.000 (VND/Gói) - tiết kiệm 33%
+
+Lưu ý: Phí khởi tạo phần mềm chữ ký số từ xa: 500.000 VND/Chứng thư số
+"
+MISA Lending$Bảng giá$"Bảng giá sản phẩm MISA Lending
+GIẢI PHÁP VAY VỐN TỪ CÁC ĐỐI TÁC TÀI CHÍNH UY TÍN
+Các gói vay:
+- Vay thấu chi không tài sản đảm bảo: 3.000.000.000đ
+    + Lãi suất: Chỉ từ 1,29%/tháng
+    + Hạn mức: lên tới 3 tỷ đồng
+    + Thời hạn: 12 tháng
+
+- Vay hạn mức không tài sản đảm bảo: 15.000.000.000 đ
+    + Lãi suất: Từ 0,99%/tháng
+    + Hạn mức: lên tới 15 tỷ đồng
+    + Thời hạn: 12 tháng
+
+- Vay hạn mức không cần thế chấp: 5.000.000.000đ
+    + Lãi suất: Chỉ từ 1,5%/tháng
+    + Hạn mức: lên tới 5 tỷ đồng
+    + Thời hạn: 36 tháng
+
+- Vay trên hóa đơn hoàn toàn tín chấp: 4.600.000.000 đ
+    + Lãi suất: Chỉ từ 9%/năm
+    + Hạn mức: lên tới 4.6 tỷ đồng
+    + Thời hạn: 12 tháng
+
+- Vay trả góp không tài sản đảm bảo: 3.000.000.000đ
+    + Lãi suất: Chỉ từ 1,5%/tháng
+    + Số tiền vay: lên tới 3 tỷ đồng
+    + Thời hạn: 15 - 36 tháng
+"
+MISA Lending$Tổng quan$"Tổng quan sản phẩm MISA Lending
+VAY VỐN TÍN CHẤP DOANH NGHIỆP VỪA VÀ NHỎ
+QUY TRÌNH VAY VỐN QUA MISA LENDING
+1. Đăng nhập MISA meInvoice: Đăng nhập MISA meInvoice hoặc AMIS Kế toán sau đó chọn tab Vay vốn
+2. Chọn gói vay: Lựa chọn gói vay được may đo cho từng doanh nghiệp
+3. Nộp hồ sơ: Hoàn thiện hồ sơ online chỉ trong 2 phút
+4. Nhận phê duyệt: Nhận kết quả phê duyệt sau 1 ngày từ tổ chức cho vay
+5. Nhận giải ngân: Nhận vốn vay từ tổ chức cho vay sau khi ký hợp đồng
+
+VAY VỐN KHÓ - CÓ MISA LENDING
+- Vay vốn dễ dàng: Thẩm định/phê duyệt hồ sơ dựa vào dữ liệu sẵn có trên phần mềm MISA
+- Lãi suất ưu đãi: Kết nối với mạng lưới đối tác tài chính uy tín, đem đến lãi suất ưu đãi cho khách hàng MISA
+- An toàn bảo mật: Tuân thủ nghiêm ngặt tiêu chuẩn bảo mật quốc tế, đảm bảo an toàn dữ liệu của khách hàng
+
+TIẾT KIỆM 70% THỜI GIAN SO VỚI VAY VỐN TRUYỀN THỐNG
+"
+MISA AMIS Kế toán$Tổng quan - Hộ kinh doanh$"Tổng quan - Hộ kinh doanh sản phẩm MISA AMIS Kế toán
+MNâng cao hiệu quả hoạt động của hộ cá nhân kinh doanh
+- Tuân thủ quy định phát luật kế toán, thuế
+  + Đáp ứng chế độ kế toán Thông tư 88/2021/TT-BTC
+  + Nghiệp vụ hóa đơn điện tử theo Thông tư 78/2021/TT-BTC
+  + Kê khai thuế theo Thông tư 40/2021/TT-BTC
+- Nâng cao năng suất
+  + Hệ sinh thái kết nối phần mềm bán hàng, kế toán, hóa đơn,… giúp đồng bộ dữ liệu nhanh chóng
+  + Tự động tổng hợp tờ khai, phụ lục, sổ kế toán chính xác
+- Làm việc  online mọi lúc, mọi nơi: Quản lý dữ liệu Online, tránh rủi ro mất dữ liệu do máy tính hỏng hóc, nhiễm virus…
+- Đơn giản, dễ sử dụng: Không cần cài đặt, hướng dẫn sử dụng chi tiết, giao diện trực quan giúp người dùng dễ tiếp cận
+
+Bộ giải pháp quản trị kế toán, thuế, bán hàng dành cho hộ cá nhân kinh doanh
+- Đầy đủ chứng từ, sổ kế toán: Cung cấp đầy đủ các mẫu chứng từ, sổ kế toán theo Thông tư 88/2021/TT-BTC: Phiếu thu, Phiếu chi, Phiếu nhập, Phiếu xuất… Sổ quỹ tiền mặt, Sổ tiền gửi ngân hàng, Sổ chi tiết doanh thu bán hàng hóa, dịch vụ
+- Đầy đủ Tờ khai và Phụ lục khai thuế: Cung cấp đầy đủ các mẫu Tờ khai và Phụ lục khai thuế Thông tư 40/2021/TT-BTC.Tự động tổng hợp số liệu lên tờ khai, phụ lục giúp tiết kiệm thời gian, giảm sai sót
+- Kết nối phần mềm hóa đơn điện tử: Kết nối phần mềm hóa đơn điện tử MISA meInvoice đáp ứng Thông tư 78/2021/TT-BTC, tự động truyền hóa đơn có mã sang hệ thống của cơ quan thuế theo đúng quy định
+- Kết nối phần mềm Chữ ký số từ xa:  Tích hợp chữ ký số từ xa MISA eSign giúp ký, phát hành hóa đơn mọi lúc, mọi nơi trên mọi thiết bị, nền tảng không cần USB token
+- Kết nối phần mềm bán hàng: Kết nối phần mềm bán hàng MISA Cukcuk, MISA eShop kế thừa thông tin bán hàng để ghi lên chứng từ, số kế toán tiết kiệm thời gian nhập liệu, tổng hợp báo cáo. Sẵn sàng kết nối phần mềm quản trị bán hàng của các nhà cung cấp khác
+"
+MISA AMIS Kế toán$Bảng giá - Hộ, cá nhân kinh doanh$"Bảng giá - Hộ, cá nhân kinh doanh sản phẩm MISA AMIS Kế toán
+Phần mềm kế toán hộ, cá nhân kinh doanh: Giá 2.400.000 VND/Năm
+- Gói 03 người dùng
+- 07 nghiệp vụ: Quỹ, Ngân hàng, Mua hàng, Bán hàng, Thuế, Kho, Tiền lương
+"
+MISA AMIS Kế toán$Bảng giá - Doanh nghiệp$"Bảng giá - Doanh nghiệp sản phẩm MISA AMIS Kế toán
+Các gói:
+- Starter: 2.450.000 VNĐ/Năm
+    + Gói 01 người dùng
+    + 08 nghiệp vụ: Quỹ, Thủ Quỹ, Ngân hàng, Bán hàng, Quản lý hoá đơn, Thuế, Thuế điện tử (MISA Mtax), Tổng hợp
+    + Ngân hàng điện tử (JetPay BankHub) 1000 Chứng từ/Năm
+- Standard: 3.950.000 VND/Năm
+    + Gói 03 người dùng
+    + 12 nghiệp vụ: Quỹ, Thủ Quỹ, Ngân hàng, Bán hàng, Quản lý hoá đơn, Thuế, Thuế điện tử (MISA mTax), Tổng hợp, Mua hàng, Kho, Thủ kho, Công cụ dụng cụ
+    + Ngân hàng điện tử (JetPay BankHub) 1000 Chứng từ/Năm
+- Professional: 5.450.000 VND/Năm
+    + Gói 03 người dùng
+    + 16 nghiệp vụ: Quỹ, Thủ Quỹ, Ngân hàng, Bán hàng, Quản lý hoá đơn, Thuế, Thuế điện tử (MISA mTax), Tổng hợp, Mua hàng, Kho, Thủ kho, Công cụ dụng cụ, Tiền lương, Tài sản cố định, Hợp đồng, Khế ước vay.
+    + Ngân hàng điện tử (JetPay BankHub) 1000 Chứng từ/Năm
+- Enterprise: 6.450.000 VND/Năm
+    + Gói 03 người dùng
+    + 17 nghiệp vụ: Quỹ, Thủ Quỹ, Ngân hàng, Bán hàng, Quản lý hoá đơn, Thuế, Thuế điện tử (MISA mTax), Tổng hợp, Mua hàng, Kho, Thủ kho, Công cụ dụng cụ, Tiền lương, Tài sản cố định, Hợp đồng, Khế ước vay, Giá thành
+    + Ngân hàng điện tử (JetPay BankHub) 1000 Chứng từ/Năm
+- Enterprise Plus: 20.450.000 VND/Năm
+    + Gói 10 người dùng
+    + 20 nghiệp vụ: Quỹ, Thủ Quỹ, Ngân hàng, Bán hàng, Quản lý hoá đơn, Thuế, Tổng hợp, Mua hàng, Kho, Thủ kho, Công cụ dụng cụ, Tiền lương, Tài sản cố định, Hợp đồng, Khế ước vay, Thuế điện tử (MISA mTax), Giá thành, Phân tích tài chính, Quản lý ngân sách, Thu nợ.
+    + Ngân hàng điện tử (JetPay BankHub) 1000 Chứng từ/Năm
+"
+MISA AMIS Kế toán$Dùng thử$"Dùng thử sản phẩm MISA AMIS Kế toán
+Để dùng thử phần mềm MISA SME, vui lòng truy cập trang web https://sme.misa.vn/ chọn Dùng thử miễn phí, quý khách sẽ được dùng thử 15 ngày miễn phí hoàn toàn 20 phân hệ phần mềm kế toán
+"
+MISA AMIS Kế toán$Bảng giá$"Bảng giá sản phẩm MISA AMIS Kế toán
+Có 2 phương thức trả phí khi sử dụng phần mềm:
+- Trả phí định kỳ
+    + Thanh toán dịch vụ phần mềm linh hoạt định kỳ, giảm rủi ro đầu tư kinh doanh
+    + Cập nhật kịp thời các thay đổi về chế độ kế toán, chính sách thuế. Liên tục cập nhật nghiệp vụ, tiện ích mới
+    + Kết nối linh hoạt với các hệ thống quản trị của doanh nghiệp (Nhân sự, Bán hàng, Mua hàng, Tài sản...) tạo thành hệ sinh thái quản trị doanh nghiệp khép kín nâng cao năng suất, hiệu quả 
+    + Ứng dụng công nghệ tiên tiến nhất. An toàn, bảo mật theo tiêu chuẩn quốc tế
+- Trả phí 1 lần:
+    + Thời hạn bảo hành 12 tháng kể từ ngày Quý khách nhận được Giấy phép sử dụng 
+    + Trong thời gian bảo hành, Quý khách được cập nhật miễn phí lên các phiên bản cập nhật, nhưng không được cập nhật lên phiên bản nâng cấp của phần mềm MISA SME Quý khách 
+    + Hết thời gian bảo hành, Quý khách vẫn được sử dụng tiếp phần mềm MISA SME Quý khách đã mua. Để được cập nhật các thay đổi về chế độ kế toán, chính sách thuế, hóa đơn, công nghệ... Quý khách có thể chuyển sang phần mềm kế toán online AMIS Kế toán hoặc MISA SME bản trả phí định kỳ hoặc phiên bản nâng cấp của phần mềm MISA SME Quý khách đã mua 
+
+Lưu ý: Để biết thông tin chi tiết về giá, vui lòng xem thi tiết từng phương thức
+"
+MISA AMIS Kế toán$Tính năng nổi bật$"Tính năng nổi bật sản phẩm MISA AMIS Kế toán
+Là phần mềm kế toán sẽ thay đổi hoàn toàn vị thế của kế toán
+- Xem báo cáo điều hành mọi lúc mọi nơi: Giám đốc, kế toán trưởng có thể theo dõi tình hình tài chính ngay trên di động, kịp thời ra quyết định điều hành doanh nghiệp.
+- Kết nối ngân hàng điện tử: Kết nối với ngân hàng để chuyển tiền, đối chiếu sổ phụ, nắm bắt số dư theo thời gian thực giúp tiết kiệm thời gian, công sức.
+- Kết nối với Cơ quan Thuế: Cho phép kế toán dễ dàng kê khai đầy đủ các loại thuế theo quy định và nộp thuế thuế điện tử ngay trên phần mềm.
+- Kết nối với hơn 100 đối tác:  Kết nối với các hệ thống hóa đơn điện tử, chữ ký số, bán hàng, nhân sự, email, sms,… giảm thiểu nhập liệu chồng chéo, sai lệch dữ liệu.
+- Tự động nhập liệu: Tự động nhập liệu hóa đơn mua hàng, bán hàng, nhập khẩu dữ liệu từ excel giúp rút ngắn thời gian nhập liệu, tránh sai sót.
+- Đầy đủ báo cáo quản trị: Hàng trăm báo cáo quản trị theo mẫu hoặc tự thiết kế chỉnh sửa, đáp ứng nhu cầu của doanh nghiệp thuộc mọi ngành nghề.
+- Tự động hóa việc lập báo cáo: Tự động tổng hợp số liệu lên báo cáo thuế, báo cáo tài chính và các sổ sách giúp doanh nghiệp nộp báo cáo kịp thời, chính xác.
+- Hỗ trợ kiểm soát chứng từ hợp lệ: Gợi ý thông tin KH/ NCC dựa trên MST giúp tiết kiệm thời gian nhập liệu. Cảnh báo NCC ngưng hoạt động tránh rủi ro về hoá đơn.
+- Giám sát tồn kho: Nắm bắt thông tin tồn kho chi tiết theo từng nhu cầu quản trị của DN như số lô, HSD, màu sắc, chủng loại giúp tránh thất thoát, lãng phí.
+- Hệ sinh thái đa dạng thực hiện tất cả trên phần mềm kế toán MISA SME: Kết nối đồng bộ với nhiều hệ thống tránh nhập liệu chồng chéo, sai lệch dữ liệu
+"
+MISA AMIS Kế toán$Tổng quan$"Tổng quan sản phẩm MISA AMIS Kế toán
+Phần mềm kế toán được sử dụng phổ biến nhất
+Đáp ứng đầy đủ các nghiệp vụ kế toán, lĩnh vực kinh doanh. 
+Làm việc mọi lúc mọi nơi, kết nối với hệ thống ngân hàng, thuế, hoá đơn điện tử và các hệ thống khác.
+Phần mềm kế toán MISA được doanh nghiệp, hộ cá nhân kinh doanh tin dùng nhất hiện nay, tự hào mang tới hiệu quả vượt trội cho hơn 170.000 khách hàng tổ chức đang sử dụng
+Hỗ trợ cho cả doanh nghiệp và hộ cá nhân kinh doanh
+
+Giải thưởng đạt được
+-ASOCIO Outstanding 
+-ICT Company Award 2018
+-Sao Khuê 2016
+-Sản phẩm ưa chuộng nhất trong năm 2010
+-Sao Khuê 2008
+-Cúp vàng Gold Cup 2007
+"
+MISA AMIS Kế toán$Bảng giá - Trả phí 1 lần$"Bảng giá - Trả phí 1 lần sản phẩm MISA AMIS Kế toán
+Các gói:
+- Standard: 7.950.000 (VND/Gói)
+    + 13 nghiệp vụ: Quỹ, Thủ Quỹ, Ngân hàng, Muahàng, Bán hàng, Quản lý hoá đơn, Thuế, Kho, Thủ kho, Công cụ dụng cụ, Tổng hợp, Thuếđiện tử (MISA mTax), Ngân hàng điện tử(JetPay BankHub)(*)
+    + Số lượng người dùng: 03
+    + Mua thêm mỗi gói 1 người dùng: giá 2.550.000 VND/gói
+- Professional: 10.950.000 (VND/Gói)
+    + 17 nghiệp vụ: Quỹ, Thủ Quỹ, Ngân hàng, Muahàng, Bán hàng, Quản lý hoá đơn, Thuế, Kho, Thủ kho, Công cụ dụng cụ, Tổng hợp, Thuếđiện tử (MISA mTax), Ngân hàng điện tử(JetPay BankHub)(*), Tài sản cố định, Hợp đồng, Khế ước vay, Tiền lương
+    + Số lượng người dùng: 03
+    + Mua thêm mỗi gói 1 người dùng: giá 3.550.000 VND/gói
+- Enterprise: 13.950.000 (VND/Gói)
+    + 19 nghiệp vụ: Quỹ, Thủ Quỹ, Ngân hàng, Muahàng, Bán hàng, Quản lý hoá đơn, Thuế, Kho, Thủ kho, Công cụ dụng cụ, Tổng hợp, Thuếđiện tử (MISA mTax), Ngân hàng điện tử(JetPay BankHub)(*), Tài sản cố định, Hợp đồng, Khế ước vay, Tiền lương, Giá thành, Ngân sách
+    + Số lượng người dùng: 03
+    + Mua thêm mỗi gói 1 người dùng: giá 4.550.000 VND/gói
+"
+MISA AMIS Kế toán$Bảng giá - Trả phí định kỳ$"Bảng giá - Trả phí định kỳ sản phẩm MISA AMIS Kế toán
+Các gói:
+- Standard: 4.450.000 (VND/Năm)
+    + 13 nghiệp vụ: Quỹ, Thủ Quỹ, Ngân hàng, Muahàng, Bán hàng, Quản lý hoá đơn, Thuế, Kho,Thủ kho, Công cụ dụng cụ, Tổng hợp, Thuếđiện tử (MISA mTax), Ngân hàng điện tử(JetPay BankHub)(*)
+    + Số lượng người dùng: 03
+    + Mua thêm mỗi gói 1 người dùng: giá 1.450.000 VND/gói
+- Professional: 5.950.000 (VND/Năm)
+    + 17 nghiệp vụ: Quỹ, Thủ Quỹ, Ngân hàng, Muahàng, Bán hàng, Quản lý hoá đơn, Thuế, Kho,Thủ kho, Công cụ dụng cụ, Tổng hợp, Thuếđiện tử (MISA mTax), Ngân hàng điện tử(JetPay BankHub)(*), Tài sản cố định, Hợpđồng, Khế ước vay, Tiền lương
+    + Số lượng người dùng: 03
+    + Mua thêm mỗi gói 1 người dùng: giá 1.950.000 VND/gói
+- Enterprise: 7.450.000 (VND/Năm)
+    + 19 nghiệp vụ: Quỹ, Thủ Quỹ, Ngân hàng, Muahàng, Bán hàng, Quản lý hoá đơn, Thuế, Kho,Thủ kho, Công cụ dụng cụ, Tổng hợp, Thuếđiện tử (MISA mTax), Ngân hàng điện tử(JetPay BankHub)(*), Tài sản cố định, Hợpđồng, Khế ước vay, Tiền lương, Giá thành,Ngân sách
+    + Số lượng người dùng: 03
+    + Mua thêm mỗi gói 1 người dùng: giá 2.450.000 VND/gói
+"
+MISA AMIS Kế toán$Tổng quan - Doanh nghiệp$"Tổng quan - Doanh nghiệp sản phẩm MISA AMIS Kế toán
+Hỗ trợ quản trị điều hành, nâng cao hiệu quả hoạt động doanh nghiệp
+- Nâng cao năng suất: Tự động hạch toán từ: Hóa đơn, Bảng Excel….Tự động tổng hợp báo cáo thuế, BCTC chính xác, nhanh chóng.
+- Quản trị tài chính tức thời: Giám đốc luôn nắm được tình hình tài chính:Doanh thu, Lợi nhuận, Chi phí, Dòng tiền, Công nợ, Tồn kho… mọi lúc, mọi nơi giúp kịp thời ra quyết định điều hành.
+- Làm việc Online  mọi lúc, mọi nơi: Nhiều người có thể làm việc cùng lúc, quản lý dữ liệu Online, tránh rủi ro mất dữ liệu do sự cố máy tính.
+- Sử dụng dễ dàng: Không cần cài đặt, hướng dẫn sử dụng chi tiết, giao diện trực quan giúp người dùng dễ tiếp cận.
+
+MISA AMIS - Tính năng vượt trội thay đổi hoàn toàn vị thế của kế toán trong doanh nghiệp
+- Đầy đủ các nghiệp vụ kế toán: Đầy đủ 20 nghiệp vụ kế toán theo TT133 & TT200, từ Quỹ, Ngân hàng, Mua hàng, Bán hàng, Kho, Hóa đơn, Thuế, Giá thành,…
+- Tự động nhập liệu: Tự động nhập liệu từ hóa đơn điện tử, nhập khẩu dữ liệu từ Excel giúp rút ngắn thời gian nhập chứng từ, tránh sai sót.
+- Hỗ trợ kiểm soát chứng từ hợp lệ: Cảnh báo nhà cung cấp ngừng hoạt động tránh rủi ro về hoá đơn
+- Cảnh báo thông minh: Nhắc nhở hạn kê khai, nộp thuế; cảnh báo tồn kho, các khoản công nợ đến hạn
+- Quy trình phê duyệt tiện lợi: Xây dựng quy trình đề xuất, phê duyệt tạm ứng tự động ngay trên phần mềm
+- Tự động hóa  việc lập báo cáo: Tự động tổng hợp số liệu lên báo cáo thuế, báo cáo tài chính giúp doanh nghiệp nộp báo cáo kịp thời, chính xác
+- Đầy đủ các mẫu báo cáo quản trị: Hàng trăm báo cáo quản trị cung cấp kịp thời, đầy đủ mọi thông tin tài chính, dễ dàng theo dõi ngay trên điện thoại
+- Hệ sinh thái kết nối tiện ích: Kết nối Tổng cục thuế, ngân hàng điện tử, hóa đơn điện tử, phần mềm bán hàng,… giúp đồng bộ dữ liệu nhanh chóng. Kết nối khách hàng qua Zalo, Email để đối chiếu công nợ.
+"
+MISA mTax$Tính năng nổi bật$"Tính năng nổi bật sản phẩm MISA mTax
+Kê khai, nộp thuế thuận tiện, nhanh chóng hơn với MISA mTax:
+- Kê khai, nộp thuế ngay trên phần mềm kế toán.
+- Lập tờ khai, kê khai, nộp thuế ngay trên phần mềm kế toán, doanh nghiệp KHÔNG CẦN: Sử dụng nhiều phần mềm; Thực hiện nhiều thao tác xuất khẩu, đính kèm file,… rút ngắn thời gian kê khai và nộp thuế.
+- Quản lý hồ sơ thuế tập trung.
+- Tra cứu trạng thái của các loại tờ khai, báo cáo và nhận thông báo từ Cơ Quan Thuế ngay trên phần mềm kế toán, không phải truy cập nhiều hệ thống riêng lẻ.
+"
+MISA mTax$Tổng quan$"Tổng quan sản phẩm MISA mTax
+Dịch vụ kê khai, nộp thuế điện tử ngay trên phần mềm kế toán
+- Đã được Tổng Cục Thuế cấp phép
+- Đáp ứng đầy đủ mọi nghiệp vụ kê khai, nộp thuế cho Doanh nghiệp và Cá nhân (doanh nghiệp kê khai hộ)
+- Tích hợp ngay trên phần mềm kế toán MISA tạo thành hệ sinh thái khép kín giúp kê khai, nộp thuế thuận tiện, nhanh chóng hơn
+
+Lý do khách hàng chọn MISA mTax
+- Đầy đủ nghiệp vụ: Đáp ứng đầy đủ mọi nghiệp vụ kê khai, nộp thuế điện tử theo quy định
+- Thuận tiện, nhanh chóng: Kết nối với phần mềm kế toán, Chữ ký số điện tử giúp kê khai, nộp thuế
+thuận tiện hơn
+- An toàn, bảo mật: Hệ thống máy chủ đạt tiêu chuẩn quốc tế về an ninh thông tin ISO 27000,
+CSA STAR đảm bảo an toàn, bảo mật dữ liệu thuế
+- Thương hiệu uy tín: Hơn 25 Năm kinh nghiệm – Hơn 100 giải thưởng – Hơn 250.000 tổ chức và hàng
+triệu cá nhân
+- Hỗ trợ kịp thời: Hàng trăm nhân viên tư vấn chuyên nghiệp tận tình 24/7. Đa dạng kênh hỗ trợ
+"
+MISA AMIS Tuyển dụng$Bảng giá$"Bảng giá sản phẩm MISA AMIS Tuyển dụng
+Báo giá sản phẩm Tuyển dụng theo tháng:
+Chọn một gói sản phẩm phù hợp với nhu cầu doanh nghiệp của bạn
+- Starter:
+    + 375.000 VND/Tháng
+    + Không giới hạn tính năng
+    + Số nhân viên được sử dụng tối đa: 5
+- Standard:
+    + 700.000 VND/Tháng
+    + Không giới hạn tính năng
+    + Số nhân viên được sử dụng tối đa: 10
+- Professional: (Gói khuyên dùng)
+    + 1.300.000 VND/Tháng
+    + Không giới hạn tính năng
+    + Số nhân viên được sử dụng tối đa: 20
+- Enterprise:
+    + 1.800.000 VND/Tháng
+    + Không giới hạn tính năng
+    + Số nhân viên được sử dụng tối đa: 30
+- Enterprise Plus:
+    + 2.750.000 VND/Tháng
+    + Không giới hạn tính năng
+    + Số nhân viên được sử dụng tối đa: 50
+
+Báo giá sản phẩm Tuyển dụng theo năm:
+Chọn một gói sản phẩm phù hợp với nhu cầu doanh nghiệp của bạn
+- Starter:
+    + 4.500.000 VND/Năm
+    + Không giới hạn tính năng
+    + Số nhân viên được sử dụng tối đa: 5
+- Standard:
+    + 8.400.000 VND/Năm
+    + Không giới hạn tính năng
+    + Số nhân viên được sử dụng tối đa: 10
+- Professional: (Gói khuyên dùng)
+    + 15.600.000 VND/Năm
+    + Không giới hạn tính năng
+    + Số nhân viên được sử dụng tối đa: 20
+- Enterprise:
+    + 21.600.000 VND/Năm
+    + Không giới hạn tính năng
+    + Số nhân viên được sử dụng tối đa: 30
+- Enterprise Plus:
+    + 33.000.000 VND/Năm
+    + Không giới hạn tính năng
+    + Số nhân viên được sử dụng tối đa: 50
+    
+Lưu ý: Phần mềm AMIS Tuyển dụng thanh toán tối thiểu 12 tháng/lần
+"
+MISA AMIS Tuyển dụng$Tính năng nổi bật$"Tính năng nổi bật sản phẩm MISA AMIS Tuyển dụng
+- Tự động hóa quy trình và tăng năng suất tuyển dụng: Tự động hoá quy trình trên phần mềm quản lý tuyển dụng giúp tiết kiệm thời gian, tăng năng suất của nhà tuyển dụng, đồng thời giảm thời gian chờ đợi của ứng viên và nâng cao sự chuyên nghiệp của nhà tuyển dụng
+- Tự động nhập liệu hồ sơ ứng viên: Tự động trích xuất thông tin hồ sơ của ứng viên ở mọi định dạng: PFD, word, ảnh để nhập liệu thông minh
+- Quản lý ứng viên tài năng: Tự động gợi ý ứng viên phù hợp với nhu cầu tuyển dụng từ nguồn hồ sơ có sẵn trong Talent
+- Lọc hồ sơ tự động: Tự động sàng lọc hồ sơ, sắp xếp lịch phỏng vấn và thông báo kết quả cho ứng viên
+- Thi tuyển phỏng vấn online: Tổ chức thi tuyển, phỏng vấn online và tự động cập nhật kết quả tức thời
+- Tự động nhập liệu hồ sơ ứng viên: Tự động trích xuất thông tin hồ sơ của ứng viên ở mọi định dạng: PFD, word, ảnh để nhập liệu thông minh
+- Quản lý ứng viên tài năng: Tự động gợi ý ứng viên phù hợp với nhu cầu tuyển dụng từ nguồn hồ sơ có sẵn trong Talent
+- Lọc hồ sơ tự động: Tự động sàng lọc hồ sơ, sắp xếp lịch phỏng vấn và thông báo kết quả cho ứng viên
+- Thi tuyển phỏng vấn online: Tổ chức thi tuyển, phỏng vấn online và tự động cập nhật kết quả tức thời
+"
+MISA AMIS Tuyển dụng$Tổng quan$"Tổng quan sản phẩm MISA AMIS Tuyển dụng
+Phần mềm quản lý tuyển dụng AMIS – Giải pháp số hóa giúp tự động hóa quy trình tuyển dụng
+Hơn cả một phần mềm quản lý Tuyển dụng, chúng tôi giúp bạn chiến thắng cuộc đua tìm kiếm nhân tài, tìm kiếm, kết nối và tiếp nhận hồ sơ nhân tài ở khắp mọi nơi.
+Phần mềm tuyển dụng MISA AMIS kết nối với toàn bộ mạng xã hội và website tuyển dụng phổ biến nhất giúp tăng số lượng hồ sơ ứng viên tiềm năng, dễ dàng tổ chức và quản lý từng chiến dịch tuyển dụng.
+Kết nối LinkedIn giúp dễ dàng đăng tin tuyển dụng và lấy hồ sơ ứng viên chỉ với một nút nhấn
+Tự động lấy hồ sơ ứng viên chất lượng từ các sàn phổ biến nhất: Vietnamworks, Career builder, Vieclam24h
+Tự động tổng hợp hồ sơ ứng viên từ toàn bộ các kênh tuyển dụng về chung một hệ thống duy nhất.
+Tối ưu chi phí tuyển dụng nhờ có AMIS nắm bắt tức thời mọi báo cáo tuyển dụng: Báo cáo tổng quan và chi tiết giúp nhà tuyển dụng phân bổ nguồn lực hợp lý cho từng Kênh – tiết kiệm chi phí tuyển dụng
+Tỷ lệ chuyển đổi: Báo cáo tỷ lệ chuyển đổi ứng viên theo từng phòng ban và vị trí tuyển dụng
+Nguồn ứng viên: Thống kê và phân tích số lượng ứng viên theo từng kênh tuyển dụng
+Hiệu quả tuyển dụng: Tự động đo lường chi phí trung bình để tuyển dụng được một nhân viên theo từng kênh
+Nâng cao thương hiệu tuyển dụng giúp tăng vượt trội số lượng ứng viên tiềm năng. Với phần mềm tuyển dụng AMIS, chưa tới 10 phút là doanh nghiệp có ngay một website tuyển dụng thu hút, chuyên nghiệp giúp nâng tầm thương hiệu và thu hút ứng viên tiềm năng:
+- Tích hợp sẵn nhiều mẫu website miễn phí
+- Tích hợp mẫu đơn ứng tuyển thích hợp cho từng vị trí
+"
+MISA BankHub$Bảng giá$"Bảng giá sản phẩm MISA BankHub
+Báo giá phần mềm kết nối ngân hàng điện tử MISA BankHub:
+- KHỞI TẠO PHẦN MỀM: 500.000 VNĐ Doanh nghiệp
+- DỊCH VỤ PHẦN MỀM: 1.200.000 VNĐ Doanh nghiệp/năm
+ƯU ĐÃI ĐẶC BIỆT: Miễn phí dịch vụ MISA BankHub với các doanh nghiệp đăng ký dịch vụ Ngân hàng điện tử từ nay đến 31/12/2020. Cùng HÀNG NGÀN ƯU ĐÃI đến từ khắp các ngân hàng liên kết cùng MISA BankHub
+"
+MISA BankHub$Tính năng nổi bật$"Tính năng nổi bật sản phẩm MISA BankHub
+MISA BANKHUB – TRỢ THỦ GIÚP KẾ TOÁN TIẾT KIỆM THỜI GIAN GIAO DỊCH
+
+CHUYỂN TIỀN TRỰC TUYẾN NGAY TRÊN PHẦN MỀM:
+- Cho phép kế toán viên lập, kế toán trưởng phê duyệt lệnh chuyển tiền ngay trên phần mềm
+- Thực hiện được các loại Ủy nhiệm chi cho nhà cung cấp, thông thường hoặc chuyển nội bộ
+
+TRA CỨU SỐ DƯ TÀI KHOẢN NHANH CHÓNG VÀ CHÍNH XÁC:
+- Kế toán dễ dàng tra cứu số dư tài khoản thanh toán ngay trên phần mềm
+- Tiết kiệm thời gian và thao tác kiểm tra, xác minh tài khoản
+
+DỄ DÀNG TRA CỨU LỊCH SỬ GIAO DỊCH:
+- Tra cứu nhanh lịch sử giao dịch của tài khoản trong một khoảng thời gian
+- Tiết kiệm thời gian tra cứu tại ngân hàng
+- Lập nhanh UNC, Chứng từ thu tiền gửi từ những giao dịch thu, chi tiền không thực hiện trên phần mềm MISA SME.NET 2020
+
+NHANH CHÓNG ĐỐI CHIẾU NGÂN HÀNG ONLINE:
+- Đối chiếu số dư và các giao dịch đã phát sinh trong ngày (tuần hoặc tháng) ó khớp nhau giữa sổ phụ ngân hàng và số kế toán của đơn vị
+- Thuận tiện trong việc phát hiện sai lệch (nếu có) và nhanh chóng tìm ra nguyên nhân
+
+THUẬN TIỆN QUẢN LÝ LỆNH CHUYỂN TIỀN:
+- Dễ dàng xem thông tin lệnh chuyển tiền
+- Nhanh chóng phê duyệt lệnh chuyển tiền
+- Tức thời thu hồi lệnh chuyển tiền
+- Nắm bắt nhật ký giao dịch lệnh chuyển tiền
+
+THANH TOÁN LƯƠNG TRỰC TUYẾN
+- Chuyển tiền lương cho nhân viên
+- Phê duyệt lương từ kế toán trưởng và giám đốc ngay trên phần mềm
+- Không phải mất công nhập liệu 2 lần
+- Tự động hạch toán dễ dàng ngay trên phần mềm
+"
+MISA BankHub$Tổng quan$"Tổng quan sản phẩm MISA BankHub
+MISA BANKHUB LÀ DỊCH VỤ KẾT NỐI NGÂN HÀNG ĐIỆN TỬ DUY NHẤT TẠI VIỆT NAM, cho phép kế toán ngồi tại văn phòng cũng có thể thực hiện đầy đủ giao dịch với ngân hàng ngay trên dịch vụ kế toán.
+
+Lợi ích khi sử dụng MISA BankHub:
+- An toàn bảo mật
+- Áp dụng cơ chế xác thực 02 lần (2FA) để xác minh cho các giao dịch tài chính
+- Để sử dụng dịch vụ phải đăng nhập bằng tên đăng nhập và mật khẩu hợp lệ, tự động đăng xuất sau 15 phút không hoạt động
+
+Tin tức nổi bật:
+- MISA BankHub kết nối với MSB tiên phong trong việc kết nối hệ thống gia tăng lợi ích cho doanh nghiệp
+- MISA hợp tác cùng VPBank triển khai Dịch vụ kết nối ngân hàng điện tử MISA BankHub
+- MISA ký kết hợp tác với MB Bank – Nâng tầm trải nghiệm khách hàng
+
+Khách hàng nói về chúng tôi:
+- ""Mỗi giao dịch chuyển tiền đều được xác thực 02 lần bằng mã OTP nên tôi yên tâm về các giao dịch trên MISA BankHub"" - Chị Dung (CÔNG TY TNHH DACO)
+- ""MISA BankHub tự động hạch toán chứng từ thu, chi tiền gửi từ sổ phụ hoặc lịch sử giao dịch giúp tôi tiết kiệm được thời gian nhập liệu."" - Chị Hương (CÔNG TY TNHH JCT VIỆT NAM)
+- ""Mình thấy điểm tiện ích nhất trên MISA BankHub là mình có thể lấy được sổ phụ luôn mà không phải đi ngân hàng và phần mềm còn tự hạch toán chứng từ thu, chi tiền từ sổ phụ."" - Chị Ngọc (CÔNG TY TNHH HỆ THỐNG ĐIỆN VÀ TỰ ĐỘNG HÓA VIỆT NAM)
+"
+MISA SME$Dùng thử$"Dùng thử sản phẩm MISA SME
+Để dùng thử phần mềm MISA SME, vui lòng truy cập trang web https://sme.misa.vn/ chọn Dùng thử miễn phí, quý khách sẽ được dùng thử 15 ngày miễn phí hoàn toàn 20 phân hệ phần mềm kế toán"
+MISA SME$Bảng giá$"Bảng giá sản phẩm MISA SME
+Có 2 phương thức trả phí khi sử dụng phần mềm:
+- Trả phí định kỳ
+    + Thanh toán dịch vụ phần mềm linh hoạt định kỳ, giảm rủi ro đầu tư kinh doanh
+    + Cập nhật kịp thời các thay đổi về chế độ kế toán, chính sách thuế. Liên tục cập nhật nghiệp vụ, tiện ích mới
+    + Kết nối linh hoạt với các hệ thống quản trị của doanh nghiệp (Nhân sự, Bán hàng, Mua hàng, Tài sản...) tạo thành hệ sinh thái quản trị doanh nghiệp khép kín nâng cao năng suất, hiệu quả 
+    + Ứng dụng công nghệ tiên tiến nhất. An toàn, bảo mật theo tiêu chuẩn quốc tế
+- Trả phí 1 lần:
+    + Thời hạn bảo hành 12 tháng kể từ ngày Quý khách nhận được Giấy phép sử dụng 
+    + Trong thời gian bảo hành, Quý khách được cập nhật miễn phí lên các phiên bản cập nhật, nhưng không được cập nhật lên phiên bản nâng cấp của phần mềm MISA SME Quý khách 
+    + Hết thời gian bảo hành, Quý khách vẫn được sử dụng tiếp phần mềm MISA SME Quý khách đã mua. Để được cập nhật các thay đổi về chế độ kế toán, chính sách thuế, hóa đơn, công nghệ... Quý khách có thể chuyển sang phần mềm kế toán online AMIS Kế toán hoặc MISA SME bản trả phí định kỳ hoặc phiên bản nâng cấp của phần mềm MISA SME Quý khách đã mua 
+
+Lưu ý: Để biết thông tin chi tiết về giá, vui lòng xem thi tiết từng phương thức
+"
+MISA SME$Tính năng nổi bật$"Tính năng nổi bật sản phẩm MISA SME
+Là phần mềm kế toán sẽ thay đổi hoàn toàn vị thế của kế toán
+- Xem báo cáo điều hành mọi lúc mọi nơi: Giám đốc, kế toán trưởng có thể theo dõi tình hình tài chính ngay trên di động, kịp thời ra quyết định điều hành doanh nghiệp.
+- Kết nối ngân hàng điện tử: Kết nối với ngân hàng để chuyển tiền, đối chiếu sổ phụ, nắm bắt số dư theo thời gian thực giúp tiết kiệm thời gian, công sức.
+- Kết nối với Cơ quan Thuế: Cho phép kế toán dễ dàng kê khai đầy đủ các loại thuế theo quy định và nộp thuế thuế điện tử ngay trên phần mềm.
+- Kết nối với hơn 100 đối tác:  Kết nối với các hệ thống hóa đơn điện tử, chữ ký số, bán hàng, nhân sự, email, sms,… giảm thiểu nhập liệu chồng chéo, sai lệch dữ liệu.
+- Tự động nhập liệu: Tự động nhập liệu hóa đơn mua hàng, bán hàng, nhập khẩu dữ liệu từ excel giúp rút ngắn thời gian nhập liệu, tránh sai sót.
+- Đầy đủ báo cáo quản trị: Hàng trăm báo cáo quản trị theo mẫu hoặc tự thiết kế chỉnh sửa, đáp ứng nhu cầu của doanh nghiệp thuộc mọi ngành nghề.
+- Tự động hóa việc lập báo cáo: Tự động tổng hợp số liệu lên báo cáo thuế, báo cáo tài chính và các sổ sách giúp doanh nghiệp nộp báo cáo kịp thời, chính xác.
+- Hỗ trợ kiểm soát chứng từ hợp lệ: Gợi ý thông tin KH/ NCC dựa trên MST giúp tiết kiệm thời gian nhập liệu. Cảnh báo NCC ngưng hoạt động tránh rủi ro về hoá đơn.
+- Giám sát tồn kho: Nắm bắt thông tin tồn kho chi tiết theo từng nhu cầu quản trị của DN như số lô, HSD, màu sắc, chủng loại giúp tránh thất thoát, lãng phí.
+- Hệ sinh thái đa dạng thực hiện tất cả trên phần mềm kế toán MISA SME: Kết nối đồng bộ với nhiều hệ thống tránh nhập liệu chồng chéo, sai lệch dữ liệu"
+MISA SME$Tổng quan$"Tổng quan sản phẩm MISA SME
+Tự động hóa công tác Tài chính – Kế Toán trên một phần mềm
+Giảm đến 80% thao tác thủ công, tối ưu hiệu suất làm việc của bộ phận kế toán.
+Hệ thống cảnh báo thông minh, tránh bỏ lỡ công việc, giảm sai sót dữ liệu.
+Tự động lập BCTC, báo cáo đa chiều, giúp lãnh đạo ra quyết định nhanh chóng, dễ dàng.
+
+Trải nghiệm miễn phí đến 15 ngày
+MISA – Hơn 27 năm kinh nghiệm trong lĩnh vực phát triển phần mềm kế toán cho hơn 170.000 doanh nghiệp
+
+Cung cấp mọi góc nhìn về tình hình tài chính doanh nghiệp
+Nhập liệu tự động và kiểm soát tính hợp lệ từ các giao dịch ngân hàng, hóa đơn, mã số thuế… 
+Là một phần mềm kế toán đơn giản, thông minh và đôi lúc thật kỳ diệu.
+- Nâng cao năng suất: Tự động hạch toán từ Hóa đơn đầu vào, Báo cáo ngân hàng. Tự động tổng hợp báo cáo thuế, BCTC tiết kiệm 80% thời gian nhập liệu.
+- Kết nối thông minh: Kết nối Tổng cục thuế, Ngân hàng, Hóa đơn điện tử, Chữ ký số, Phần mềm bán hàng… tạo thành hệ sinh thái xử lý dữ liệu nhanh, tiện.
+- Quản trị tài chính tức thời: Giám đốc luôn nắm được tình hình tài chính: Doanh thu, Lợi nhuận, Chi phí, Công nợ,… mọi lúc, mọi nơi kịp thời ra quyết định điều hành.
+
+Giải thưởng đạt được
+-ASOCIO Outstanding 
+-ICT Company Award 2018
+-Sao Khuê 2016
+-Sản phẩm ưa chuộng nhất trong năm 2010
+-Sao Khuê 2008
+-Cúp vàng Gold Cup 2007"
+MISA SME$Bảng giá - Trả phí 1 lần$"Bảng giá - Trả phí 1 lần sản phẩm MISA SME
+Các gói:
+- Standard: 7.950.000 (VND/Gói)
+    + 13 nghiệp vụ: Quỹ, Thủ Quỹ, Ngân hàng, Muahàng, Bán hàng, Quản lý hoá đơn, Thuế, Kho, Thủ kho, Công cụ dụng cụ, Tổng hợp, Thuếđiện tử (MISA mTax), Ngân hàng điện tử(JetPay BankHub)(*)
+    + Số lượng người dùng: 03
+    + Mua thêm mỗi gói 1 người dùng: giá 2.550.000 VND/gói
+- Professional: 10.950.000 (VND/Gói)
+    + 17 nghiệp vụ: Quỹ, Thủ Quỹ, Ngân hàng, Muahàng, Bán hàng, Quản lý hoá đơn, Thuế, Kho, Thủ kho, Công cụ dụng cụ, Tổng hợp, Thuếđiện tử (MISA mTax), Ngân hàng điện tử(JetPay BankHub)(*), Tài sản cố định, Hợp đồng, Khế ước vay, Tiền lương
+    + Số lượng người dùng: 03
+    + Mua thêm mỗi gói 1 người dùng: giá 3.550.000 VND/gói
+- Enterprise: 13.950.000 (VND/Gói)
+    + 19 nghiệp vụ: Quỹ, Thủ Quỹ, Ngân hàng, Muahàng, Bán hàng, Quản lý hoá đơn, Thuế, Kho, Thủ kho, Công cụ dụng cụ, Tổng hợp, Thuếđiện tử (MISA mTax), Ngân hàng điện tử(JetPay BankHub)(*), Tài sản cố định, Hợp đồng, Khế ước vay, Tiền lương, Giá thành, Ngân sách
+    + Số lượng người dùng: 03
+    + Mua thêm mỗi gói 1 người dùng: giá 4.550.000 VND/gói"
+MISA SME$Bảng giá - Trả phí định kỳ$"Bảng giá - Trả phí định kỳ sản phẩm MISA SME
+Các gói:
+- Standard: 4.450.000 (VND/Năm)
+    + 13 nghiệp vụ: Quỹ, Thủ Quỹ, Ngân hàng, Muahàng, Bán hàng, Quản lý hoá đơn, Thuế, Kho,Thủ kho, Công cụ dụng cụ, Tổng hợp, Thuếđiện tử (MISA mTax), Ngân hàng điện tử(JetPay BankHub)(*)
+    + Số lượng người dùng: 03
+    + Mua thêm mỗi gói 1 người dùng: giá 1.450.000 VND/gói
+- Professional: 5.950.000 (VND/Năm)
+    + 17 nghiệp vụ: Quỹ, Thủ Quỹ, Ngân hàng, Muahàng, Bán hàng, Quản lý hoá đơn, Thuế, Kho,Thủ kho, Công cụ dụng cụ, Tổng hợp, Thuếđiện tử (MISA mTax), Ngân hàng điện tử(JetPay BankHub)(*), Tài sản cố định, Hợpđồng, Khế ước vay, Tiền lương
+    + Số lượng người dùng: 03
+    + Mua thêm mỗi gói 1 người dùng: giá 1.950.000 VND/gói
+- Enterprise: 7.450.000 (VND/Năm)
+    + 19 nghiệp vụ: Quỹ, Thủ Quỹ, Ngân hàng, Muahàng, Bán hàng, Quản lý hoá đơn, Thuế, Kho,Thủ kho, Công cụ dụng cụ, Tổng hợp, Thuếđiện tử (MISA mTax), Ngân hàng điện tử(JetPay BankHub)(*), Tài sản cố định, Hợpđồng, Khế ước vay, Tiền lương, Giá thành,Ngân sách
+    + Số lượng người dùng: 03
+    + Mua thêm mỗi gói 1 người dùng: giá 2.450.000 VND/gói"
+MISA AMIS aiMarketing$Một số câu hỏi$"Một số câu hỏi sản phẩm MISA AMIS aiMarketing
+1. Phần mềm AMIS aiMarketing là gì?
+Phần mềm AMIS aiMarketing là bộ công cụ Automation Marketing hợp nhất trên một nền tảng giúp: tự động hóa hoạt động thu hút, nuôi dưỡng và chuyển đổi khách hàng; marketers có công cụ làm việc nhanh hơn, hiệu quả hơn, đo lường chính xác hiệu quả các hoạt động marketing & tối ưu tỷ lệ chuyển đổi.
+
+2. AMIS aiMarketing có tính năng gửi email marketing không? Có bị spam email không?
+Tính năng nổi bật của AMIS aiMarketing là gửi email marketing tự động hàng loạt, tỷ lệ thành công cao. Bộ lọc email trước khi gửi & cho phép cá nhân hóa nội dung tới từng khách hàng, tránh email bị rơi vào hòm thư spam.
+
+3. AMIS aiMarketing có tạo được landingpage không? Có sẵn template không?
+AMIS aiMarketing giúp xây dựng landingpage nhanh chóng với kho giao diện hơn 100 mẫu đa dạng, thao tác dễ dàng với trình biên tập kéo thả. Có cả phiên bản PC và mobile, hỗ trợ và tối ưu S.E.O.
+
+4. AMIS aiMarketing cung cấp các loại báo cáo nào?
+ MISA AMIS aiMarketing cung cấp hệ thống báo cáo hiệu suất marketing tự động, đa chiều và real time như báo cáo doanh thu, chi phí, ROI, tỷ lệ chuyển đổi giữa các giai đoạn, hiệu quả doanh số & chi phí từng kênh, chiến dịch.
+
+5. Giá phần mềm AMIS aiMarketing là bao nhiêu?
+Giá phần mềm AMIS aiMarketing từ 1.000.000 đồng/tháng. Gói khuyên dùng 3.000.000 đồng/tháng.
+"
+MISA AMIS aiMarketing$Tổng quan$"Tổng quan sản phẩm MISA AMIS aiMarketing
+Tự động thu thập dữ liệu khách hàng tiềm năng, marketing cá nhân hóa theo hành trình của từng khách hàng và đo lường hiệu quả marketing chính xác
+Hơn 12.000 doanh nghiệp tin dùng trên khắp cả nước
+
+- Thu hút: Landing Page, Form/Banner/CTA, Email Marketing
+- Nuôi dưỡng: Event Tracking, Email Automation, Web push, In-app push
+- Chuyển đổi: Hồ sơ khách hàng 360, Lead Scoring, CRM & Sales Automation
+- Đo lường: Hiệu quả chiến dịch, Doanh số, chi phí, ROI, Hiệu quả nguồn/sản phẩm
+
+Thu hút nhiều khách hàng hơn với chi phí thấp hơn
+Tối ưu chuyển đổi khách hàng mới và chăm sóc hiệu quả khách hàng cũ
+
+Email Marketing hiệu quả và an toàn:
+- 100+ templates email chuyên nghiệp
+- Gửi email số lượng lớn với tỷ lệ thành công cao
+- Cá nhân hóa nội dung tới từng khách hàng
+- Lọc mail rác & mail tương tác kém
+
+Marketing Automation theo hành trình khách hàng:
+- Tự động chăm sóc khách hàng theo kịch bản
+- Tự động chấm điểm tiềm năng
+- Tự động phân nhóm khách hàng
+- Tự động chuyển khách hàng sang Sales chăm sóc
+
+Báo cáo real-time toàn cảnh về hoạt động Marketing
+- Đo lường doanh số, chi phí & ROI
+- Tự động đồng bộ chi phí quảng cáo từ Facebook/Google
+- Bóc tách doanh số từng nguồn, kênh
+- Đo lường hiệu quả các chiến dịch email marketing, landing page, …
+
+Thư viện Templates bắt mắt & chuyên nghiệp
+Hơn 100+ templates đa dạng theo nhiều chủ đề, lĩnh vực
+
+Khai phá sức mạnh của Marketing Automation ngay bây giờ
+Đội ngũ chuyên gia của AMIS aiMarketing luôn sẵn sàng dành lắng nghe để tư vấn cho doanh nghiệp giải pháp hiệu quả nhất"
+MISA AMIS Khuyến mại$Dùng thử$"Dùng thử sản phẩm MISA AMIS Khuyến mại
+Vui lòng liên hệ chúng tôi ngay để được dùng thử miễn phí AMIS Khuyến mại trong 15 ngày
+"
+MISA AMIS Khuyến mại$Bảng giá$"Bảng giá sản phẩm MISA AMIS Khuyến mại
+Giá dịch vụ của AMIS Khuyến mại:
+- Gói tháng: 200.000 VND/Tháng
+    + Gói 10 người dùng
+    + Thiết lập chính sách giá, áp dụng nhiều Chương trình Khuyến mại lên một mặt hàng
+    + Quản lý tập trung dữ liệu Chương trình Khuyến mại
+    + Cung cấp đầy đủ báo cáo hiệu quả Chương trình Khuyến mại
+    + Đồng bộ dữ liệu với AMIS Bán hàng, AMIS Kế toán
+- Gói năm: 2.400.000 VND/Năm
+    + Gói 10 người dùng
+    + Thiết lập chính sách giá, áp dụng nhiều Chương trình Khuyến mại lên một mặt hàng
+    + Quản lý tập trung dữ liệu Chương trình Khuyến mại
+    + Cung cấp đầy đủ báo cáo hiệu quả Chương trình Khuyến mại
+    + Đồng bộ dữ liệu với AMIS Bán hàng, AMIS Kế toán
+"
+MISA AMIS Khuyến mại$Tổng quan$"Tổng quan sản phẩm MISA AMIS Khuyến mại
+Đáp ứng 20+ loại khuyến mại giúp doanh nghiệp giữ chân Khách hàng, chiếm lĩnh thị trường
+
+Tích hợp toàn diện:
+- AMIS Khuyến mại: Thiết lập, tra cứu, theo dõi chương trình khuyến mại, Tự động áp dụng chương trình khuyến mại lên sản phẩm
+- AMIS Bán hàng: Tự động tiếp nhận thông tin chương trình khuyến mại. Tự động áp dụng lên đơn hàng
+- AMIS Kế toán: Đối chiếu thông tin đơn hàng, chương trình khuyến mại. Quản lý chứng từ và các thủ tục liên quan
+
+AMIS Khuyến mại - Đơn giản quy trình, tiết kiệm thời gian, bứt phá doanh thu
+- Tự động áp dụng 20+ chương trình khuyến mại
+    + Hỗ trợ 20+ loại hình khuyến mại phổ biến như chiết khấu tiền, chiết khấu %, tặng hàng…
+    + Thiết kế chương trình khuyến mại cho từng đối tượng khách hàng khác nhau
+    + Áp dụng nhiều chương trình khuyến mại cùng một lúc
+- Quản lý tập trung, tra cứu đơn giản, thông tin tức thời
+    + Dễ dàng tra cứu thông tin của tất cả các chương trình khuyến mại
+    + Loại bỏ rủi ro “tranh thủ” khuyến mại để tư lợi cá nhân
+- Hệ thống báo cáo trực quan, đa dạng
+    + Đánh giá hiệu quả các chương trình khuyến mại thông qua số liệu doanh thu chi tiết
+    + Thông tin tức thời, đầy đủ, chính xác"
+MISA ASP$Bảng giá$"Bảng giá sản phẩm MISA ASP
+Kế toán dịch vụ cho doanh nghiệp
+Chọn một gói sản phẩm phù hợp với nhu cầu đơn vị của bạn
+Gói khuyên dùng ASP Kế toán cho doanh nghiệp thuê kế toán dịch vụ: 2.400.000 VND/Năm
+14 nghiệp vụ: Quỹ, Ngân hàng, Mua hàng, Bán hàng, Hợp đồng, Quản lý hoá đơn, Thuế, Kho, Công cụ dụng cụ, Tài sản cố định, Tiền lương, Giá thành, Tổng hợp, Ngân hàng điện tử
+Đối tượng sử dụng: Kế toán dịch vụ (KTDV) và Doanh nghiệp (DN) thuê KTD.
+Tài khoản:
+ o 02 tài khoản của DN được toàn quyền với danh mục của Kế toán; được lập nhưng không được ghi sổ/bỏ ghi sổ trên các phiếu sau : phiếu thu, phiếu chi, phiếu nhập, phiếu xuất, xuất hóa đơn điện tử; được quyền xem, in báo cáo chứng từ, gửi chứng từ, tài liệu cho KTDV. 
+ o Không giới hạn số lượng tài khoản của KTDV dùng để quản lý, nhập liệu cho khách hàng.
+
+Kế toán dịch vụ cho hộ, cá nhân kinh doanh
+Gói khuyên dùng ASP kế toán cho hộ, cá nhân kinh doanh thuê kế toán dịch vụ: 2.400.000 VND/Năm
+14 nghiệp vụ: Quỹ, Ngân hàng, Mua hàng, Bán hàng, Hợp đồng, Quản lý hoá đơn, Thuế, Kho, Công cụ dụng cụ, Tài sản cố định, Tiền lương, Giá thành, Tổng hợp, Ngân hàng điện tử
+Đối tượng sử dụng: Kế toán dịch vụ (KTDV) và Hộ, Cá nhân kinh doanh (HKD) thuê KTDV
+Tài khoản:
+ o 02 tài khoản của HKD được toàn quyền với danh mục của Kế toán. Được lập nhưng không được ghi sổ/bỏ ghi sổ trên các phiếu sau : phiếu thu, phiếu chi, phiếu nhập, phiếu xuất, xuất hóa đơn điện tử . Được quyền xem, in báo cáo chứng từ, gửi chứng từ, tài liệu cho KTDV.
+ o Không giới hạn số lượng tài khoản của KTDV dùng để quản lý, nhập liệu cho HKD.
+"
+MISA ASP$Tính năng nổi bật$"Tính năng nổi bật sản phẩm MISA ASP
+Hợp tác với các Đơn vị cung ứng dịch vụ kế toán, thuế
+MISA ASP giúp Kế toán dịch vụ có thể tiếp cận với hàng trăm ngàn doanh nghiệp, hộ/cá nhân kinh doanh trên cả nước thông qua việc đăng hồ sơ lên nền tảng, từ đó thu hút khách hàng và tăng trưởng doanh thu.
+
+Tìm kiếm Kế toán dịch vụ phù hợp
+Hỗ trợ hàng trăm nghìn Doanh nghiệp, Hộ/cá nhân kinh doanh tiếp cận được với những Kế toán dịch vụ giỏi nhất, nhiều kinh nghiệm nhất trong lĩnh vực hoạt động của đơn vị.
+
+Trao đổi công việc dễ dàng, nhanh chóng
+Doanh nghiệp, Hộ/cá nhân kinh doanh và Kế toán dịch vụ gửi nhận hóa đơn, chứng từ, trao đổi, tư vấn một cách nhanh chóng thông qua các công cụ trao đổi trên MISA ASP.
+
+Công cụ quản lý chuyên nghiệp cho Kế toán dịch vụ
+Kế toán dịch vụ quản lý công việc, khách hàng, đội ngũ thông qua các công cụ hỗ trợ chuyên sâu của nền tảng để tăng năng suất làm việc.
+
+Đánh giá công tâm, hai chiều
+Doanh nghiệp, Hộ/cá nhân kinh doanh và Kế toán dịch vụ có thể đánh giá nhau trong suốt quá trình làm việc hoặc sau khi công việc kết thúc giúp nâng cao uy tín, độ chuyên nghiệp của mỗi bên khi tham gia nền tảng.
+"
+MISA ASP$Tổng quan$"Tổng quan sản phẩm MISA ASP
+Nền tảng kế toán dịch vụ
+MISA ASP là Nền tảng kế toán dịch vụ giúp kết nối Doanh nghiệp, Hộ kinh doanh, Cá nhân kinh doanh với tổ chức cung ứng dịch vụ kế toán uy tín, chất lượng, chuyên nghiệp trên toàn quốc.
+
+MISA ASP dễ dàng tìm và kết nối kế toán dịch vụ nhanh chóng và chuyên nghiệp
+Doanh nghiệp, Hộ/cá nhân kinh doanh dễ dàng tìm được KTDV uy tín, chất lượng và phù hợp nhất theo nhu cầu dựa trên nhiều tiêu chí tìm kiếm.
+
+Dễ dàng hợp tác với Kế toán dịch vụ
+Gửi nhận chứng từ giữa KTDV và Doanh nghiệp, Hộ/cá nhân kinh doanh được thực hiện một cách nhanh chóng linh hoạt, mọi lúc mọi nơi...
+
+Thuận tiện trong công tác tài chính kế toán
+ASP tích hợp với các phần mềm kế toán ưu việt nhất hiện nay là MISA ASP Kế toán và MISA StartBooks giúp DN, Hộ/cá nhân kinh doanh và KTDV có thể theo dõi và quản lý công tác kế toán  nhanh chóng và chính xác.
+"
+MISA AMIS CRM$Một số câu hỏi$"Một số câu hỏi sản phẩm MISA AMIS CRM
+1. Phần mềm CRM là gì?
+Phần mềm CRM  (Phần mềm quản trị khách hàng) là công cụ giúp doanh nghiệp lưu trữ và quản lý toàn bộ thông tin khách hàng; xây dựng các quy trình bán hàng bài bản & quản lý đội ngũ bán hàng
+2. Việc ứng dụng CRM giúp ích gì cho doanh nghiệp?
+CRM giúp doanh nghiệp quản trị mối quan hệ khách hàng toàn diện, thấu hiểu khách hàng 360, tối ưu các quy trình bán hàng, quản lý đội ngũ sale. Nâng cao năng suất làm việc của đội ngũ, báo cáo phân tích hiệu quả kinh doanh để ra quyết định chính xác.
+3. Dữ liệu khách hàng lưu trữ trên MISA AMIS CRM có đảm bảo tính bảo mật dữ liệu không?
+MISA AMIS CRM áp dụng tiêu chuẩn An ninh thông tin ISO 27000 và đã được các tổ chức có thẩm quyền đánh giá và cấp chứng chỉ của tổ chức quốc tế ISO. Đảm bảo thông tin của khách hàng và nội bộ công ty ở mức cao nhất trước các nguy cơ như bị phá hủy vì bất cứ lý do nào.
+4. Khả năng kết nối của MISA AMIS CRM như nào?
+ Khả năng kết nối API với nhiều hệ thống: Voice IP, Email Marketing: Mailchimp, Zetamail…
+5. Phần mềm MISA AMIS CRM quản lý nhân viên kinh doanh đi thị trường bằng cách nào?
+Nhân viên kinh doanh dễ dàng lên lịch trình đi tuyến tối ưu tiết kiệm thời gian, nhà quản lý dễ dàng theo dõi tình hình công việc của cấp dưới. Tính năng quản lý đi tuyến có cả trên phiên bản website và mobile. Nhà quản lý sẽ nắm bắt được danh sách nhân viên với các trạng thái: đang hoạt động, vắng mặt, không hoạt động. Nhà quản lý dễ dàng theo dõi được vị trí chính xác của nhân viên trên bản đồ."
+MISA AMIS CRM$Dùng thử$"Dùng thử sản phẩm MISA AMIS CRM
+MISA cho phép người dùng trải nghiệm miễn phí AMIS CRM trong 15 ngày
+"
+MISA AMIS CRM$Bảng giá$"Bảng giá sản phẩm MISA AMIS CRM
+Giải pháp MISA AMIS CRM tính giá theo số lượng user sử dụng. 
+Gói Standard: 80.000 đ /user/tháng.
+Gói Professtional: 100.000 đ/1 user/tháng.
+Gói Enterprise: 120.000 đ/1 user/tháng
+"
+MISA AMIS CRM$Tổng quan$"Tổng quan sản phẩm MISA AMIS CRM
+Phần mềm Quản lý bán hàng cho Doanh nghiệp
+AMIS CRM giúp quản lý thông tin khách hàng tập trung, xây dựng quy trình bán hàng chuyên nghiệp, quản lý & giám sát đội ngũ sale, liên thông dữ liệu với phần mềm Kế toán giúp doanh nghiệp chăm sóc khách hàng tốt hơn, quản lý đội ngũ hiệu quả, tối ưu hoạt động bán hàng và bứt phá doanh thu
+
+Tối ưu hoạt động kinh doanh của doanh nghiệp với AMIS CRM
+Hiểu rõ về tình hình kinh doanh bằng các báo cáo trực quan
+- Báo cáo doanh số, tăng trưởng hàng kỳ
+- Phân tích doanh số theo đơn vị, sản phẩm
+- Báo cáo tình hình thực hiện mục tiêu kinh doanh
+- Bảng best-seller, báo cáo doanh số theo nhân viên,…
+
+Tăng 35% đơn hàng với quy trình bán hàng bài bản, chuyên nghiệp
+Sử dụng AMIS CRM để đưa doanh nghiệp của bạn lên tầm cao mới. Từ khâu tiếp cận khách hàng, tư vấn, đàm phán,… đều được quy trình hóa, qua đó đảm bảo tính chính xác, chuyên nghiệp trong hoạt động bán hàng
+"
+MISA AMIS CRM$Tổng quan - Các tính năng$"Tổng quan - Các tính năng sản phẩm MISA AMIS CRM
+Các tính năng nổi bật
+- Báo cáo tức thời: Số liệu về doanh số, tình hình kinh doanh,… luôn cập nhật chính xác và tức thời
+- Tự động hóa: Gửi email, soạn báo giá, hợp đồng,… đều được tự động hóa, giúp nâng cao 50% năng suất nhân viên kinh doanh
+- Quy trình bán hàng: Tiếp cận và thuyết phục khách hàng bằng quy trình bán hàng bài bản, giúp tăng 35% khả năng thành công
+- Tùy biến linh hoạt: Tùy chỉnh trường thông tin, biểu mẫu, quy trình, báo cáo,… để phù hợp với riêng doanh nghiệp
+- Dữ liệu khách hàng: Hiểu rõ nhu cầu và hành vi của khách hàng qua lịch sử mua hàng, nội dung trao đổi,… sẽ giúp doanh ghiệp khai thác hiệu quả để up-sell hay cross-sell
+- Cloud & Mobile: Dễ dàng làm việc từ xa, mọi lúc mọi nơi
+
+Tối ưu hoạt động kinh doanh của doanh nghiệp với AMIS CRM
+Hiểu rõ về tình hình kinh doanh bằng các báo cáo trực quan
+- Báo cáo doanh số, tăng trưởng hàng kỳ
+- Phân tích doanh số theo đơn vị, sản phẩm
+- Báo cáo tình hình thực hiện mục tiêu kinh doanh
+- Bảng best-seller, báo cáo doanh số theo nhân viên,…
+
+Tăng 35% đơn hàng với quy trình bán hàng bài bản, chuyên nghiệp
+Sử dụng AMIS CRM để đưa doanh nghiệp của bạn lên tầm cao mới. Từ khâu tiếp cận khách hàng, tư vấn, đàm phán,… đều được quy trình hóa, qua đó đảm bảo tính chính xác, chuyên nghiệp trong hoạt động bán hàng
+
+Tăng 50% năng suất nhân viên kinh doanh bằng các công cụ tự động hóa
+- Tiết kiệm hàng giờ soạn email, báo giá, hợp đồng,… chỉ bằng 1 click trên phần mềm
+- Cung cấp lịch làm việc trực quan, công cụ nhắc nhở, giúp kinh doanh không bao giờ bỏ lỡ lịch hẹn với khách hàng
+- Tiết kiệm thời gian nhập liệu, xử lý công việc với nhiều tiện ích thông minh
+
+Khai thác hiệu quả dữ liệu khách hàng – tài nguyên quý giá nhất của doanh nghiệp
+- Luôn hiểu rõ khách hàng của bạn đến từ đâu, quan tâm nhiều đến sản phẩm nào
+- Xây dựng mối quan hệ bền vững với khách hàng qua các công cụ chăm chóc: tự động chúc mừng ngày sinh nhật, lập kế hoạch chăm sóc,…
+- Dữ liệu khách hàng được lưu trữ tập trung, an toàn và bảo mật
+
+Ứng dụng Mobile – Làm việc thuận tiện mọi lúc mọi nơi
+- Nắm bắt tức thời doanh số, tình hình kinh doanh…
+- Hỗ trợ NVKD checkin, tìm đường, lập đơn hàng nhanh chóng,… khi đi thị trường
+- Gọi điện/Email/Theo dõi lịch hẹn,… nhanh chóng
+- Nhập thông tin khách hàng trong 1s với tính năng Scan Cardvisit
 
 
-MISA meInvoice Desktop - Cài đặt và kết nối dữ liệu$Cài đặt và kết nối dữ liệu$I. Đối với 1 người dùng phần mềm\nBước 1: Tải bộ cài tại https://product.\nmisa.vn/\nmisasoftware/eInvoice/Desktop123/\nMISAmeInvoice123_Setup_Client.exe\nBước 2: Thực hiện cài đặt.\n1. Click chuột vào biểu tượng phần mềm vừa tải về.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/tai_bo_cai_01-2.png\n\n2. Nhấn Tiếp tục.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/cai_dat_03.png\n\n3. Nhấn Cài đặt.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/cai_dat_04.png\n\n4. Nhấn Hoàn thành.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/cai_dat_05.png\n\n\nII. Đối với nhiều người dùng phần mềm\nMô tả: Áp dụng với đơn vị có nhiều người cùng sử dụng phần mềm để lập và phát hành hóa đơn. Khi đó, phần mềm sẽ được triển khai theo mô hình máy trạm – máy chủ (Client – Server). Trong đó, có 01 máy chủ chứa dữ liệu (SQL Server) chung cho cả hệ thống và nhiều máy trạm kết nối vào máy chủ để cùng làm việc và chia sẻ dữ liệu.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/R5_mohinh_01.png\nLưu ý:\n- Mô hình này phù hợp khi các máy tính làm việc trong cùng một mạng nội bộ (mạng LAN).\n- Có thể dùng một máy tính vừa đóng vai trò làm máy chủ chứa dữ liệu, vừa đóng vai trò làm máy trạm để làm việc.\nHướng dẫn cài đặt và kết nối dữ liệu:\n1. Máy chủ\nBước 1: Cài đặt bộ cài máy chủ tại https://product.\nmisa.vn/\nmisasoftware/eInvoice/Desktop123/\nMISAmeInvoice123_Setup_Server.exe\nBước 2: Nhấn chuột phải vào biểu tượng MeInvoice Server Mannage, chọn Run as adminstrator.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/thiet_lap_01.png\n\nBước 3: Nhấn Tạm dừng.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/thiet_lap_09.png\n\nBước 4: Nhấn Thiết lập để thiết lập thông tin dữ liệu:\n- Khai báo Mã số thuế của đơn vị.\n- Tại mục Máy chủ SQL: Nhấn biểu tượng mũi tên, chọn máy chủ lưu dữ liệu: thông thường tên máy chủ có dạng Computer name\\MEINVOICE (VD: NVANH2\\MEINVOICE).\n- Tại mục Thư mục chứa dữ liệu: Có thể nhấn biểu tượng dẫu 3 chấm, để thay đổi lại thư mục chứa dữ liệu theo nhu cầu (nếu cần).\n- Nhấn Đồng ý.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/r5_destop_thiet_lap_may_chu_24.png\n\nBước 5: Để các máy trạm có thể có thể ký số qua máy chủ mà không cần phải có chứng thư số, thì thực hiện như sau:\n1. Tích chọn Sử dụng chữ ký số tập trung\n2. Nhấn Thiết lập\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/r5_destop_thiet_lap_may_chu_14.png\n3. Chọn loại chứng thư số mà đơn vị đang sử dụng.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/r5_destop_thiet_lap_may_chu_11.png\n4. Chọn chứng thư số.\n5. Nhấn OK.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/r5_destop_thiet_lap_may_chu_17.png\n6. Thiết lập Hình thức ký.\n- Tích chọn Ký tự động và Nhập mã pin chữ ký số.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/thiet_lap_19.png\n- Nếu yêu cầu máy trạm nhập mã pin khi thực hiện ký số thì tích chọn Không ký tự động.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/r5_destop_thiet_lap_may_chu.png\n- Nhấn Đồng ý.\n7. Nhấn Chạy/tiếp tục.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/thiet_lap_22.png\n\n\n2. Máy trạm\nBước 1: Cài đặt bộ cài máy chủ tại https://product.\nmisa.vn/\nmisasoftware/eInvoice/Desktop123/\nMISAmeInvoice123_Setup_Client.exe\nBước 2: Sau khi cài đặt xong bộ cài máy trạm, trên màn hình Desktop sẽ hiển thị biểu tượng của Máy trạm.\nBước 3: Nhấn đúp chuột vào biểu tượng Máy trạm để mở phần mềm.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/12/tai_bo_cai_03.png\n\nBước 4: Nhấn Tệp\\ chọn Thiết lập mô hình triển khai.\nBước 5: Chọn Nhiều người sử dụng phần mềm\\ nhấn Đồng ý.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/r18_desktop_dang_nhap_may_tram01.png\n\nBước 6: Khai báo các thông tin đăng nhập vào phần mềm.\nThông tin Máy chủ/Mã số thuế: Để biết thông tin Máy chủ/Mã số thuế thực hiện như sau: Trên máy tính cài đặt máy chủ, nhấn đúp chuột vào biểu tượng MeInvoice Sever Manager.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/r18_desktop_dang_nhap_may_tram03-1.png\n
-MISA meInvoice Desktop - Thiết lập thông tin hồ sơ hóa đơn điện tử$Thiết lập thông tin hồ sơ hóa đơn điện tử$I. Dành cho khách hàng chuyển đổi từ hóa đơn theo NĐ 51/2010/NĐ-CP sang hóa đơn theo NĐ 123/2020/NĐ-CP\nBước 1: Vào mục Quy trình\\Hồ sơ hóa đơn điện tử.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/cap_nhat_thong_tin_don_vi_.png\n\nBước 2: Chọn hình thức hóa đơn sử dụng theo thông báo của CQT.\n\nBước 3: Cập nhật Thông tin liên hệ bao gồm Thông tin hiển thị trên hóa đơn điện tử và Thông tin hiển thị trên các hồ sơ gửi cơ quan thuế để cơ quan thuế gửi các thông báo về hóa đơn điện tử cho doanh nghiệp.\n\nBước 4: Nhấn Cất.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/cap_nhat_thong_tin_don_vi_01.png\n\n\nII. Dành cho khách hàng bắt đầu sử dụng hóa đơn điện tử theo nghị định 123/2020/NĐ-CP\nBước 1: Vào mục Quy trình\\Hồ sơ hóa đơn điện tử.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/cap_nhat_thong_tin_don_vi_.png\n\nBước 2: Khai báo các thông tin chi tiết của đơn vị.\nLưu ý:\n- Chọn đúng hình thức hóa đơn sử dụng của đơn vị.\n- Các thông tin có dấu * là thông tin bắt buộc nhập.\n- Thông tin Mã số thuế được tự động lấy theo mã số thuế sử dụng khi mua phần mềm meInvoice và không cho phép sửa lại.\n- Cần điền chính xác phần Thông tin liên hệ bao gồm Thông tin hiển thị trên hóa đơn điện tử và Thông tin hiển thị trên các hồ sơ gửi cơ quan thuế để cơ quan thuế gửi các thông báo về hóa đơn điện tử cho doanh nghiệp.\n- Có thể chọn nhanh Ngành nghề kinh doanh của đơn vị bằng cách gõ từ khóa tìm kiếm hoặc nhấn biểu tượng mũi tên để chọn trên danh sách chương trình đã thiết lập sẵn.\n\nBước 3: Nhấn Cất.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/cap_nhat_thong_tin_don_vi_01.png\n1. Các thông tin Tên đơn vị, Địa chỉ, Mã số thuế, Số điện thoại, Số TK ngân hàng sẽ được lấy tương ứng lên phần thông tin người bán trên hóa đơn.\n2. Các thông tin còn lại sẽ được ngầm định lấy lên các giao diện liên quan. Ví dụ: Khi lập Thông báo phát hành hóa đơn thông tin Cơ quan thuế sẽ ngầm định theo thông tin Cơ quan thuế quản lý khai báo ở trên.\n
-MISA meInvoice Desktop - Thiết lập ký số$Thiết lập ký số$Bước 1: Vào menu Hệ thống, chọn Thiết lập ký số.\n\n\nBước 2: Chọn hình thức ký số của đơn vị, thiết lập thông tin và nhấn Đồng ý.\nTrường hợp 1: Sử dụng dịch vụ chữ ký điện tử \nMISA.\n1. Nhấn chọn Dịch vụ chữ ký số điện tử \nMISA eSign\n2. Nhấn Kết nối ngay.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2020/03/r14_desktop_thiets_lap_ky_so12.jpg\n3. Đăng nhập tài khoản eSign\n- Khai báo thông tin tài khoản \nMISA eSign(là thông tin Số điện thoại, email đã đăng ký khi mua chứng thư cung cấp hồ sơ được yêu cầu)\n- Nhấn Đăng nhập.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2020/03/r14_desktop_thiets_lap_ky_so02.jpg\n4. Nhập mã xác thực ký số(do chương trình cung cấp qua số điện thoại/email đăng ký dịch vụ chữ ký số điện tử \nMISA)\\ nhấn Đồng ý.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2020/03/r14_desktop_thiets_lap_ky_so03.jpg\n5. Nhấn Đồng ý.\nTrường hợp dịch vụ \nMISA eSign đã hết hạn, thực hiện gia hạn bằng cách nhấn Gia hạn.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2020/03/r14_desktop_thiets_lap_ky_so04.jpg\n\nTrường hợp 2: Ký trực tiếp qua USB\n1. Nhấn Ký trực tiếp qua USB.\n2. Chọn hình thức cắm USB.\n- Đối với đơn vị sử dụng mô hình 1 người dùng.\n+ Nhấn USB cắm trên máy tính.\n+ Nhấn Đồng ý.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2020/03/r14_desktop_thiets_lap_ky_so07.jpg\n- Đối với đơn vị sử dụng mô hình nhiều người dùng\nKý thông qua máy chủ: Với hình thức này, chỉ cần cắm USB Token vào máy chủ, các máy trạm kết nối với máy chủ để ký điện tử => Áp dụng với đơn vị có nhiều máy tính cùng thực hiện ký điện tử lên hóa đơn.\n\nTrường hợp 3: Ký thông qua máy chủ HSM\n1. Nhấn Ký thông qua máy chủ HSM.\n2. Chọn Hệ thống ký số của Viettel/HSM mà đơn vị đang sử dụng và khai báo tài khoản.\n3. Nhấn Đồng ý.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2020/03/r14_desktop_thiets_lap_ky_so13.jpg\n
-MISA meInvoice Desktop - Khởi tạo mẫu hóa đơn$Chuyển mẫu hóa đơn đang sử dụng theo nghị định 51/2010/NĐ-CP sang mẫu hóa đơn 123/2020/NĐ-CP$Bước 1: Vào mục Mẫu hóa đơn, nhấn Thêm, chọn Chuyển từ mẫu cũ theo NĐ51.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/12/desktop_chuyen_doi_mau_hoa_don_01.png\n\n\nBước 2: Chương trình hiển thị danh sách mẫu hóa đơn theo nghị định 51/2010/NĐ-CP, tại mẫu hóa đơn cần chuyển đổi sang nghị định 123/2020/NĐ-CP, nhấn Chuyển đổi.\nLưu ý:\n- Có thể xem lại mẫu hóa đơn trước khi chuyển đổi bằng cách nhấn Xem.\n- Với mẫu hóa đơn khởi tạo từ phần mềm MIMOSA và mẫu hóa đơn khởi tạo trước ngày 06/10/2020 thì không thể chuyển đổi lên mẫu hóa đơn theo nghị định 123/2020/NĐ-CP (chương trình sẽ hiển thị trạng thái Không thể chuyển đổi)\n- Hiện tại, danh sách mẫu hóa đơn theo nghị định 51/2010/NĐ-CP vẫn lấy lên cả những mẫu đã được chuyển đổi.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/12/desktop_chuyen_doi_mau_hoa_don_02.png\n\n\nBước 3: Khai báo thông tin mẫu hóa đơn theo nghị định 123/2020/NĐ-CP.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/12/desktop_chuyen_doi_mau_hoa_don_03.png\n\n\nBước 4: Trên danh sách mẫu hóa đơn hiển thị thông tin hóa đơn đã chuyển đổi.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/12/desktop_chuyen_doi_mau_hoa_don_04.png\n
-MISA meInvoice Desktop - Phân quyền sử dụng hóa đơn điện tử$Phân quyền sử dụng hóa đơn điện tử$Bước 1: Đăng nhập vào phần mềm.\n\n\nBước 2: Vào mục Hệ thống\\Quản lý người dùng. Nhấn Thêm trên thanh công cụ.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/r18_desktop_quan_ly_nguoi_dung02.png\n\n\nBước 3: Khai báo thông tin người dùng.\n1. Thiết lập Vai trò cho người dùng:\n- Quản trị: Được thực hiện tất cả chức năng và có quyền với tất cả các mẫu hóa đơn trên phần mềm.\n- Người dùng: Không có quyền phân quyền (không nhìn thấy mục Quản lý người dùng), Xác nhận thỏa thuận sử dụng dịch vụ và chỉ có quyền làm việc với các mẫu hóa đơn được phân quyền.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/r18_desktop_phan_quyen_03.png\n\n2. Phân quyền chức năng cho người dùng.\n- Phân quyền từng hoạt động tương ứng với từng chức năng ( Đối với vai trò Người dùng)\n+ Chọn tab Phân quyền chức năng.\n+ Chọn chức năng trên màn hình danh sách chức năng.\n+ Tích chọn các hoạt động cho phép người dùng sử dụng tương ứng với chức năng đó. \nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/R25_desktop_phan_quyen_danh_muc.png\n- Khai báo mẫu hóa đơn được phép sử dụng (đối với vai trò Người dùng)\n+ Chọn tab Phân quyền mẫu hóa đơn.\n+ Tích chọn mẫu hóa đơn cho phép người dùng sử dụng.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/r11_desktop_Phan_quyen_su_dung_hoa_don05.jpg\n\n\nBước 4: Nhấn Cất hoặc Cất & Thêm.\n\n\nBước 5: Sau khi được phân quyền, người dùng sẽ nhận được 1 email thông báo cấp quyền sử dụng meInvoice.vn.\n\n\nBước 6: Người dùng đăng nhập meInvoice Desktop để kích hoạt tài khoản.\nNhấn Đăng nhập ngay.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/r18_desktop_dang_nhap_sau_khi_duoc_phan-quyen2-768x388.png\n\n\nLưu ý:\n1. Tài khoản Quản trị có thể phân quyền lại chức năng người dùng đã thêm bằng cách nhấn chức năng Sửa trên thanh công cụ.\nĐể cắt quyền sử dụng phần mềm, tích chọn Ngừng theo dõi => Khi đó, người dùng này sẽ không thể đăng nhập vào phần mềm được nữa.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/r11_desktop_Phan_quyen_su_dung_hoa_don06.jpg\n\n2. Tài khoản Quản trị có thể xóa người dùng bằng cách nhấn nút Xóa trên thanh công cụ.\n\n3. Khi đăng nhập vào phần mềm với vai trò Người dùng, kế toán chỉ có thể làm việc với các mẫu hóa đơn được phân quyền sử dụng (Ví dụ: Danh sách hóa đơn, Danh sách xóa hóa đơn, Phát hành hóa đơn hàng loạt, Chuyển thành chứng từ giấy hàng loạt, Tải hóa đơn hàng loạt, Xóa bỏ hóa đơn, lập Hóa đơn thay thế, lập Hóa đơn điều chỉnh, Xem hóa đơn)\n
-MISA meInvoice Desktop - Khai báo danh mục$Khai báo danh mục khách hàng$Bước 1: Vào phân hệ Danh mục, chọn Khách hàng.\nBước 2: Nhấn Thêm.\nBước 3: Khai báo thông tin khách hàng:\n- Lựa chọn khách hàng cần khai báo là Tổ chức hoặc Cá nhân.\n- Khai báo các thông tin chi tiết về khách hàng => Bắt buộc phải khai báo các thông tin có ký hiệu (*).\nLưu ý: Thông tin người mua hàng trên hóa đơn sẽ được lấy theo thông tin người mua hàng khai báo tại danh mục khách hàng.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/r18_desktop_tach_thong_tin_nguoi_mua_hang08.jpg\n\nBước 4: Nhấn Cất.\nLưu ý:\n- Nhấn Sửa nếu muốn thay đổi lại thông tin khách hàng đã khai báo.\n- Với các khách hàng không còn giao dịch nữa, sử dụng chức năng Sửa, sau đó tích chọn Ngừng theo dõi => Khi lập hóa đơn điện tử, các khách hàng đã ngừng theo dõi sẽ không hiển thị tại mục Khách hàng nữa.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/r18_desktop_tach_thong_tin_nguoi_mua_hang09.jpg\n
-MISA meInvoice Desktop - Khai báo danh mục$Khai báo danh mục hàng hóa, dịch vụ$Bước 1: Vào phân hệ Danh mục, chọn Hàng hóa, dịch vụ.\nBước 2: Nhấn Thêm.\nBước 3: Khai báo thông tin hàng hóa, dịch vụ.\nLưu ý:\n- Bắt buộc phải khai báo các thông tin có ký hiệu (*).\n- Các thông tin: Đơn vị tính, Đơn giá bán, Thuế suất GTGT (%), Tỷ lệ CK (%) sẽ được lấy lên hóa đơn tương ứng với từng Mã hàng hóa. Vì vậy, để tiết kiệm thời gian và đảm bảo tính chính xác Kế toán nên khai báo đầy đủ và cẩn thận các thông tin này.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/R1_hanghoa_01.png\n\nBước 4: Nhấn Cất.\nLưu ý:\n- Nhấn Sửa nếu muốn thay đổi lại thông tin vật tư, hàng hóa đã khai báo.\n- Với các vật tư, hàng hóa không kinh doanh nữa, sử dụng chức năng Sửa, sau đó tích chọn Ngừng theo dõi => Khi lập hóa đơn điện tử, các Hàng hóa, dịch vụ đã ngừng theo dõi sẽ không hiển thị tại cột Mã hàng nữa.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/R1_hanghoa_02.png\n
-MISA meInvoice Desktop - Khai báo danh mục$Khai báo danh mục loại tiền$Bước 1: Vào phân hệ Danh mục, chọn Loại tiền.\nBước 2: Chọn loại tiền muốn sửa đổi thông tin, nhấn Sửa (hoặc nhấn Thêm để bổ sung loại tiền mới).\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/loai_tien_01.png\n\nBước 3: Khai báo thông tin chi tiết về loại tiền:\nLưu ý:\n- Bắt buộc phải khai báo các thông tin có ký hiệu (*).\n- Nhập Tỷ giá quy đổi: Khi xuất hóa đơn bằng ngoại tệ chương trình sẽ ngầm định theo tỷ giá này, giúp tiết kiệm thời gian nhập liệu.\n- Thiết lập Cách đọc số tiền bằng chữ để hiển thị trên các hóa đơn in ra:\n+ Tỷ lệ chuyển đổi: Là tỷ lệ chuyển đổi giữa loại tiền và số tiền sau thập phân (Ví dụ: 1 đô la mỹ = 100 xen)\n+ Sau khi thiết lập xong cách đọc số tiền bằng chữ: nhập số tiền rồi nhấn Đọc để xem trước cách hiển thị số tiền trên hóa đơn in ra.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/loai_tien_02.png\n\nBước 4: Nhấn Cất.\nLưu ý:\n- Nhấn Sửa nếu muốn thay đổi lại thông tin loại tiền đã khai báo.\n- Với các loại tiền không có nhu cầu theo dõi nữa, sử dụng chức năng Sửa, sau đó tích chọn Ngừng theo dõi => Khi lập hóa đơn điện tử bằng ngoại tệ, các Loại tiền đã ngừng theo dõi sẽ không hiển thị tại mục Loại tiền nữa.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/loai_tien_03.png\n- Có thể xuất khẩu danh sách Loại tiền ra file excel bằng cách sử dụng chức năng Xuất khẩu\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/loai_tien_04.png\n
-MISA meInvoice Desktop - Khai báo danh mục$Khai báo hình thức thanh toán$Bước 1: Vào phân hệ Danh mục, chọn Hình thức thanh toán.\n\nBước 2: Chọn hình thức thanh toán muốn sửa đổi thông tin, nhấn Sửa (hoặc nhấn Thêm để bổ sung hình thức thanh toán mới).\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/Hinh_thuc_thanh_toan_danh_sach.png\n\nBước 3: Khai báo thông tin chi tiết về hình thức thanh toán:\nLưu ý: Bắt buộc phải khai báo các thông tin có ký hiệu (*).\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/Hinh_thuc_thanh_toan_sua_chi_tiet.png\n\nBước 4: Nhấn Cất.\nLưu ý:\n- Nhấn Thêm hoặc Nhân bản nếu muốn thêm hình thức thanh toán mới.\n- Với các hình thức thanh toán không có nhu cầu theo dõi nữa, sử dụng chức năng Xóa hoặc Sửa trên thanh công cụ để xóa hoặc sửa hình thức thanh toán, sau đó tích chọn Ngừng theo dõi\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/Hinh_thuc_thanh_toan_sua_ngung_theo_doi.png\n\n\n
+AMIS CRM giúp doanh nghiệp tiếp cận với khách hàng bằng quy trình bài bản, các công việc được tự động hóa tối đa giúp nâng cao năng suất và gia tăng doanh số một cách bền vững
 
+Hơn 12.000 doanh nghiệp tin dùng trên khắp cả nước
+"
+MISA AMIS Thông tin nhân sự$Bảng giá$"Bảng giá sản phẩm MISA AMIS Thông tin nhân sự
+Báo giá sản phẩm AMIS Thông tin nhân sự theo tháng:
+Chọn một gói sản phẩm phù hợp với nhu cầu doanh nghiệp của bạn
+- Starter
+    + 400.000 VND/Tháng
+    + Không giới hạn tính năng
+    + Số nhân viên đang làm việc được lưu trữ tối đa: 30
+- Standard (Gói khuyên dùng)
+    + 733.334 VND/Tháng
+    + Không giới hạn tính năng
+    + Số nhân viên đang làm việc được lưu trữ tối đa: 60
+- Professional
+    + 1.133.334 VND/Tháng
+    + Không giới hạn tính năng
+    + Số nhân viên đang làm việc được lưu trữ tối đa: 100
+- Enterprise
+    + 1.566.667 VND/Tháng
+    + Không giới hạn tính năng
+    + Số nhân viên đang làm việc được lưu trữ tối đa: 150
+- Enterprise Plus
+    + 1.958.334 VND/Tháng
+    + Không giới hạn tính năng
+    + Số nhân viên đang làm việc được lưu trữ tối đa: 200
+- Ultimate
+    + Liên hệ
+    + Không giới hạn tính năng
+    + Số nhân viên đang làm việc được lưu trữ lớn hơn 200
 
-MISA meInvoice Mobile - Cài đặt và đăng nhập áp vé điện tử trên máy Pos Sunmi, Mobile$Cài đặt và đăng nhập áp vé điện tử trên máy Pos Sunmi, Mobile$Lưu ý: Thiết bị đáp ứng:\nMáy Pos sunmi hệ điều hành: Android.\nMobile hệ điều hành Android, IOS.\n1. Cài đặt\nVào chợ ứng dụng, gõ từ khóa “Vé điện tử“\nChọn App vé điện tử\nNhấn tải và đợi cho đến khi ứng dụng được tải về máy.\n2. Đăng nhập\nĐăng nhập app vé điện tử bằng tài khoản dùng để đăng nhập phần mềm \nMISA meInvoice.\nLưu ý: Vé điện tử là app độc lập, không dùng chung với app meInvoice mobile.\n
-MISA meInvoice Mobile - Cài đặt ứng dụng meInvoice Mobile$Cài đặt ứng dụng meInvoice Mobile$1. Vào chợ ứng dụng.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/05/cai_dat_01-320x676.png\n2. Gõ từ khóa “meinvoice”\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/05/cai_dat-2-320x676.png\n3. Nhấn Cài đặt và đợi đến khi ứng dụng được tải về máy.1. Vào chợ ứng dụng.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/05/cai_dat-3-1-320x676.png\nĐăng nhập app vé điện tử bằng tài khoản dùng để đăng nhập phần mềm \nMISA meInvoice.\nLưu ý: Vé điện tử là app độc lập, không dùng chung với app meInvoice mobile.\n
-MISA meInvoice Mobile - Đăng nhập vào ứng dụng meInvoice Mobile$Đăng nhập vào ứng dụng meInvoice Mobile$1. Mở ứng dụng meInvoice Mobile.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/05/mo_ung_dung-2-320x674.png\n2. Nhấn Đăng nhập.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/05/dang_nhap-1-1-320x676.png\n3. Khai báo thông tin đăng nhập (là tài khoản để đăng nhập vào \nMISA MEINVOICE Web)\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2020/06/r7_mobile_dang_nhap_01.jpg\nLưu ý: Trường hợp quên mật khẩu có thể lấy lại mật khẩu bằng cách nhấn Quên mật khẩu, xem hướng dẫn tương tự tại đây.\n4. Nhấn Đăng nhập.\n5. Nếu tài khoản đăng nhập có thiết lập bảo mật 2 lớp. Chương trình yêu cầu nhập mã xác thực.\nNhập mã xác thực.\nNếu không check vào “Không hỏi lại trên thiết bị này” thì mỗi lần đăng nhập đều hiển thị giao diện nhập mã xác thực 2 bước.\nNếu check vào “Không hỏi lại trên thiết bị này” thì từ lần đăng nhập sau sẽ không hiển thị bước nhập mã xác thực 2 bước nữa (nhập đúng mật khẩu thì sẽ đăng nhập được vào phần mềm)\nNhấn Tiếp theo.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2020/06/r7_mobile_dang_nhap_02.jpg\nLưu ý: Có thể thay đổi phương thực nhận mã xác thực bằng cách nhấn Thử cách khác sau đó chọn phương thức nhận.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2020/06/r7_mobile_dang_nhap_03-1.jpg\n
-MISA meInvoice Mobile - Khai báo danh mục$Khai báo danh mục hàng hóa, dịch vụ$1. Vào mục Khác\\ chọn Hàng hóa, dịch vụ.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2020/06/r7_mobile_danh_muc_hnag-hoa01.jpg\n2. Nhấn biểu tượng để thêm mới hàng hóa, dịch vụ.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2020/06/r7_mobile_danh_muc_hnag-hoa02.jpg\n3. Khai báo thông tin hàng hóa, dịch vụ.\nLưu ý :\nBắt buộc phải khai báo các thông tin có dấu (*).\nCác thông tin: Đơn vị tính, Giá bán, Thuế suất GTGT (%), Tỷ lệ CK (%) sẽ được lấy lên hóa đơn tương ứng với từng Mã hàng hóa.\n4. Nhấn Thêm.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2020/06/r7_mobile_danh_muc_hnag-hoa05.jpg\n
-MISA meInvoice Mobile - Có mã cơ quan thuế$Lập hóa đơn có mã của Cơ quan thuế$Lưu ý: Trên meInvoice mobile có thể lập hóa đơn có mẫu hóa đơn là:\n\nCác mẫu hóa đơn cơ bản đã được thông báo phát hành trên meInvoice.vn Web, meInvoice Desktop, và các phần mềm tích hợp khác (SME, MIMOSA, ACT…).\nCác mẫu hóa đơn cơ bản có thiết lập trường thông tin mở rộng được thông báo phát hành trên meInvoice Web. Xem chi tiết tại đây.\nKhi lập hóa đơn có mẫu số, ký hiệu áp dụng quy trình phê duyệt hóa đơn, xem hướng dẫn gửi duyệt tại đây.\n1.  Nhấn biểu tượng.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2022/03/lap_hd_01-1-144x300.png\n2. Chọn mẫu hóa đơn.\nNhấn vào mục Mẫu hóa đơn.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2022/03/lap_hd_02-1-150x300.png\nChọn mẫu hóa đơn muốn sử dụng bằng cách: tìm kiếm theo mẫu số hoặc ký hiệu hóa đơn trên thanh tìm kiếm hoặc bằng cách vuốt màn hình sang trái.\nNhấn Chọn mẫu này.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2022/03/lap_hd_03-147x300.png\n3. Khai báo thông tin khách hàng:\nNhấn vào mục Khách hàng\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2022/03/lap_hd_04-150x300.png\nNếu đã khai báo danh mục khách hàng: Chọn khách hàng trên danh sách (có thể tìm nhanh bằng cách nhập từ khóa theo Tên, Số điện thoại, Mã số thuế của khách hàng).\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2022/03/lap_hd_05-1-153x300.png\n\nLưu ý:\nCó thể lập hóa đơn cho đơn vị là tổ chức không có mã số thuế (bỏ trống thông tin Mã số thuế của người mua\nDanh mục Khách hàng khai báo trên meInvoice.vn Web sẽ được lấy xuống meInvoice Mobile và ngược lại.\n4. Chọn Hình thức thanh toán.\nLưu ý: Có thể đánh dấu trạng thái Đã thanh toán cho hóa đơn đã được khách hàng thanh toán tiền trước nhằm phục vụ công tác quản lý:\nTrên danh sách, hóa đơn sẽ được đánh dấu Đã thanh toán\nKhi người mua tra cứu hóa đơn sẽ hiển thị tình trạng thanh toán là Đã thanh toán.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2022/03/lap_hd_06-1-150x300.png\n5. Khai báo hàng hóa ,dịch vụ\nNhấn Thêm hàng hóa dịch vụ.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2022/03/lap_hd_07-150x300.png\nNếu đã khai báo danh mục hàng hóa, dịch vụ: Chọn hàng hóa trên danh sách (có thể chọn nhiều hàng hóa, dịch vụ cùng lúc), nhấn Hoàn tất.\nCó thể tìm nhanh hàng hóa bằng cách nhập từ khóa theo Tên, Mã hàng hóa.\nNếu chưa khai báo danh mục hàng hóa dịch vụ: Nhấn biểu tượng để thêm mới hàng hóa ,dịch vụ. Xem hướng dẫn tại đây.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2022/03/lap_hd_08-1-139x300.png\nLưu ý: \nNếu muốn thay đổi lại thông tin của hàng hóa hoặc khai báo bổ sung các thông tin khác như Tỷ lệ chiết khấu, Tiền chiết khấu, Hàng khuyến mại thì:\nNhấn vào dòng hàng hóa cần thay đổi thông tin.\nNhập thông cần thay đổi, sau đó nhấn Đồng ý.\nDanh mục Hàng hóa, dịch vụ khai báo trên meInvoice.vn Web sẽ được lấy xuống meInvoice Mobile và ngược lại.\n6. Nhấn Lưu hoặc Lưu và phát hành nếu muốn phát hành ngay hóa đơn.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2022/03/lap_hd_09-1-149x300.png\n7. Tích chọn Gửi hóa đơn cho khách hàng: nếu muốn chương trình tự động gửi thông tin về hóa đơn điện tử cho khách hàng ngay sau khi nhận được mã của cơ quan thuế.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2022/03/lap_hd_10-1-148x300.png\n8. Nhấn Phát hành, lựa chọn chứng thư số, chương trình đồng thời cấp số hóa đơn và phát hành hóa đơn điện tử. Sau khi phát hành thành công, hóa đơn được gửi lên cơ quan thuế chờ cấp mã.\nTrường hợp hóa đơn hợp lệ, cơ quan thuế thực hiện cấp mã và gửi về thông điệp kết quả cấp mã của cơ quan thuế, hệ thống đồng thời cập nhật Mã của cơ quan thuế trạng thái hóa đơn thành Đã cấp mã.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2022/03/lap_hd_11-300x198.png\nTrường hợp hóa đơn không hợp lệ, cơ quan thuế thực hiện cấp mã và gửi về thông điệp kết quả kiểm tra dữ liệu hóa đơn điện tử – hóa đơn không đủ điều kiện cấp mã, hệ thống cập nhật trạng thái hóa đơn thành Từ chối cấp mã.\nLưu ý:\nHóa đơn lập trên meInvoice Mobile sẽ được lấy lên danh sách hóa đơn của meInvoice.vn Web và ngược lại.\nCó thể đánh dấu hóa đơn Đã thanh toán sau khi lập phục vục công tác quản lý.\n\n\n
+Báo giá sản phẩm AMIS Thông tin nhân sự theo năm:
+Chọn một gói sản phẩm phù hợp với nhu cầu doanh nghiệp của bạn
+- Starter
+    + 4.800.000 VND/Năm
+    + Không giới hạn tính năng
+    + Số nhân viên đang làm việc được lưu trữ tối đa: 30
+- Standard (Gói khuyên dùng)
+    + 8.800.000 VND/Năm
+    + Không giới hạn tính năng
+    + Số nhân viên đang làm việc được lưu trữ tối đa: 60
+- Professional
+    + 13.600.000 VND/Năm
+    + Không giới hạn tính năng
+    + Số nhân viên đang làm việc được lưu trữ tối đa: 100
+- Enterprise
+    + 18.800.000 VND/Năm
+    + Không giới hạn tính năng
+    + Số nhân viên đang làm việc được lưu trữ tối đa: 150
+- Enterprise Plus
+    + 23.500.000 VND/Năm
+    + Không giới hạn tính năng
+    + Số nhân viên đang làm việc được lưu trữ tối đa: 200
+- Ultimate
+    + Liên hệ
+    + Không giới hạn tính năng
+    + Số nhân viên đang làm việc được lưu trữ lớn hơn 200
+"
+MISA AMIS Thông tin nhân sự$Tính năng nổi bật$"Tính năng nổi bật sản phẩm MISA AMIS Thông tin nhân sự
+Tối đa hiệu suất làm việc của HR:
+- Số hóa thông tin & thủ tục nhân sự một cách toàn diện nhất. 
+- Quản lý vòng đời nhân viên. Tự động trích xuất báo cáo về số lượng, tình hình biến động nhân sự, ...
+- Quản lý hồ sơ nhân sự toàn diện, tự động cập nhật thay đổi dữ liệu nhân sự, kết quả đánh giá, đào tạo
+- Xây dựng quy trình bổ nhiệm cán bộ minh bạch, quy hoạch nguồn lực hiệu quả
+- Tự động nhắc gia hạn với nhân viên sắp hết hạn hợp đồng. Dễ dàng tìm kiếm thông tin nhân viên theo nhiều tiêu chí với bộ lọc nâng cao
+- Quản lý toàn bộ quá trình công tác của nhân viên: quy hoạch, bổ nhiệm, miễn nhiệm, thuyên chuyển, khen thưởng, kỷ luật, ...
 
-MISA meInvoice Quest$Trước khi đăng ký sử dụng hóa đơn với cơ quan thuế, tôi cần phải làm gì$Trước khi đăng ký sử dụng hóa đơn với cơ quan thuế,:\nBạn cần Thiết lập thông tin đơn vị và Thiết lập chữ ký số\n\n
-MISA meInvoice Quest$Không sửa được mã số thuế trên meInvoice$Có sửa được mã số thuế trên meInvoice không:\nThông tin Mã số thuế được tự động lấy theo mã số thuế sử dụng khi mua phần mềm \nMISA meInvoice và không cho phép sửa lại.\n\n
-MISA meInvoice Quest$Trước đó doanh nghiệp có hóa đơn giấy đã thông báo phát hành nhưng chưa sử dụng có cần hủy không$Trước đó doanh nghiệp có hóa đơn giấy đã thông báo phát hành nhưng chưa sử dụng có cần hủy không:\nCó, sau khi được cơ quan thuế chấp nhận sử dụng hóa đơn điện tử theo Nghị định 123, doanh nghiệp phải thực hiện thủ tục hủy hóa đơn giấy và hủy hóa đơn điện tử đã phát hành theo các quy định trước đó.\n\n
-MISA meInvoice Quest$Hướng dẫn ký trực tiếp qua chữ ký số từ xa$Hướng dẫn tôi Ký trực tiếp qua chữ ký số từ xa \nMISA eSign được không\nNhấn Kết nối ngay.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2017/12/thiet_lap_ky_so_02-768x304.jpg\nKhai báo thông tin kết nối (Do \nMISA cung cấp sau khi mua \nMISA eSign), nhấn Đồng ý.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2017/12/thiet_lap_ky_so_03.jpg\nLưu ý: Trường hợp tài khoản kết nối có thiết lập xác thực 2 lớp, chương trình sẽ hiển thị giao diện yêu cầu nhập mã xác thực.\nNhập mã xác thực được gửi đến số điện thoại đăng ký tài khoản \nMISA eSign, nhấn Xác thực.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2017/12/xac_thuc_\nmisa_id_02-1.jpg\nLưu ý: Có thể thay đổi phương thức nhận mã xác thực bằng cách nhấn Thử cách khác.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2017/12/xac_thuc_\nmisa_id_03.jpg\n\n
-MISA meInvoice Quest$Khi ký vào tờ khai báo lỗi “Ký điện tử không thành công” thì phải làm gì$Khi ký vào tờ khai báo lỗi “Ký điện tử không thành công”ì\nCách khắc phục:\nBước 1: Cài đặt \nMISA KYSO phiên bản mới trên máy theo hướng dẫn Tại đây\nBước 2: Thực hiện ký lại tờ khai.\nLƯU Ý: Nếu gặp trường hợp cài xong chạy Tool \nMISA KYSO báo lỗi .NET 4.6.2 (như hình) khi dùng Win 7 SP1 thì xử lý theo hướng dẫn:\nhttps://helpv3.meinvoice.vn/wp-content/uploads/2021/11/loi-dotnet.jpg\nBước 1 : Thực hiện add Cert .NET theo hướng dẫn tại đây.\nBước 2: Tải bộ cài .NET 4.6.2 tại đây để cài đặt\nBước 3: Trên màn hình máy tính mở \nMISA KYSO lên và Ký tờ khai lại.\nhttps://helpv3.meinvoice.vn/wp-content/uploads/2021/11/\nmisa-ky-so.jpg\nLưu ý: Đối với win 7.0 và win 8 nếu không cài được theo hướng dẫn vui lòng cài lại windows (khuyến khích win 10)\n\n
-MISA meInvoice Quest$muốn đăng ký sử dụng hóa đơn không có mã của cơ quan thuế$Cách đăng ký sử dụng hóa đơn không có mã của cơ quan thuế:\nSau khi Thiết lập thông tin đơn vị và Thiết lập ký số, thực hiện như sau:\n1. Tại màn hình bắt đầu sử dụng, tích chọn Hóa đơn không có mã của CQT, nhấn Hoàn thiện tờ khai.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/r48_web_hoan_thien_to_khai_06-768x501.jpg\n2. Chương trình đã tạo sẵn 1 tờ khai trên danh sách, nhấn biểu tượng Xem để xem chi tiết và hoàn thiện tờ khai.\nKhai báo thông tin liên hệ với CQT:\nVới tờ khai Đăng ký mới: Sau khi tờ khai được chấp nhận, cơ quan thuế sẽ gửi thông tin tài khoản truy cập hệ thống HĐĐT của Tổng cục Thuế và các thông báo quan trọng liên quan đến hóa đơn điện tử tới email/số điện thoại/địa chỉ này.\nVới tờ khai Thay đổi thông tin: Sau khi tờ khai được chấp nhận, cơ quan thuế sẽ gửi các thông báo quan trọng liên quan đến hóa đơn điện tử tới email/số điện thoại/địa chỉ này.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/r48_web_hoan_thien_to_khai_07-768x495.jpg\n1. Hình thức hóa đơn: Không có mã của cơ quan thuế (Phần mềm tự động lấy lên theo thiết lập hình thức hóa đơn tại Hồ sơ điện tử). Trường hợp đơn vị sử dụng song song 2 hình thức hóa đơn thì tích chọn cả 2 hình thức.\n2. Hình thức gửi dữ liệu hóa đơn điện tử: Để trống toàn bộ ( nếu đơn vị không thuộc trường hợp không phải trả tiền dịch vụ theo khoản 1, điều 14, nghị định 123/2020/NĐ-CP.)\n3. Phương thức chuyển hóa đơn điện tử: Chọn 1 trong 2 phương thức:\nChuyển đầy đủ nội dung từng hóa đơn: Chương trình sẽ tự động chuyển dữ liệu hóa đơn đến cơ quan thuế ngay sau khi hóa đơn được phát hành và gửi cho khách hàng.\nChuyển theo bảng tổng hợp dữ liệu hóa đơn: Kế toán lập bảng tổng hợp dữ liệu hóa đơn gửi cơ quan thuế định kỳ theo kỳ kê khai thuế GTGT tại đơn vị.\nXem hướng dẫn chi tiết cách chọn phương thức chuyển dữ liệu hóa đơn đến cơ quan thuế tại đây.\n4. Loại hóa đơn sử dụng: Tích chọn vào 1 hoặc nhiều loại hóa đơn theo thực tế sử dụng của từng đơn vị. Bao gồm:\nHóa đơn bán hàng\nHóa đơn GTGT\nHóa đơn GTGT khởi tạo từ máy tính tiền\nHóa đơn bán hàng khởi tạo từ máy tính tiền\nCác loại hóa đơn khác: Vé điện tử\nChứng từ khác: Các loại phiếu xuất kho kiêm vận chuyển nội bộ, phiếu xuất kho hàng gửi bán đại lý.\nLưu ý: Nếu đơn vị sử dụng hóa đơn khởi tạo từ máy tính tiền. Xem chi tiết luồng nghiệp vụ tại đây.\n5. Danh sách chứng thư số sử dụng: Nhấn Chọn để lấy lên chứng thư số đơn vị sử dụng.\nNhấn Ký điện tử.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/r48_web_hoan_thien_to_khai_08.jpg\nNhấn Gửi để gửi tờ khai đến cơ quan thuế.\n3. Theo dõi kết quả đăng ký.\nCơ quan thuế sẽ phản hồi về việc chấp nhận/không chấp nhận đăng ký sử dụng hóa đơn đơn điện tử trong 01 ngày kể từ ngày nộp tờ khai.\nTheo dõi kết quả đăng ký tại mục Đăng ký/Thay đổi thông tin.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/r48_web_hoan_thien_to_khai_09-768x96.jpg\n\n
-MISA meInvoice Quest$muốn xóa bỏ mẫu đã phát sinh số hóa đơn$muốn xóa bỏ mẫu đã phát sinh số hóa đơn được không:\nKhông, chương trình không cho phép xóa bỏ mẫu đã phát sinh số hóa đơn\n\n
-MISA meInvoice Quest$sửa lại mẫu hóa đơn đã tạo$Có thể sửa lại mẫu hóa đơn đã tạo không:\nCó, bạn có thể xem/sửa lại mẫu hóa đơn đã khởi tạo hoặc khởi tạo mẫu hóa đơn mới.\n\n
-MISA meInvoice Quest$tiêu hủy hóa đơn giấy đã thông báo phát hành nhưng chưa sử dụng$Cách tiêu hủy hóa đơn giấy đã thông báo phát hành nhưng chưa sử dụng:\nBước 1: Thành lập Hội đồng hủy hóa đơn\nDoanh nghiệp, tổ chức kinh tế phải thành lập Hội đồng tiêu hủy hóa đơn. Hội đồng hủy hóa đơn phải có đại diện lãnh đạo, đại diện bộ phận kế toán của tổ chức. Hộ, cá nhân kinh doanh không phải thành lập Hội đồng khi tiêu hủy hóa đơn và thực hiện các việc sau:\nLập Bảng kiểm kê hóa đơn cần hủy\nTiến hành hủy hóa đơn và Lập biên bản hủy hóa đơn\nThông báo kết quả hủy hóa đơn\nBước 2: Lập Bảng kiểm kê hóa đơn cần hủy\nTheo quy định tại Điểm d, Khoản 2, Điều 27 nghị định 123/NĐ-CP quy định về nội dung của Biên bản kiểm kê hóa đơn cần hủy như sau:\nBảng kiểm kê hóa đơn cần tiêu hủy ghi chi tiết: Tên hóa đơn, ký hiệu mẫu số hóa đơn, ký hiệu hóa đơn, số lượng hóa đơn hủy (từ số… đến số… hoặc kê chi tiết từng số hóa đơn nếu số hóa đơn cần hủy không liên tục)\nTrước khi hủy hóa đơn, Hội đồng kiểm kê phải tiến hành kiểm kê số hóa đơn cần hủy, với các chỉ tiêu như quy định trên. Hội đồng kiểm kê phải Lập bảng kiểm kê và ký xác nhận.\nBước 3: Tiến hành hủy hóa đơn và lập Biên bản hủy hóa đơn\nKhi hủy hóa đơn, Hội đồng phải lập biên bản hủy hóa đơn. Biên bản ghi rõ thông tin cần thiết của hóa đơn hủy như:\nLoại hóa đơn, Mẫu hóa đơn, Ký hiệu hóa đơn, từ quyển … đến quyển …, Từ số … đến số …\nHình thức hủy hóa đơn\nCắt góc\nXé nhỏ\nĐốt\nBiên bản được lập sau khi hóa đơn đã hủy và có chữ ký của những người trong Hội đồng hủy hóa đơn\nBước 4: Thông báo kết quả hủy hóa đơn\nLập thông báo kết quả hủy hóa đơn phải có nội dung theo Mẫu số 02/HUY-HĐG Phụ lục IA ban hành kèm theo Nghị định này.\nThông báo kết quả tiêu hủy hóa đơn được lập thành 02 bản, một bản lưu, một bản gửi đến cơ quan thuế quản lý trực tiếp chậm nhất không quá 05 ngày kể từ ngày thực hiện tiêu hủy hóa đơn.\nHồ sơ tiêu hủy hóa đơn được lưu tại doanh nghiệp, tổ chức kinh tế, hộ, cá nhân kinh doanh sử dụng hóa đơn.\n\n
-MISA meInvoice Quest$Cách khai báo danh sách khách hàng, phục vụ cho việc lập và gửi hóa đơn điện tử cho khách hàng$Cách khai báo danh sách khách hàng, phục vụ cho việc lập và gửi hóa đơn điện tử cho khách hàng:\n2.1. Nhập khẩu danh sách khách hàng từ tệp excel\n1. Vào Danh mục, chọn Khách hàng.\n2. Nhấn Nhập khẩu.\nhttps://helpv3.meinvoice.vn/wp-content/uploads/2019/12/nhap_khau_khach_hang_01-1.png\nChi tiết các bước thực hiện xem hướng dẫn tại đây.\n2.2. Khai báo khách hàng\n1. Vào Danh mục, chọn Khách hàng.\n2. Nhấn Thêm mới.\n3. Khai báo thông tin khách hàng:\nhttps://helpv3.meinvoice.vn/wp-content/uploads/2019/12/nhap_khau_khach_hang_02.png\nLựa chọn khách hàng cần khai báo là Tổ chức hoặc Cá nhân.\nNhập Mã số thuế của khách hàng sau đó nhấn Lấy thông tin, chương trình tự động lấy lên Tên khách hàng và Địa chỉ theo dữ liệu của cơ quan thuế (hoặc có thể tự khai báo các thông tin này nếu muốn).\nVới tổ chức không có Mã số thuế thì bỏ trống thông tin này.\nLưu ý: Khi thực hiện chức năng Lấy thông tin từ Mã số thuế của khách hàng thì chương trình tự động kiểm tra tình trạng hoạt động của khách hàng đó:\nKhai báo các thông tin chi tiết khác về khách hàng => Bắt buộc phải khai báo các thông tin có ký hiệu (*)\nhttps://helpv3.meinvoice.vn/wp-content/uploads/2019/12/danh_muc_khach_hang.png\nLưu ý:\nKhi lập hóa đơn các thông tin: Mã số thuế, Tên khách hàng, Địa chỉ, Số TK ngân hàng, Tên ngân hàng, Người nhận hóa đơn, Email và Số điện thoại sẽ được tự động lấy lên theo thông tin tương ứng của Người mua hàng khai báo trên danh mục tương ứng với khách hàng được chọn.Vì vậy, để tiết kiệm thời gian và đảm bảo tính chính xác Kế toán nên khai báo đầy đủ và cẩn thận các thông tin này.\nChương trình sẽ gửi hóa đơn cho khách hàng theo thông tin của Người nhận hóa đơn (mặc định lấy theo thông tin Người mua hàng  và có thể sửa lại nếu cần) \n4. Nhấn Lưu.\n\n
-MISA meInvoice Quest$Cách xóa khách hàng không còn giao dịch nữa ở mục Khách hàng$Cách xóa khách hàng không còn giao dịch nữa ở mục Khách hàng:\nVới các khách hàng không còn giao dịch nữa, nhấn Sửa và tích chọn Ngừng theo dõi => Khi lập hóa đơn điện tử, các khách hàng đã ngừng theo dõi sẽ không hiển thị tại mục Khách hàng nữa.\n\n
-MISA meInvoice Quest$Trong mục Khách hàng, muốn xóa cùng lúc nhiều khách hàng$Trong mục Khách hàng, muốn xóa cùng lúc nhiều khách hàng\nĐể Xóa cùng lúc nhiều khách hàng: Giữ phím Ctrl và chọn các khách hàng muốn xóa, sau đó nhấn biểu tượng và chọn Xóa.\n\n
-MISA meInvoice Quest$Trong mục Khách hàng, muốn khai báo nhanh khách hàng bằng cách sao chép lại thông tin của khách hàng khác đã khai báo$Trong mục Khách hàng, muốn khai báo nhanh khách hàng bằng cách sao chép lại thông tin của khách hàng khác đã khai báo:\nĐể Khai báo nhanh khách hàng bằng cách sao chép lại thông tin của khách hàng khác đã khai báo: Chọn khách hàng muốn sao chép thông tin, nhấn biểu tượng, chọn Nhân bản.\n\n
-MISA meInvoice Quest$Trong mục Khách hàng, muốn Xuất khẩu danh sách khách hàng ra file excel$Trong mục Khách hàng, muốn Xuất khẩu danh sách khách hàng ra file excel:\nĐể Xuất khẩu danh sách khách hàng ra file excel: Nhấn biểu tượng, chọn Xuất khẩu\n\n
-MISA meInvoice Quest$Trong mục Khách hàng, muốn cập nhật dữ liệu mới nhất do Thêm/Sửa/Xóa khách hàng$Trong mục Khách hàng, muốn cập nhật dữ liệu mới nhất do Thêm/Sửa/Xóa khách hàng:\nĐể Cập nhật dữ liệu mới nhất do Thêm/Sửa/Xóa khách hàng: Nhấn biểu tượng, chọn Nạp.\n\n
-MISA meInvoice Quest$Trong mục Khách hàng, muốn tìm kiếm thông tin khách hàng$Trong mục Khách hàng, muốn tìm kiếm thông tin khách hàng:\nĐể Tìm kiếm khách hàng: Có thể tìm kiếm theo loại khách hàng hoặc gõ từ khóa tìm kiếm theo Mã số thuế, Mã khách hàng, Tên khách hàng và nhấn biểu tượng.\n\n
-MISA meInvoice Quest$khai báo danh sách hàng hóa, dịch vụ phục vụ cho việc lập hóa đơn điện tử$khai báo danh sách hàng hóa, dịch vụ phục vụ cho việc lập hóa đơn điện tử:\nCách 1:  Nhập khẩu danh sách hàng hóa, dịch vụ từ tệp excel\n1. Vào Danh mục, chọn Hàng hóa, dịch vụ.\n2. Nhấn Nhập khẩu.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/khai_bao_hang_hoa_01-1024x379.png\nChi tiết các bước thực hiện xem hướng dẫn tại đây.\nCách 2: Khai báo hàng hóa, dịch vụ.\n1. Vào mục Danh mục, chọn Hàng hóa, dịch vụ.\n2. Nhấn Thêm mới.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/khai_bao_hang_hoa_02-1024x379.png\n3. Khai báo thông tin hàng hóa, dịch vụ.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/R30_web_them_HH_01.png\nLưu ý:\nBắt buộc phải khai báo các thông tin có ký hiệu (*).\nMục Nhóm HHDV, nếu khai báo:\nTrên Báo cáo thống kê số lượng hóa đơn đã phát hành sẽ thống kê được giá trị hóa đơn đã phát hành theo từng nhóm hàng hóa , dịch vụ phục vụ nhu cầu quản lý của đơn vị.\nĐể khai báo thông tin hàng hóa, dịch vụ theo nhóm cần thiết lập danh mục Nhóm hàng hóa, dịch vụ. Xem hướng dẫn tại đây.\nThuế GTGT (%): Nhập mức thuế suất tương ứng của hàng hóa, dịch vụ trong đó:\nMức KCT: dành cho hàng hóa, dịch vụ không chịu thuế.\nMức KKKNT: Thuế suất trống và tiền thuế bằng 0.\nMức KHAC: Thuế suất trống và tiền thuế >0 (thường sử dụng trong lĩnh vực Hàng Hải)\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/R30_web_them_HH_02.png\nKhi lập hóa đơn, sau khi chọn hàng hóa, dịch vụ, các thông tin: Đơn vị tính, Đơn giá bán, Thuế suất GTGT (%) sẽ được lấy tương ứng lên hóa đơn.  Vì vậy, để tiết kiệm thời gian và đảm bảo tính chính xác Kế toán nên khai báo đầy đủ và cẩn thận các thông tin này.\n4. Nhấn Lưu.\n\n
-MISA meInvoice Quest$Với các hàng hóa, dịch vụ không còn kinh doanh nữa thì làm cách nào để xóa khỏi cột Tên hàng hóa, dịch vụ$Xóa hàng hóa, dịch vụ khỏi côt Tên hàng hóa, dịch vụ:\nVới các Hàng hóa, dịch vụ không còn kinh doanh nữa, nhấn vào biểu tượng https://helpv4.meinvoice.vn/wp-content/uploads/2019/12/icon_sua.png \n, sau đó tích chọn Ngừng theo dõi => Khi lập hóa đơn điện tử, các Hàng hóa, dịch vụ đã ngừng theo dõi sẽ không hiển thị tại cột Tên hàng hóa, dịch vụ nữa.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/r18_Web_khai_bao_nhom_hang_hoa06-1024x516.jpg\n\n
-MISA meInvoice Quest$Thay đổi lại thông tin Hàng hóa, dịch vụ$Thay đổi lại thông tin Hàng hóa, dịch vụ:\nVới các Hàng hóa, dịch vụ không còn kinh doanh nữa, nhấn vào biểu tượng https://helpv4.meinvoice.vn/wp-content/uploads/2019/12/icon_sua.png\n, sau đó tích chọn Ngừng theo dõi => Khi lập hóa đơn điện tử, các Hàng hóa, dịch vụ đã ngừng theo dõi sẽ không hiển thị tại cột Tên hàng hóa, dịch vụ nữa.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/r18_Web_khai_bao_nhom_hang_hoa06-1024x516.jpg\n\n
-MISA meInvoice Quest$Trong danh mục Hàng hóa, dịch vụ, để thay đổi lại thông tin hàng hóa, dịch vụ$Trong danh mục Hàng hóa, dịch vụ, để thay đổi lại thông tin hàng hóa, dịch vụ:\nĐể Thay đổi lại thông tin Hàng hóa, dịch vụ: Nhấn biểu tượng https://helpv4.meinvoice.vn/wp-content/uploads/2019/12/icon_sua.png\n\n
-MISA meInvoice Quest$Trong danh mục Hàng hóa, dịch vụ, để xóa thông tin hàng hóa, dịch vụ$Trong danh mục Hàng hóa, dịch vụ, để xóa thông tin hàng hóa, dịch vụ:\nĐể Xóa Hàng hóa, dịch vụ: Nhấn biểu tượng https://helpv4.meinvoice.vn/wp-content/uploads/2019/12/icon_daux.png\n\n
-MISA meInvoice Quest$Trong danh mục Hàng hóa, dịch vụ, để xóa cùng lúc nhiều hàng hóa, dịch vụ$Trong danh mục Hàng hóa, dịch vụ, để xóa cùng lúc nhiều hàng hóa, dịch vụ:\nĐể Xóa cùng lúc nhiều Hàng hóa, dịch vụ: Giữ phím Ctrl và chọn các Hàng hóa, dịch vụ muốn xóa, sau đó nhấn biểu tượng https://helpv4.meinvoice.vn/wp-content/uploads/2019/12/icon_3chamngang.png và chọn Xóa\n\n
-MISA meInvoice Quest$Trong danh mục Hàng hóa, dịch vụ, để xuất khẩu hàng hóa, dịch vụ$Trong danh mục Hàng hóa, dịch vụ, để xuất khẩu hàng hóa, dịch vụ:\nĐể Xuất khẩu danh sách Hàng hóa, dịch vụ ra file excel: Nhấn biểu tượng https://helpv4.meinvoice.vn/wp-content/uploads/2019/12/icon_3chamngang.png và chọn Xuất khẩu\n\n
-MISA meInvoice Quest$Trong danh mục Hàng hóa, dịch vụ, để cập nhật dữ liệu mới nhất do Thêm/Sửa/Xóa Hàng hóa dịch vụ$Trong danh mục Hàng hóa, dịch vụ, để cập nhật dữ liệu mới nhất do Thêm/Sửa/Xóa Hàng hóa dịch vụ:\nĐể Cập nhật dữ liệu mới nhất do Thêm/Sửa/Xóa Hàng hóa, dịch vụ: Nhấn biểu tượng https://helpv4.meinvoice.vn/wp-content/uploads/2019/12/icon_3chamngang.png và chọn Nạp\n\n
-MISA meInvoice Quest$Trong danh mục Hàng hóa, dịch vụ, để tìm kiếm Hàng hóa, dịch vụ$Trong danh mục Hàng hóa, dịch vụ, để tìm kiếm Hàng hóa, dịch vụ:\nĐể Tìm kiếm Hàng hóa, dịch vụ: Có thể gõ từ khóa tìm kiếm theo Mã Hàng hóa, dịch vụ, Tên Hàng hóa, dịch vụ và nhấn biểu tượng https://helpv4.meinvoice.vn/wp-content/uploads/2019/12/Group%2027.png\n\n
-MISA meInvoice Quest$Bổ sung, sửa đổi hoặc xóa bỏ các loại tiền trong hóa đơn$Được bổ sung, sửa đổi hoặc xóa bỏ các loại tiền trong hóa đơn, phần mềm đã thiết lập sẵn danh sách các loại tiền thường được các doanh nghiệp giao dịch. Tuy nhiên, Kế toán vẫn có thể bổ sung, sửa đổi hoặc xóa bỏ các loại tiền đã có sao cho phù hợp với yêu cầu quản lý thực tế của doanh nghiệp để phục vụ cho việc xuất hóa đơn bằng ngoại tệ.\n Để làm điều đó:\n1. Vào mục Danh mục, chọn Loại tiền.\n2. Chọn loại tiền muốn sửa đổi thông tin, nhấn biểu tượng (hoặc nhấn Thêm mới để bổ sung loại tiền mới).\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2017/04/khai_bao_loai_tien-1024x493.png\n3. Khai báo thông tin chi tiết về loại tiền:\nBắt buộc phải khai báo các thông tin có ký hiệu (*).\nNhập Tỷ giá quy đổi: Khi xuất hóa đơn bằng ngoại tệ chương trình sẽ ngầm định theo tỷ giá này, giúp tiết kiệm thời gian nhập liệu.\nThiết lập Cách đọc số tiền bằng chữ để hiển thị trên các hóa đơn in ra:\nTỷ lệ chuyển đổi: Là tỷ lệ chuyển đổi giữa loại tiền và số tiền sau thập phân (Ví dụ: 1 đô la mỹ = 100 xen)\nSau khi thiết lập xong cách đọc số tiền bằng chữ: nhập số tiền rồi nhấn Đọc để xem trước cách hiển thị số tiền trên hóa đơn in ra.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2020/04/r22_Web_loai_tien02.png\nLưu ý: Để lấy lại cách đọc loại tiền ngầm định của chương trình nhấn Lấy ngầm định.\n4. Nhấn Lưu.\nLưu ý:\nNhấn biểu tượng nếu muốn thay đổi lại thông tin loại tiền đã khai báo.\nVới các loại tiền không có nhu cầu theo dõi nữa, sử dụng chức năng Sửa, sau đó tích chọn Ngừng theo dõi => Khi lập hóa đơn điện tử bằng ngoại tệ, các Loại tiền đã ngừng theo dõi sẽ không hiển thị tại mục Loại tiền nữa.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2020/04/r22_Web_loai_tien03.png\n\n
-MISA meInvoice Quest$Xóa đơn vị khi đã phát sinh hóa đơn tại đơn vị$Không thể xóa đơn vị trong trường hợp đã có người dùng thuộc đơn vị, đã có người dùng được phân quyền làm việc trên đơn vị, đã phát sinh hóa đơn tại đơn vị\n\n
-MISA meInvoice Quest$Quản lý nhân viên trên danh sách hóa đơn$Có, nếu đơn vị có quản lý nhân viên trên danh sách hóa đơn thì có thể phân công và quản lý nhân viên theo từng đơn vị.\nKhai báo thêm thông tin đơn vị cho nhân viên.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/05/r35.4_quan_ly_nhan_vien_tren_danh_sach_01.png\nKhi lập hóa đơn thì khai báo nhân viên như bình thường.\n\n
-MISA meInvoice Quest$Nghiệp vụ xử lý hóa đơn sai sót trên hóa đơn của từng đơn vị$Nghiệp vụ xử lý hóa đơn sai sót thực hiện như bình thường, thông tin đơn vị trên hóa đơn sẽ được chương trình tự động lấy lên theo thông tin trên hóa đơn gốc. Trên danh sách hóa đơn điều chỉnh, thay thế, xóa bỏ cũng hiển thị thông tin Đơn vị và có thể lọc danh sách theo từng đơn vị.\n\n
-MISA meInvoice Quest$Trong trường hợp người bán tự phát hiện sai sót của hóa đơn điện tử, chưa gửi cho khách hàng$Trong trường hợp người bán tự phát hiện sai sót của hóa đơn điện tử, chưa gửi cho khách hàng:\nBước 1: Hủy hóa đơn sai sót.\nBước 2: Lập và phát hành hóa đơn mới gửi cho khách hàng.\nBước 3: Thông báo với cơ quan thuế về hóa đơn sai sót.\n\n
-MISA meInvoice Quest$Trong trường hợp người bán phát hiện sai sót sau khi gửi hóa đơn điện tử cho khách hàng, sai về Tên, Địa chỉ người mua, các thông tin khác không sai só$Trong trường hợp người bán phát hiện sai sót sau khi gửi hóa đơn điện tử cho khách hàng, sai về Tên, Địa chỉ người mua, các thông tin khác không sai sót:\nBước 1: Thông báo với cơ quan thuế về hóa đơn sai sót.\nBước 2: Thông báo cho người mua về hóa đơn sai sót và không phải lập lại hóa đơn.\n\n
-MISA meInvoice Quest$Trong trường hợp người bán tự phát hiện sai sót sau khi gửi hóa đơn điện tử cho khách hàng, sai về Mã số thuế; sai Số tiền ghi trên hóa đơn; sai Tiền thuế; Thuế suất; hoặc Hàng hóa ghi trên hóa đơn không đúng quy cách, chất lượng$Trong trường hợp người bán tự phát hiện sai sót sau khi gửi hóa đơn điện tử cho khách hàng, sai về Mã số thuế; sai Số tiền ghi trên hóa đơn; sai Tiền thuế; Thuế suất; hoặc Hàng hóa ghi trên hóa đơn không đúng quy cách, chất lượng:\nNgười bán và người mua tự thỏa thuận với nhau để chọn 1 trong 2 cách giải quyết.\nCách 1: Lập hóa đơn điều chỉnh cho hóa đơn sai sót.\nCách 2: Hủy hóa đơn sai sót và lập hóa đơn thay thế.\n\n
-MISA meInvoice Quest$Trong trường hợp Cơ quan thuế phát hiện sau sót và thông báo đến người bán$Trong trường hợp Cơ quan thuế phát hiện sau sót và thông báo đến người bán:\nCơ quan thuế sẽ gửi thông báo rà soát trực tiếp qua email của người nộp thuế.\nBước 1: Lập hóa đơn điều chỉnh cho hóa đơn sai sót hoặc Hủy hóa đơn sai sót và lập hóa đơn thay thế theo thỏa thuận với người mua.\nBước 2: Thông báo với cơ quan thuế về hóa đơn điện tử sai sót\n
-MISA meInvoice Quest$Muốn thay đổi thông tin liên hệ cơ quan thuế thì làm thế nào$Cũng trong mục Hồ sơ hóa đơn điện tử, tại phần Thông tin liên hệ, nhấn biểu tượng hình bút.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/10/thay-doi-thong-tin-lien-he-768x392.png\nCập nhật thông tin mới. Nhấn Lưu\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/10/chinh-sua-luu-768x494.png\n
-MISA meInvoice Quest$Có thể ký số bằng những hình thức nào trên meInvoice$Trên meInvoice hiện cho phép ký bằng 3 hình thức là:\nKý trực tiếp qua USB\nKý thông qua chữ ký số từ xa \nMISA eSign\nKý thông qua máy chủ HSM\n
-MISA meInvoice Quest$Muốn sửa thông tin liên hệ cơ quan thuế thì làm cách nào$Cũng trong mục Hồ sơ hóa đơn điện tử, tại phần Thông tin liên hệ, nhấn biểu tượng hình bút.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/10/thay-doi-thong-tin-lien-he-768x392.png\nCập nhật thông tin mới. Nhấn Lưu\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/10/chinh-sua-luu-768x494.png\n
-MISA meInvoice Quest$Hướng dẫn ký trực tiếp qua máy chủ HSM$Ví dụ: Kết nối với nhà cung cấp Cyber HSM, thực hiện tương tự khi kết nối với các nhà cung cấp còn lại.\nNhấn chọn nhà cung cấp Cyber HSM.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2017/12/thiet_lap_ky_so_04-768x247.jpg\nKhai báo thông tin kết nối (Do đơn vị cung cấp dịch vụ cung cấp), nhấn Đồng ý.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2017/12/thiet_lap_ky_so_05.jpg\n
-MISA meInvoice Quest$Muốn hủy hóa đơn giấy đã thông báo phát hành nhưng chưa sử dụng$Bước 1: Thành lập Hội đồng hủy hóa đơn\nDoanh nghiệp, tổ chức kinh tế phải thành lập Hội đồng tiêu hủy hóa đơn. Hội đồng hủy hóa đơn phải có đại diện lãnh đạo, đại diện bộ phận kế toán của tổ chức. Hộ, cá nhân kinh doanh không phải thành lập Hội đồng khi tiêu hủy hóa đơn và thực hiện các việc sau:\nLập Bảng kiểm kê hóa đơn cần hủy\nTiến hành hủy hóa đơn và Lập biên bản hủy hóa đơn\nThông báo kết quả hủy hóa đơn\nBước 2: Lập Bảng kiểm kê hóa đơn cần hủy\nTheo quy định tại Điểm d, Khoản 2, Điều 27 nghị định 123/NĐ-CP quy định về nội dung của Biên bản kiểm kê hóa đơn cần hủy như sau:\nBảng kiểm kê hóa đơn cần tiêu hủy ghi chi tiết: Tên hóa đơn, ký hiệu mẫu số hóa đơn, ký hiệu hóa đơn, số lượng hóa đơn hủy (từ số… đến số… hoặc kê chi tiết từng số hóa đơn nếu số hóa đơn cần hủy không liên tục)\nTrước khi hủy hóa đơn, Hội đồng kiểm kê phải tiến hành kiểm kê số hóa đơn cần hủy, với các chỉ tiêu như quy định trên. Hội đồng kiểm kê phải Lập bảng kiểm kê và ký xác nhận.\nBước 3: Tiến hành hủy hóa đơn và lập Biên bản hủy hóa đơn\nKhi hủy hóa đơn, Hội đồng phải lập biên bản hủy hóa đơn. Biên bản ghi rõ thông tin cần thiết của hóa đơn hủy như: loại hóa đơn, Mẫu hóa đơn, Ký hiệu hóa đơn, từ quyển … đến quyển …, Từ số … đến số …\nHình thức hủy hóa đơn: cắt góc, xé nhỏ, ddốt\nBiên bản được lập sau khi hóa đơn đã hủy và có chữ ký của những người trong Hội đồng hủy hóa đơn\nBước 4: Thông báo kết quả hủy hóa đơn\nLập thông báo kết quả hủy hóa đơn phải có nội dung theo Mẫu số 02/HUY-HĐG Phụ lục IA ban hành kèm theo Nghị định này.\nThông báo kết quả tiêu hủy hóa đơn được lập thành 02 bản, một bản lưu, một bản gửi đến cơ quan thuế quản lý trực tiếp chậm nhất không quá 05 ngày kể từ ngày thực hiện tiêu hủy hóa đơn.\nHồ sơ tiêu hủy hóa đơn được lưu tại doanh nghiệp, tổ chức kinh tế, hộ, cá nhân kinh doanh sử dụng hóa đơn. \n
-MISA meInvoice Quest$Trong danh mục Hàng hóa, dịch vụ, để khai báo nhanh hàng hóa, dịch vụ thì làm thế nào$Để Khai báo nhanh Hàng hóa, dịch vụ bằng cách sao chép lại thông tin của Hàng hóa, dịch vụ khác đã khai báo: Chọn Hàng hóa, dịch vụ muốn sao chép thông tin, nhấn biểu tượng\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2019/12/icon_3chamngang.png\nvà chọn Nhân bản\n
-MISA meInvoice Quest$Công ty có nhiều đơn vị thì có thể quản lý hóa đơn theo đơn vị xuất được không$Được, nếu doanh nghiệp có nhiều đơn vị xuất hóa đơn (có nhiều chi nhánh, cửa hàng, các điểm xuất hóa đơn riêng biệt) quản lý hóa đơn theo từng đơn vị thì các đơn vị này có thể sử dụng chung mẫu hóa đơn do công ty mẹ (doanh nghiệp với mã số thuế mua tài nguyên hóa đơn điện tử) thực hiện thông báo phát hành.\n
-MISA meInvoice Quest$Sau khi phát sinh hóa đơn tại đơn vị, muốn xóa hóa đơn có được không$Không thể xóa đơn vị trong trường hợp đã có người dùng thuộc đơn vị, đã có người dùng được phân quyền làm việc trên đơn vị, đã phát sinh hóa đơn tại đơn vị
-MISA meInvoice Quest$Thiết lập thông tin đơn vị$Bạn cần điền các thông tin chi tiết dưới đây\nTên đơn vị: Viết in hoa.\nĐịa chỉ: Ghi đầy đủ như địa chỉ trên giấy phép đăng ký kinh doanh.\nThông tin liên hệ: Cơ quan thuế sẽ gửi các thông báo quan trọng về hóa đơn điện tử cho đơn vị qua Email/số điện thoại khai báo tại mục này.\nThông tin thanh toán: Khai báo thông tin chi nhánh luôn trên mục Tên ngân hàng.\nSau khi khai báo đầy đủ thông tin nhấn Tiếp tục để chuyển sang bước Thiết lập chữ ký số.\nhttps://helpv3.meinvoice.vn/wp-content/uploads/2021/11/HSHD.jpg
-MISA meInvoice Quest$Chỉnh sửa thông tin đơn vị$Vào mục Hồ sơ hóa đơn điện tử, tại thông tin cần sửa nhấn biểu tượng hình bút.\nhttps://helpv3.meinvoice.vn/wp-content/uploads/2021/12/HSHD_01.jpg\nCập nhật thông tin mới, nhấn Lưu.\nhttps://helpv4.meinvoice.vn/wp-content/uploads/2021/10/bat-dau-su-dung_thiet-lap-thong-tin-don-vi_3-1-768x255.png
+Ban lãnh đạo đưa ra chiến lược quy hoạch, phát triển đội ngũ
+Mọi thông tin nhân sự được phản ánh bằng số liệu trực quan, giúp nhà lãnh đạo đưa ra định hướng chiến lược nhân lực gắn liền định hướng phát triển kinh doanh, xây dựng đội ngũ bền vững.
+Trên 20 loại báo cáo:
+- Số lượng nhân viên
+- Tình hình biến động nhân sự
+- Hồ sơ năng lực của từng nhân viên trong tổ chức để quy hoạch cán bộ nguồn, xây dựng đội ngũ kế cận.
+"
+MISA AMIS Thông tin nhân sự$Tổng quan$"Tổng quan sản phẩm MISA AMIS Thông tin nhân sự
+AMIS Thông tin nhân sự – Quản lý dữ liệu nhân viên đa chiều, số hóa toàn bộ thủ tục nhân sự
+
+Bức tranh toàn cảnh giúp nhà lãnh đạo sử dụng, quy hoạch nguồn nhân lực hiệu quả:
+- Hồ sơ nhân sự đa chiều
+- Quản lý quá trình công tác, đào tạo
+- Quy hoạch, bổ nhiệm cán bộ
+- Thủ tục đúng quy trình, nhanh chóng
+
+AMIS Thông tin nhân sự giúp nhân viên gắn bó dài lâu hơn:
+- Hài lòng hơn với những trải nghiệm công nghệ mới, giảm thiểu thủ tục nhân sự rườm rà & thời gian chờ đợi. Nhân viên gắn bó lâu dài hơn khi được bổ nhiệm, khen thưởng kịp thời
+- Chủ động bổ sung các thông tin cá nhân, tra cứu hồ sơ và thực hiện các thủ tục nhanh chóng.
+"
