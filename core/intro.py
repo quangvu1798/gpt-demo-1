@@ -13,7 +13,8 @@ def main():
         st.markdown(
             '''
 Demo sử dụng phương pháp **Embeddings** để tìm bài viết liên quan nhất đến câu hỏi tạo thành ngữ cảnh sau đó sử dụng API của **InstructGPT** để tạo câu trả lời.
-![InstructGPT](https://lh3.googleusercontent.com/7pDo9u-QNevF0FY-4NzgEk_IgTJipLwVItlrpAnEVzIaEpgiA7F-YOnglbgSuA20zUxnXdVAwXTss0VRilHnSCmc2OMsC7cnhYmRxNyOsrBmeLU057jiiSTcDlAgJoKqmD8KJ5cNZNsqSrI9Tyfr35UeApoZ8z687LviNJsSBHkAUqkpaP5XrgMKL43YnQ)
+<img src="https://lh3.googleusercontent.com/7pDo9u-QNevF0FY-4NzgEk_IgTJipLwVItlrpAnEVzIaEpgiA7F-YOnglbgSuA20zUxnXdVAwXTss0VRilHnSCmc2OMsC7cnhYmRxNyOsrBmeLU057jiiSTcDlAgJoKqmD8KJ5cNZNsqSrI9Tyfr35UeApoZ8z687LviNJsSBHkAUqkpaP5XrgMKL43YnQ" alt="InstructGPT" width="50%" height="50%">
+![InstructGPT]()
 Hiện tại demo đang trong quá trình hoàn thiện các bài ngữ cảnh, hiện đã hỗ trợ cho một số sản phẩm sau:
 1. MISA eShop
 2. MISA eSign
@@ -29,7 +30,8 @@ Hiện tại demo đang trong quá trình hoàn thiện các bài ngữ cảnh, 
 12. MISA AMIS CRM
 13. MISA AMIS Thông tin nhân sự
 14. ...
-            '''
+            ''',
+            unsafe_allow_html = True
         )
     
 if __name__ == '__main__':
