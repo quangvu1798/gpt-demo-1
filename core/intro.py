@@ -4,7 +4,7 @@ def main():
     st.markdown(
         '''
 <h1 align="center">
-    Chào mừng tới trang web thử nghiệm mô hình GPT 👋
+    Question-Answering Demo site 👋
 </h1>
         ''',
         unsafe_allow_html = True,
@@ -12,26 +12,25 @@ def main():
     with st.expander('Giới thiệu', True):
         st.markdown(
             '''
-Team AI đã xây dựng một demo về OpenAI GPT, có một số lưu ý sau:
-1. Hiện tại OpenAI chưa mở API cho phép sử dụng ChatGPT, hiện chỉ hỗ trợ cho một số bộ mô hình sau:
-- **OpenAI GPT-3**: mô hình sinh ngôn ngữ lớn (large language model) của OpenAI
-- **OpenAI InstructGPT**: được fine-tune dựa trên OpenAI GPT-3 với phương pháp RLHF (Reinforcement Learning from Human Feedback)
-2. Tuy nhiên OpenAI mới chỉ cho phép fine-tune mô hình GPT-3 của họ, tuy nhiên phương pháp fine-tune này không được áp dụng RLHF mà chỉ là SFT (Supervised Fine-Tuning) nên sẽ tạo ra một mô hình GPT-3 mới có khả năng few-shot tốt hơn với dữ liệu của cá nhân
-> ![RLHF](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ffbdf39e9-c592-44dd-b760-50557806614a_867x477.png)
+Demo sử dụng phương pháp **Embeddings** để tìm bài viết liên quan nhất đến câu hỏi tạo thành ngữ cảnh sau đó sử dụng API của **InstructGPT** để tạo câu trả lời.
+![InstructGPT](https://lh3.googleusercontent.com/7pDo9u-QNevF0FY-4NzgEk_IgTJipLwVItlrpAnEVzIaEpgiA7F-YOnglbgSuA20zUxnXdVAwXTss0VRilHnSCmc2OMsC7cnhYmRxNyOsrBmeLU057jiiSTcDlAgJoKqmD8KJ5cNZNsqSrI9Tyfr35UeApoZ8z687LviNJsSBHkAUqkpaP5XrgMKL43YnQ)
+Hiện tại demo đang trong quá trình hoàn thiện các bài ngữ cảnh, hiện đã hỗ trợ cho một số sản phẩm sau:
+1. MISA eShop
+2. MISA eSign
+3. MISA Lending
+4. MISA AMIS Kế toán
+5. MISA mTax
+6. MISA AMIS Tuyển dụng
+7. MISA BankHub
+8. MISA SME
+9. MISA AMIS aiMarketing
+10. MISA AMIS Khuyến mại
+11. MISA ASP
+12. MISA AMIS CRM
+13. MISA AMIS Thông tin nhân sự
+14. ...
             '''
         )
-    with st.expander('Giải thích', True):
-        st.markdown(
-            '''
-*Hiện tạo Team AI đang thử nghiệm 2 phương pháp*
-## 1. 🔥 Fine-tuned model
-Fine-tune GPT-3 với tác vụ Tư vấn hỗ trợ
-
-## 2. ✨ Question-Answering with Embedding
-Sử dụng phương pháp Question Answering with Embedding
-            '''
-        )
-
     
 if __name__ == '__main__':
     main()

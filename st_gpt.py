@@ -1,12 +1,11 @@
 import streamlit as st
 
-from core import intro, finetune, qa
+from core import intro, qa
 
 def init():
     st.session_state.pages = {
         '🕴️ Introduce': intro.main,
-        '🔥 Fine-tuned model': finetune.main,
-        '✨ Question-Answering with Embedding': qa.main
+        '🔥 Hệ thống hỏi đáp': qa.main
     }
 
 def draw_style():
@@ -38,8 +37,7 @@ def main():
         st.image('https://media.giphy.com/media/udbIBMfgpypAqeQDHs/giphy.gif')
         page = st.selectbox('Chọn mục thử nghiệm',
                             ('🕴️ Introduce',
-                             '🔥 Fine-tuned model',
-                            '✨ Question-Answering with Embedding'),
+                            '🔥 Hệ thống hỏi đáp'),
                             key = 'choose_page')
     load_page(page) 
  

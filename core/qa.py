@@ -49,13 +49,13 @@ def main():
     st.markdown(
         '''
 <h1 align="center">
-    ✨ Question-Answering with Embedding
+    🔥 Hệ thống hỏi đáp
 </h1>
         ''',
         unsafe_allow_html = True,
     )
     
-    default_value = 'Cách khai báo quản lý hóa đơn theo đơn vị xuất'
+    default_value = 'Các gói sản phẩm SME?'
     question = st.text_input('Câu hỏi:', default_value)
     with st.expander('Context', False):
         stindex = st.empty()
