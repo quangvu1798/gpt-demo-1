@@ -88,7 +88,7 @@ def main():
     context.markdown(message)
     cont = st.checkbox('Trả lời tiếp')
     if st.button('Lấy câu trả lời'):
-        message.append({"role": "system", "content": f"Một phần tri thức của MISA:\n{document}"})
+        message.append({"role": "system", "content": f"MISA:\n{document}"})
         message.append({"role": "user", "content": question})
         if cont:
             # info = construct_prompt(question)
