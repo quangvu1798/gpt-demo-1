@@ -37,8 +37,13 @@ def parse_response(response, used):
                 response = response.replace(link, f'<iframe src="{link}" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>')
     return response
 
+message = [
+            {"role": "system", "content": 'Hướng dẫn: Trả lời chi tiết dựa vào tri thức (chỉ đưa ra link http và ký tự "\\n" nếu có trong tri thức của MISA)\nChú ý: Nếu câu trả lời không ở trong tri thức MISA, tự trả lời theo tri thức của mình.'}
+        ]
 def main():
     key = os.environ.get('OPENAI_KEY')
+    
+    global message
     if key is not None:
         openai.api_key = key
         st.success('**Key** hiện có thể sử dụng, không cần nhập **Key** thay thế!')
@@ -46,6 +51,8 @@ def main():
         st.error('Không có **Key**, vui lòng nhập **Key** thay thế!')
     key_input()
     param_input()
+    
+
     st.markdown(
         '''
 <h1 align="center">
@@ -62,40 +69,65 @@ def main():
         context = st.empty()
         stindex.subheader('')
         context.markdown('')
+    if st.button('reset context'):
+        message = [
+            {"role": "system", "content": 'Hướng dẫn: Trả lời chi tiết dựa vào tri thức (chỉ đưa ra link http và ký tự "\\n" nếu có trong tri thức của MISA)\nChú ý: Nếu câu trả lời không ở trong tri thức MISA, tự trả lời theo tri thức của mình.'}
+        ]
     st.write('Trả lời:')
     answer = st.empty()
     answer.markdown('')
-    
+    # ques = ""
+    # for item in message:
+    #     if item["role"] == "user":
+    #         ques += f'\n{item["content"]}'
+    # ques += f'\n{question}'
     info = construct_prompt(question)
-    prompt, index, _ = info
+    question, index, document = info
     stindex.subheader(index[0])
     
-    context.markdown(prompt)
+    context.markdown(message)
     cont = st.checkbox('Trả lời tiếp')
     if st.button('Lấy câu trả lời'):
+        message.append({"role": "system", "content": f"Một phần tri thức của MISA:\n{document}"})
+        message.append({"role": "user", "content": question})
         if cont:
-            info = construct_prompt(question)
-            prompt, index, _ = info
-            prompt = info[0] + st.session_state.p
-            tokens = count_tokens(prompt)
+            # info = construct_prompt(question)
+            # prompt, index, _ = info
+            # prompt = info[0] + st.session_state.p
+            tokens = count_tokens(str(message))
+            while tokens > 3000:
+            # if tokens > 3000:
+                del message[1]
+                tokens = count_tokens(str(message))
             response = st.session_state.p
         else:
             response = ''
-            tokens = count_tokens(prompt)
-        REPLACE_API_PARAMS['max_tokens'] = 4096 - tokens
+            tokens = count_tokens(str(message))
+            while tokens > 3000:
+                del message[1]
+                tokens = count_tokens(str(message))
+        
+        tokens = count_tokens(str(message))
+        
+        while count_tokens(str(message)) > 3000:
+            del message[1]
+        REPLACE_API_PARAMS['max_tokens'] = 3500 - tokens
         stindex.subheader(index[0])
         used = []
+        
         with st.spinner('Đang sinh câu trả lời...'):
-            for resp in openai.Completion.create(prompt = prompt, **REPLACE_API_PARAMS):
+            for resp in openai.ChatCompletion.create(messages = message, **REPLACE_API_PARAMS):
+                # print(resp)
                 tokens += 1
-                response += resp.choices[0].text
+                response += resp.choices[0].delta.content if resp.choices[0].delta.get("content") else ""
                 response = parse_response(response, used)
                 st.session_state.p = response
                 try:
                     answer.markdown(response, unsafe_allow_html = True)
                 except:
                     pass
-        st.success(f'Đã tạo xong câu trả lời gồm {tokens} tokens tiêu tốn {0.02 * tokens / 1000}$')
+        message.append({"role": "assistant", "content": "Đã trả lời"})
+        st.success(f'Đã tạo xong câu trả lời gồm {tokens} tokens tiêu tốn {0.0002 * tokens / 1000}$')
 
     
 if __name__ == '__main__':
