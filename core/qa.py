@@ -126,7 +126,7 @@ def main():
                     answer.markdown(response, unsafe_allow_html = True)
                 except:
                     pass
-        message.append({"role": "assistant", "content": "Đã trả lời"})
+        message.append({"role": "assistant", "content": response})
         st.success(f'Đã tạo xong câu trả lời gồm {tokens} tokens tiêu tốn {0.0002 * tokens / 1000}$')
 
     
