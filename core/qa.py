@@ -102,7 +102,7 @@ def main():
     # ques += f'\n{question}'
     
     
-    context.markdown(message)
+    
     cont = st.checkbox('Trả lời tiếp')
     if st.button('Lấy câu trả lời'):
         questions.append(question)
@@ -111,8 +111,12 @@ def main():
         else:
             ques = "\n".join(questions)
         sum_ques = sumary_question(ques)
+        st.text(f"3 question gần nhất: {str(questions[-3:])}")
+        st.text(f"Sumary question: {sum_ques}")
+        
         info = construct_prompt(sum_ques)
         _, index, document = info
+        st.text(f"Doc for question: {document}")
         stindex.subheader(index[0])
         
         
