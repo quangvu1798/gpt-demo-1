@@ -1,6 +1,6 @@
 import streamlit as st
 
-from core import intro, qa, chatstate
+from core import intro, qa
 
 def init():
     st.session_state.pages = {
