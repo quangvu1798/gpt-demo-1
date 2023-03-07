@@ -5,8 +5,7 @@ from core import intro, qa, chatstate
 def init():
     st.session_state.pages = {
         '🕴️ Introduce': intro.main,
-        '🔥 Hệ thống hỏi đáp': qa.main,
-        'Chatbox': chatstate.main
+        '🔥 Hệ thống hỏi đáp': qa.main
     }
 
 def draw_style():
@@ -38,8 +37,7 @@ def main():
         st.image('https://media.giphy.com/media/udbIBMfgpypAqeQDHs/giphy.gif')
         page = st.selectbox('Chọn mục thử nghiệm',
                             ('🕴️ Introduce',
-                            '🔥 Hệ thống hỏi đáp',
-                            'Chatbox'),
+                            '🔥 Hệ thống hỏi đáp'),
                             key = 'choose_page')
     load_page(page) 
  
