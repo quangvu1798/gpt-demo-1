@@ -3,9 +3,10 @@ from .process import construct_prompt, COMPLETIONS_API_PARAMS, count_tokens
 import openai
 import re
 import os
-
-REPLACE_API_PARAMS = COMPLETIONS_API_PARAMS.copy()
+from streamlit_chat import message
 key = os.environ.get('OPENAI_KEY')
+REPLACE_API_PARAMS = COMPLETIONS_API_PARAMS.copy()
+
 def key_input():
     rkey = st.sidebar.text_input('OpenAI Key')
     if st.sidebar.checkbox('Key thay thế'):
@@ -53,15 +54,25 @@ def sumary_question(ques):
     res = openai.ChatCompletion.create(messages = mess, **PARAMS)
     return res.choices[0].message.content.replace("Tóm tắt:", "")
 
-
-message = [
+messages = [
             {"role": "system", "content": 'Hướng dẫn: Trả lời chi tiết dựa vào tri thức (chỉ đưa ra link http và ký tự "\\n" nếu có trong tri thức của MISA)\nChú ý: Nếu câu trả lời không ở trong tri thức MISA, tự trả lời theo tri thức của mình.'}
         ]
+
+def generate_response(messages):
+    REPLACE_API_PARAMS["stream"] = False
+    response = openai.ChatCompletion.create(messages = messages, **REPLACE_API_PARAMS)
+    message = response.choices[0].message.content
+    return message
+
+def get_text():
+    input_text = st.text_input("You: ","", key="input")
+    return input_text
+
 questions = []
+
 def main():
     
-    
-    global message, questions, key
+    global messages, questions
     if key is not None:
         openai.api_key = key
         st.success('**Key** hiện có thể sử dụng, không cần nhập **Key** thay thế!')
@@ -80,84 +91,49 @@ def main():
         unsafe_allow_html = True,
     )
     
-    default_value = 'Các gói sản phẩm SME?'
-    question = st.text_input('Câu hỏi:', default_value)
-    with st.expander('Context', False):
-        stindex = st.empty()
-        context = st.empty()
-        stindex.subheader('')
-        context.markdown('')
-    if st.button('reset context'):
-        message = [
-            {"role": "system", "content": 'Hướng dẫn: Trả lời chi tiết dựa vào tri thức (chỉ đưa ra link http và ký tự "\\n" nếu có trong tri thức của MISA)\nChú ý: Nếu câu trả lời không ở trong tri thức MISA, tự trả lời theo tri thức của mình.'}
-        ]
-        questions = []
-    st.write('Trả lời:')
-    answer = st.empty()
-    answer.markdown('')
-    # ques = ""
-    # for item in message:
-    #     if item["role"] == "user":
-    #         ques += f'\n{item["content"]}'
-    # ques += f'\n{question}'
-    
-    
-    context.markdown(message)
-    cont = st.checkbox('Trả lời tiếp')
-    if st.button('Lấy câu trả lời'):
-        questions.append(question)
+    # default_value = 'Các gói sản phẩm SME?'
+    # question = st.text_input('Câu hỏi:', default_value)
+    # Storing the chat
+    if 'generated' not in st.session_state:
+        st.session_state['generated'] = []
+
+    if 'past' not in st.session_state:
+        st.session_state['past'] = []
+    user_input = get_text()
+
+    if user_input:
+        questions.append(user_input)
         if len(questions) > 3:
             ques = "\n".join(questions[-3:])
         else:
             ques = "\n".join(questions)
         sum_ques = sumary_question(ques)
         info = construct_prompt(sum_ques)
+        # info = construct_prompt(user_input)
         _, index, document = info
-        stindex.subheader(index[0])
-        
-        
-        message.append({"role": "system", "content": f"MISA:\n{document}"})
-        message.append({"role": "user", "content": question})
-        if cont:
-            # info = construct_prompt(question)
-            # prompt, index, _ = info
-            # prompt = info[0] + st.session_state.p
-            tokens = count_tokens(str(message))
-            while tokens > 3000:
-            # if tokens > 3000:
-                del message[1]
-                tokens = count_tokens(str(message))
-            response = st.session_state.p
-        else:
-            response = ''
-            tokens = count_tokens(str(message))
-            while tokens > 3000:
-                del message[1]
-                tokens = count_tokens(str(message))
-        
-        tokens = count_tokens(str(message))
-        
-        while count_tokens(str(message)) > 3000:
-            del message[1]
-        REPLACE_API_PARAMS['max_tokens'] = 3500 - tokens
-        stindex.subheader(index[0])
-        used = []
-        
-        with st.spinner('Đang sinh câu trả lời...'):
-            for resp in openai.ChatCompletion.create(messages = message, **REPLACE_API_PARAMS):
-                # print(resp)
-                tokens += 1
-                response += resp.choices[0].delta.content if resp.choices[0].delta.get("content") else ""
-                response = parse_response(response, used)
-                st.session_state.p = response
-                try:
-                    answer.markdown(response, unsafe_allow_html = True)
-                except:
-                    pass
-        del message[-1]
-        message.append({"role": "user", "content": question})
-        message.append({"role": "assistant", "content": response})
-        st.success(f'Đã tạo xong câu trả lời gồm {tokens} tokens tiêu tốn {0.0002 * tokens / 1000}$')
+        messages.append({"role": "system", "content": f"MISA:\n{document}"})
+        messages.append({"role": "user", "content": user_input})
+        tokens = count_tokens(str(messages))
+        while tokens > 3000:
+        # if tokens > 3000:
+            del messages[1]
+            tokens = count_tokens(str(messages))
+        REPLACE_API_PARAMS['max_tokens'] = 3900 - tokens
+        output = generate_response(messages)
+        messages.append({"role": "assistant", "content": output})
+        # store the output 
+        st.session_state.past.append(user_input)
+        st.session_state.generated.append(output)
+
+
+        if st.session_state['generated']:
+            for i in range(len(st.session_state['generated'])):
+                message(st.session_state['past'][i], is_user=True, key=str(i) + '_user')
+                message(st.session_state["generated"][i], key=str(i))
+                
+            
+            
+
 
     
 if __name__ == '__main__':
