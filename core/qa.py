@@ -55,7 +55,7 @@ def sumary_question(ques):
 
 
 message = [
-            {"role": "system", "content": 'Hướng dẫn: Trả lời chi tiết dựa vào tri thức (chỉ đưa ra link http và ký tự "\\n" nếu có trong tri thức của MISA)\nChú ý: Nếu câu trả lời không ở trong tri thức MISA, tự trả lời theo tri thức của mình.'}
+            {"role": "system", "content": 'Hướng dẫn: Trả lời chi tiết dựa vào tri thức \nChú ý: Nếu câu trả lời không ở trong tri thức MISA, tự trả lời theo tri thức của mình.'}
         ]
 questions = []
 def main():
