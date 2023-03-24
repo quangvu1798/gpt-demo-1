@@ -4,7 +4,7 @@ import pandas as pd
 import openai
 import pickle
 from transformers import GPT2TokenizerFast
-
+import requests 
 tokenizer = GPT2TokenizerFast.from_pretrained('gpt2')
 
 def count_tokens(text: str) -> int:
@@ -49,6 +49,27 @@ def order_document_sections_by_query_similarity(query: str, document_embeddings:
     ], reverse = True)
     
     return document_similarities
+
+
+def get_document(question: str, product = None):
+    params = {
+        "session_id": "",
+        "product": "",
+        "title": "",
+        "document_id": "",
+        "content": "",
+        "question": question,
+        "context": "",
+        "is_stream": False
+        }
+    headers = {
+        'api-key': 'AI_team'
+    }
+    response = requests.post(url, headers = headers, json=params).json()
+    print(response)
+    index = str(product)
+    # print(response)
+    return (index, response['data'][0]['content'])
 
 # def construct_prompt(question: str, context_embeddings: dict = document_embeddings, df: pd.DataFrame = df, max_context = 1) -> str:
 #     most_relevant_document_sections = order_document_sections_by_query_similarity(question, context_embeddings)
