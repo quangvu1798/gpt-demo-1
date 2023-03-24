@@ -112,7 +112,7 @@ def main():
             ques = "\n".join(questions)
         sum_ques = sumary_question(ques)
         st.text(f"3 question gần nhất: {str(questions[-3:])}")
-        st.text(f"Sumary question: {sum_ques}")
+        #st.text(f"Sumary question: {sum_ques}")
         
         #info = construct_prompt(question)
         #_, index, document = info
