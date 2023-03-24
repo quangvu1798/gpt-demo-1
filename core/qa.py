@@ -114,7 +114,7 @@ def main():
         st.text(f"3 question gần nhất: {str(questions[-3:])}")
         st.text(f"Sumary question: {sum_ques}")
         
-        info = construct_prompt(sum_ques)
+        info = construct_prompt(question)
         _, index, document = info
         st.text(f"Doc for question: {document}")
         stindex.subheader(index[0])
@@ -143,7 +143,7 @@ def main():
         
         while count_tokens(str(message)) > 3000:
             del message[1]
-        REPLACE_API_PARAMS['max_tokens'] = 3500 - tokens
+        REPLACE_API_PARAMS['max_tokens'] = 3900 - tokens
         stindex.subheader(index[0])
         used = []
         
@@ -159,7 +159,9 @@ def main():
                 except:
                     pass
         del message[-1]
+        
         message.append({"role": "user", "content": question})
+        context.markdown(str(message))
         message.append({"role": "assistant", "content": response})
         st.success(f'Đã tạo xong câu trả lời gồm {tokens} tokens tiêu tốn {0.0002 * tokens / 1000}$')
 
