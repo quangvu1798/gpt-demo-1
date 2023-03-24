@@ -1,5 +1,5 @@
 import streamlit as st
-from .process import construct_prompt, COMPLETIONS_API_PARAMS, count_tokens
+from .process import construct_prompt, COMPLETIONS_API_PARAMS, count_tokens, get_document
 import openai
 import re
 import os
@@ -114,10 +114,12 @@ def main():
         st.text(f"3 question gần nhất: {str(questions[-3:])}")
         st.text(f"Sumary question: {sum_ques}")
         
-        info = construct_prompt(question)
-        _, index, document = info
+        #info = construct_prompt(question)
+        #_, index, document = info
+        info = get_document(question)
+        index, document = info
         st.text(f"Doc for question: {document}")
-        stindex.subheader(index[0])
+        stindex.subheader(index)
         
         
         message.append({"role": "system", "content": f"MISA:\n{document}"})
@@ -144,7 +146,7 @@ def main():
         while count_tokens(str(message)) > 3000:
             del message[1]
         REPLACE_API_PARAMS['max_tokens'] = 3900 - tokens
-        stindex.subheader(index[0])
+        context.markdown(str(message))
         used = []
         
         with st.spinner('Đang sinh câu trả lời...'):
@@ -158,10 +160,10 @@ def main():
                     answer.markdown(response, unsafe_allow_html = True)
                 except:
                     pass
-        del message[-1]
+        #del message[-1]
         
-        message.append({"role": "user", "content": question})
-        context.markdown(str(message))
+        #message.append({"role": "user", "content": question})
+        
         message.append({"role": "assistant", "content": response})
         st.success(f'Đã tạo xong câu trả lời gồm {tokens} tokens tiêu tốn {0.0002 * tokens / 1000}$')
 
