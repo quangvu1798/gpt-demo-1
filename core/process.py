@@ -66,8 +66,7 @@ def get_document(question: str, product = None):
         'api-key': 'AI_team'
     }
     response = requests.post(url, headers = headers, json=params).json()
-    print(response)
-    index = str(product)
+    index = response['data'][0]['product']+' - ' + response['data'][0]['title']
     # print(response)
     return (index, response['data'][0]['content'])
 
