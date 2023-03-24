@@ -74,7 +74,7 @@ def main():
     st.markdown(
         '''
 <h1 align="center">
-    🔥 Hệ thống hỏi đáp
+    🔥 Hệ thống hỏi đáp về thông tin sản phẩm cho doanh nghiệp
 </h1>
         ''',
         unsafe_allow_html = True,
