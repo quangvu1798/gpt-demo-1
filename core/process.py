@@ -52,6 +52,7 @@ def order_document_sections_by_query_similarity(query: str, document_embeddings:
 
 
 def get_document(question: str, product = None):
+    url = 'https://test-aiservice.misa.com.vn/embedding-service/search/context'
     params = {
         "session_id": "",
         "product": "",
