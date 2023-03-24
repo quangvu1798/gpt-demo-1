@@ -37,7 +37,7 @@ def main():
         st.image('https://media.giphy.com/media/udbIBMfgpypAqeQDHs/giphy.gif')
         page = st.selectbox('Chọn mục thử nghiệm',
                             ('🕴️ Introduce',
-                            ('🔥 Hệ thống hỏi đáp'),
+                            '🔥 Hệ thống hỏi đáp'),index =1,
                             key = 'choose_page')
     load_page(page) 
  
